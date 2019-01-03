@@ -1,6 +1,7 @@
 # Compiled source #
 ###################
 STS.exe
+*.lnk
 
 # Directories #
 ######################

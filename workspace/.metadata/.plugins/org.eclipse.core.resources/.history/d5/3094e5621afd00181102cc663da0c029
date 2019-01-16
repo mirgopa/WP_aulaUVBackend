@@ -1,0 +1,102 @@
+package es.capgeminiuv.controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.util.StringUtils;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import es.capgeminiuv.dto.ProductoDto;
+import es.capgeminiuv.service.ProductoService;
+
+@Controller
+@RequestMapping("producto")
+public class ProductoController {
+
+	@Autowired
+	private ProductoService productoService;
+	private ObjectMapper mapper = new ObjectMapper();
+
+	public ProductoService getProductoService() {
+		return productoService;
+	}
+/*
+	private void setEncoding(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		response.setContentType("text/html;charset=ISO-8859-1");
+		request.setCharacterEncoding("UTF-8");
+	}*/
+
+	@ResponseBody
+	@RequestMapping(value = "findProducto")
+	public String findProducto(HttpServletRequest request, HttpServletResponse response) {
+		try {
+			//setEncoding(request, response);
+
+			ProductoDto productoDto = new ProductoDto(null, request.getParameter("nombre"), null);
+
+			return mapper.writeValueAsString(productoService.find(productoDto));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	@ResponseBody
+	@RequestMapping(value = "getProducto")
+	public String getProducto(HttpServletRequest request, HttpServletResponse response) {
+		try {
+			//setEncoding(request, response);
+
+			if (StringUtils.hasText(request.getParameter("id"))) {
+				ProductoDto productoDto = productoService.get(Long.parseLong(request.getParameter("id")));
+
+				return mapper.writeValueAsString(productoDto);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	@ResponseBody
+	@RequestMapping(value = "updateProducto")
+	public String updateProducto(@RequestBody ProductoDto productoDto) {
+		try {
+			//setEncoding(request, response);
+
+			//ProductoDto productoDto = mapper.readValue(request.getParameter("data"), ProductoDto.class);
+
+			Boolean result = productoService.update(productoDto);
+			if (result) {
+				return "success";
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	@ResponseBody
+	@RequestMapping(value = "deleteProducto")
+	public String deleteProducto(HttpServletRequest request, HttpServletResponse response) {
+		try {
+			//setEncoding(request, response);
+
+			if (StringUtils.hasText(request.getParameter("id"))) {
+				Boolean result = productoService.deleteById(Long.parseLong(request.getParameter("id")));
+				if (result) {
+					return "success";
+				}
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+}

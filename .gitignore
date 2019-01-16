@@ -1,6 +1,6 @@
 # Compiled source #
 ###################
-STS.exe
+./STS.exe
 *.lnk
 
 # Directories #
@@ -17,3 +17,7 @@ jdk/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# User files #
+##############
+0*_*.txt

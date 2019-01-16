@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=webapp/C:\/entornoDevelop\/jdk\/jre1.8.0_191\/lib\/rt.jar&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1543779431103"/>
+<typeInfo handle="=webapp/src\/main\/java&lt;es.capgeminiuv.common.jpa{JpaDao.java[JpaDao" modifiers="513" timestamp="1544462303969"/>
+<typeInfo handle="=webapp/src\/main\/java&lt;es.capgeminiuv.dao{CompraDao.java[CompraDao" modifiers="513" timestamp="1545067366431"/>
+<typeInfo handle="=webapp/src\/main\/java&lt;es.capgeminiuv.service{CompraService.java[CompraService" modifiers="513" timestamp="1545516909792"/>
+</typeInfoHistroy>

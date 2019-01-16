@@ -1,15 +1,15 @@
-# Compiled source #
-###################
+# GLOBAL DIRECTORY #
+####################
+
+# Compiled source
 ./STS.exe
 *.lnk
 
-# Directories #
-######################
+# Directories
 apps/
 jdk/
 
-# OS generated files #
-######################
+# OS generated files
 .DS_Store
 .DS_Store?
 ._*
@@ -18,6 +18,47 @@ jdk/
 ehthumbs.db
 Thumbs.db
 
-# User files #
-##############
+# User files
 0*_*.txt
+
+
+# FRONT DIRECTORY #
+###################
+
+# compiled output
+/workspaceAngular/dist
+/workspaceAngular/tmp
+/workspaceAngular/out-tsc
+
+# dependencies
+/workspaceAngular/node_modules
+
+# IDEs and editors
+/workspaceAngular/.idea
+/workspaceAngular/.project
+/workspaceAngular/.classpath
+/workspaceAngular/.c9/
+/workspaceAngular/*.launch
+/workspaceAngular/.settings/
+/workspaceAngular/*.sublime-workspace
+
+# IDE - VSCode
+/workspaceAngular/.vscode/*
+/workspaceAngular/!.vscode/settings.json
+/workspaceAngular/!.vscode/tasks.json
+/workspaceAngular/!.vscode/launch.json
+/workspaceAngular/!.vscode/extensions.json
+
+# misc
+/workspaceAngular/.sass-cache
+/workspaceAngular/connect.lock
+/workspaceAngular/coverage
+/workspaceAngular/libpeerconnection.log
+/workspaceAngular/npm-debug.log
+/workspaceAngular/yarn-error.log
+/workspaceAngular/testem.log
+/workspaceAngular/typings
+
+# System Files
+/workspaceAngular/.DS_Store
+/workspaceAngular/Thumbs.db

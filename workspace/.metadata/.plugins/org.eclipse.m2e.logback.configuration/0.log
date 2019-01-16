@@ -4632,3 +4632,9 @@ org.eclipse.core.runtime.CoreException: Launch configuration SpringBootTestAppli
 2019-01-04 01:46:51,009 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-01-04 01:46:51,010 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\entornoDevelop\workspace\webapp\src\test\resources
 2019-01-14 18:41:12,266 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-01-16 17:07:58,197 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-01-16 17:45:44,077 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-01-16 17:51:54,817 [Worker-10: Launching webapp - WebappApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-16 17:51:54,828 [Worker-10: Launching webapp - WebappApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-01-16 17:51:54,865 [Worker-10: Launching webapp - WebappApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-16 17:51:54,865 [Worker-10: Launching webapp - WebappApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\entornoDevelop\workspace\webapp\src\test\resources

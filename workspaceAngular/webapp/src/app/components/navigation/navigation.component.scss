@@ -1,0 +1,28 @@
+.menuIcon {
+  padding: 0px;
+  cursor: pointer;
+}
+
+.titleApp {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.spacer {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+mat-toolbar,
+mat-toolbar-row,
+.mat-toolbar-multiple-rows {
+  height: 50px !important;
+  min-height: 50px !important;
+}
+
+mat-toolbar {
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,28 @@
+$sidenav-width: 300px;
+$bgMenuSize: 252px;
+$grey: #f5f5f5;
+
+mat-sidenav-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+mat-sidenav {
+  width: $sidenav-width;
+  background: url('../../../assets/bgMenuSidenav.png');
+  background-size: 400px 400px;
+}
+
+.sidenavBgColor {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: $grey !important;
+  opacity: 0.8;
+  z-index: -1;
+}

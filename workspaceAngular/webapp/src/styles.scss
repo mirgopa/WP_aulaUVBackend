@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+$primary: #3f51b5;
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+/*
+ + SOBREESCRITURA DEL TABPANEL "HOME"
+ */
+#appTabs .mat-tab-label {
+  padding: 0px 14px !important;
+
+  .mat-tab-label-content {
+    width: 100% !important;
+  }
+}
+
+#appTabs .mat-tab-label:first-child {
+  min-width: 0px !important;
+  width: 48px !important;
+  padding: 0px 24px !important;
+}
+
+#appTabs .mat-tab-label-active {
+  color: $primary;
+  opacity: 1;
+}

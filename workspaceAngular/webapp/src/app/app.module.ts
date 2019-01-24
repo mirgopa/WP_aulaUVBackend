@@ -1,26 +1,30 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { AppComponent } from './app.component';
 
 import { MaterialModule } from './material';
 
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { TabpanelComponent } from './components/tabpanel/tabpanel.component';
+import { TabDirective } from './components/tabpanel/tab.directive';
+import { ExampleTabComponent } from './components/example-tab/example-tab.component';
+import { SectionService } from './services/section.service';
 
 @NgModule({
-  declarations: [AppComponent, NavigationComponent, SidenavComponent, TabpanelComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MaterialModule,
+  declarations: [
+    AppComponent,
+    NavigationComponent,
+    SidenavComponent,
+    TabpanelComponent,
+    TabDirective,
+    ExampleTabComponent,
   ],
-  providers: [],
+  imports: [BrowserModule, BrowserAnimationsModule, MaterialModule],
+  entryComponents: [ExampleTabComponent],
+  providers: [SectionService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

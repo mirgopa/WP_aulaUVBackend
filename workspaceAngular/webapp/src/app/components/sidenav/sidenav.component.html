@@ -6,8 +6,7 @@
         <mat-divider></mat-divider>
         <mat-list-item
           *ngFor="let item of menuItems"
-          routerLink="{{ item.route }}"
-          (click)="tabpanel.addTab(item.name)"
+          (click)="tabpanel.addTab(item)"
         >
           <mat-icon mat-list-icon>{{ item.icon }}</mat-icon>
           <h4 mat-line>{{ item.name }}</h4>

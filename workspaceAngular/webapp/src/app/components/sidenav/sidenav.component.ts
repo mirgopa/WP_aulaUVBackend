@@ -1,6 +1,7 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
+import { SectionService } from '../../services/section.service';
 import { Section } from '../../models/Section';
 
 @Component({
@@ -10,25 +11,13 @@ import { Section } from '../../models/Section';
 })
 export class SidenavComponent implements OnInit {
   @Input() title: string;
-
-  menuItems: Section[] = [
-    {
-      name: 'Productos',
-      description: 'Mantenimiento de productos',
-      icon: 'shopping_basket',
-      route: 'productos',
-    },
-    {
-      name: 'Compra',
-      description: 'Listados de compra',
-      icon: 'shopping_cart',
-      route: 'compras',
-    },
-  ];
+  menuItems: Section[];
 
   mode = new FormControl('push');
 
-  constructor() {}
+  constructor(private sectionService: SectionService) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.menuItems = this.sectionService.getSections();
+  }
 }

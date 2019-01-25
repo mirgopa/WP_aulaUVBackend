@@ -1,21 +1,22 @@
 <div id="appTabs">
   <mat-tab-group
     [selectedIndex]="selected.value"
-    (selectedIndexChange)="selected.setValue($event)"
+    (selectedIndexChange)="selectTab($event)"
   >
     <mat-tab>
       <ng-template mat-tab-label> <mat-icon>home</mat-icon> </ng-template>
       Contenido Home
     </mat-tab>
 
-    <mat-tab *ngFor="let tab of tabs; let index = index" [label]="tab"
-      ><ng-template mat-tab-label>
-        <div class="tabText">{{ tab.name }}</div>
-        <button mat-icon-button (click)="removeTab(index)">
+    <mat-tab *ngFor="let tab of dynamicTabs" [label]="tab">
+      <ng-template mat-tab-label>
+        <div class="tabText">{{ tab.title }}</div>
+        <button mat-icon-button (click)="closeTab(tab)" *ngIf="tab.isCloseable">
           <mat-icon class="tabClose">cancel</mat-icon>
         </button>
       </ng-template>
-      <ng-template tab-host></ng-template>
     </mat-tab>
   </mat-tab-group>
+  <ng-content></ng-content>
+  <ng-template dynamic-tabs #container></ng-template>
 </div>

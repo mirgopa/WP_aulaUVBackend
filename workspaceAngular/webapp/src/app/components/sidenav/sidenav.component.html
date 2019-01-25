@@ -4,10 +4,7 @@
       <mat-nav-list>
         <h3 mat-subheader>MENÚ</h3>
         <mat-divider></mat-divider>
-        <mat-list-item
-          *ngFor="let item of menuItems"
-          (click)="tabpanel.addTab(item)"
-        >
+        <mat-list-item *ngFor="let item of menuItems" (click)="addTab(item)">
           <mat-icon mat-list-icon>{{ item.icon }}</mat-icon>
           <h4 mat-line>{{ item.name }}</h4>
           <p mat-line>{{ item.description }}</p>
@@ -23,6 +20,7 @@
       [titleApp]="title"
       (toggleSidenav)="sidenav.toggle()"
     ></app-navigation>
-    <app-tabpanel #tabpanel (closeSidenav)="sidenav.close()"></app-tabpanel>
+    <app-tabpanel (closeSidenav)="sidenav.close()"></app-tabpanel>
+    <tab-templates></tab-templates>
   </mat-sidenav-content>
 </mat-sidenav-container>

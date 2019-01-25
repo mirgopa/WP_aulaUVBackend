@@ -1,16 +1,17 @@
 import {
   Component,
-  ComponentFactoryResolver,
+  ContentChildren,
+  QueryList,
   ViewChild,
-  ViewContainerRef,
-  OnInit,
+  ComponentFactoryResolver,
   Output,
   EventEmitter,
+  OnInit,
 } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
-import { Section } from '../../models/Section';
 import { TabDirective } from '../tabpanel/tab.directive';
+import { TabComponent } from './tab.component';
 
 @Component({
   selector: 'app-tabpanel',
@@ -18,31 +19,61 @@ import { TabDirective } from '../tabpanel/tab.directive';
   styleUrls: ['./tabpanel.component.scss'],
 })
 export class TabpanelComponent implements OnInit {
-  tabs = []; // Etiquetas de pestaña
+  dynamicTabs: TabComponent[] = [];
   selected = new FormControl(0);
 
+  @ContentChildren(TabComponent) tabs: QueryList<TabComponent>;
+  @ViewChild(TabDirective) dynamicTabPlaceholder: TabDirective;
   @Output() closeSidenav = new EventEmitter<void>();
-  @ViewChild(TabDirective) tabHost: TabDirective;
 
   constructor(private cfr: ComponentFactoryResolver) {}
 
   ngOnInit() {}
 
-  addTab(item: Section) {
-    this.tabs.push({ name: item.name || 'New', component: item.component });
-    this.selected.setValue(this.tabs.length);
+  openTab(title: string, template, data, isClosable) {
+    const index = this.dynamicTabs.findIndex((tab) => tab.title === title);
 
-    const componentFactory = this.cfr.resolveComponentFactory(item.component);
-    console.log(this.tabHost);
-    const viewContainerRef = this.tabHost.viewContainerRef;
-    viewContainerRef.clear();
+    if (index > 0) {
+      this.selected.setValue(index);
+    } else {
+      const componentFactory = this.cfr.resolveComponentFactory(TabComponent);
+      const viewContainerRef = this.dynamicTabPlaceholder.viewContainerRef;
+      const componentRef = viewContainerRef.createComponent(componentFactory);
 
-    viewContainerRef.createComponent(componentFactory);
+      const instance: TabComponent = componentRef.instance as TabComponent;
+      instance.title = title;
+      instance.template = template;
+      instance.dataContext = data;
+      instance.isCloseable = isClosable;
+      instance.active = true;
 
-    this.closeSidenav.emit();
+      this.dynamicTabs.push(componentRef.instance as TabComponent);
+      this.selected.setValue(this.dynamicTabs.length);
+
+      this.closeSidenav.emit();
+    }
   }
 
-  removeTab(index: number) {
-    this.tabs.splice(index, 1);
+  selectTab(tabIndex: number) {
+    if (tabIndex !== null && tabIndex !== undefined) {
+      this.dynamicTabs.forEach((tab) => (tab.active = false));
+      if (this.dynamicTabs[tabIndex - 1]) {
+        this.dynamicTabs[tabIndex - 1].active = true; // Extraemos la pestaña de home
+      }
+    }
+  }
+
+  closeTab(tab: TabComponent) {
+    const index = this.dynamicTabs.findIndex((t) => t.title === tab.title);
+
+    if (index >= 0) {
+      this.dynamicTabs.splice(index, 1);
+
+      // Se destruye de forma dinamica el componente generado
+      const viewContainerRef = this.dynamicTabPlaceholder.viewContainerRef;
+      viewContainerRef.remove(index);
+
+      this.selected.setValue(index >= 0 ? index : 0);
+    }
   }
 }

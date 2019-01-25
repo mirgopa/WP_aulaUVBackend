@@ -33,8 +33,8 @@ export class TabpanelComponent implements OnInit {
   openTab(title: string, template, data, isClosable) {
     const index = this.dynamicTabs.findIndex((tab) => tab.title === title);
 
-    if (index > 0) {
-      this.selected.setValue(index);
+    if (index >= 0) {
+      this.selected.setValue(index + 1); // Incluimos la pestaña fija de home
     } else {
       const componentFactory = this.cfr.resolveComponentFactory(TabComponent);
       const viewContainerRef = this.dynamicTabPlaceholder.viewContainerRef;
@@ -49,16 +49,15 @@ export class TabpanelComponent implements OnInit {
 
       this.dynamicTabs.push(componentRef.instance as TabComponent);
       this.selected.setValue(this.dynamicTabs.length);
-
-      this.closeSidenav.emit();
     }
+    this.closeSidenav.emit();
   }
 
   selectTab(tabIndex: number) {
     if (tabIndex !== null && tabIndex !== undefined) {
       this.dynamicTabs.forEach((tab) => (tab.active = false));
       if (this.dynamicTabs[tabIndex - 1]) {
-        this.dynamicTabs[tabIndex - 1].active = true; // Extraemos la pestaña de home
+        this.dynamicTabs[tabIndex - 1].active = true; // Extraemos la pestaña fija de home
       }
     }
   }

@@ -26,7 +26,7 @@ public class ProductoDaoImpl extends AbstractJpaDao<Producto, Long> implements P
 		StringBuilder where = new StringBuilder("");
 		Map<String, Object> params = new HashMap<String, Object>();
 
-		hql.append(" select new es.capgeminiuv.dto.ProductoDto(p.id, p.nombre, p.image, p.precio) ");
+		hql.append(" select new es.capgeminiuv.dto.ProductoDto(p.id, p.nombre, p.descripcion, p.image, p.readMore, p.precio) ");
 		hql.append(" from Producto p ");
 
 		// Filtrado de Parámetros

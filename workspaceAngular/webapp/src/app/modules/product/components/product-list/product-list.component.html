@@ -1,0 +1,69 @@
+<!-- FILTERS -->
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()" class="productForm">
+  <div fxLayout="row">
+    <mat-form-field class="productNameFilter">
+      <mat-icon matPrefix>search</mat-icon>
+      <input matInput placeholder="Nombre" formControlName="nombre" />
+      <mat-hint>Introduzca un nombre de producto para filtrar</mat-hint>
+
+      <!--mat-error *ngIf="myForm.get('nombre').errors['required']">
+      This is <strong>required</strong> field
+    </mat-error-->
+    </mat-form-field>
+    <div class="productButtonForm">
+      <button mat-raised-button color="primary" type="submit">
+        <!--[disabled]="myForm.get('nombre').value ? false : true"-->
+        BUSCAR
+      </button>
+    </div>
+  </div>
+</form>
+
+<br /><br />
+
+<!-- GRID -->
+<div fxLayout="row wrap" fxLayoutAlign="center" class="gridProducts">
+  <mat-card *ngFor="let product of productList">
+    <img mat-card-image src="{{ product.image }}" alt="{{ product.nombre }}" />
+
+    <mat-card-content>
+      <mat-card-title>{{ product.nombre }}</mat-card-title>
+      <mat-card-subtitle color="accent"
+        >Precio / Unidad: {{ product.precio }} €</mat-card-subtitle
+      >
+      <p>{{ product.descripcion }}</p>
+    </mat-card-content>
+    <mat-card-actions align="end">
+      <a
+        mat-flat-button
+        aria-label="Wikipedia"
+        href="{{ product.readMore }}"
+        target="_blank"
+      >
+        READ MORE
+      </a>
+      <div fxFlex></div>
+      <button mat-button>
+        <mat-icon>edit</mat-icon>
+        &nbsp;EDITAR
+      </button>
+      <button mat-button (click)="delete(product.id)">
+        <mat-icon>delete</mat-icon>
+        &nbsp;ELIMINAR
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+
+<!-- FOOTER (GLOBAL ACTIONS) -->
+<footer>
+  <mat-toolbar>
+    <mat-toolbar-row>
+      <div fxFlex></div>
+      <button mat-raised-button color="primary">
+        <mat-icon>add_circle_outline</mat-icon>
+        AÑADIR
+      </button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</footer>

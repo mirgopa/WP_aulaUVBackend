@@ -59,7 +59,9 @@ public class ProductoServiceImpl implements ProductoService {
         }
 
         productoNew.setNombre(dto.getNombre());
+        productoNew.setDescripcion(dto.getDescripcion());
         productoNew.setImage(dto.getImage());
+        productoNew.setReadMore(dto.getReadMore());
         productoNew.setPrecio(dto.getPrecio());
 
         Producto productoUpdated = productoDao.update(productoNew);

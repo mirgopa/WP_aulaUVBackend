@@ -25,8 +25,14 @@ public class Producto implements Serializable {
     @Column(name = "NOMBRE")
     private String nombre;
 
+    @Column(name = "DESCRIPCION")
+    private String descripcion;
+
     @Column(name = "IMAGE")
     private String image;
+
+    @Column(name = "READMORE")
+    private String readMore;
 
     @Column(name = "PRECIO")
     private Double precio;
@@ -47,12 +53,28 @@ public class Producto implements Serializable {
         this.nombre = nombre;
     }
 
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
     public String getImage() {
         return image;
     }
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    public String getReadMore() {
+        return readMore;
+    }
+
+    public void setReadMore(String readMore) {
+        this.readMore = readMore;
     }
 
     public Double getPrecio() {

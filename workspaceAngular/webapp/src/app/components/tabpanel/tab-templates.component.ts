@@ -7,13 +7,13 @@ import { TabsService } from '../../services/tabs.service';
   templateUrl: './tab-templates.component.html',
 })
 export class TabTemplatesComponent implements OnInit {
-  @ViewChild('exampleTab') exampleTabComponent;
+  @ViewChild('productList') productListComponent;
   @ViewChild('example2Tab') example2TabComponent;
 
   constructor(private tabService: TabsService) {}
 
   ngOnInit() {
-    this.tabService.tabs.exampleTab = this.exampleTabComponent;
+    this.tabService.tabs.productList = this.productListComponent;
     this.tabService.tabs.example2Tab = this.example2TabComponent;
   }
 }

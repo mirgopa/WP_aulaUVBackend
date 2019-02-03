@@ -19,6 +19,7 @@ import { HomeComponent } from './components/home/home.component';
 
 import { SectionService } from './services/section.service';
 import { TabsService } from './services/tabs.service';
+import { DialogComponent } from './components/dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { TabsService } from './services/tabs.service';
     TabComponent,
     TabTemplatesComponent,
     HomeComponent,
+    DialogComponent,
   ],
   imports: [
     BrowserModule,

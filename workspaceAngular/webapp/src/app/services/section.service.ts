@@ -9,7 +9,7 @@ export class SectionService {
       name: 'Productos',
       description: 'Mantenimiento de productos',
       icon: 'shopping_basket',
-      component: 'exampleTab',
+      component: 'productList',
     },
     {
       name: 'Compra',

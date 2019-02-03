@@ -11,7 +11,9 @@ public class ProductoDto implements Serializable {
 
     private Long id;
     private String nombre;
+    private String descripcion;
     private String image;
+    private String readMore;
     private Double precio;
 
     public ProductoDto() {
@@ -25,10 +27,12 @@ public class ProductoDto implements Serializable {
         this.nombre = nombre;
     }
 
-    public ProductoDto(Long id, String nombre, String image, Double precio) {
+    public ProductoDto(Long id, String nombre, String descripcion, String image, String readMore, Double precio) {
         this.id = id;
         this.nombre = nombre;
+        this.descripcion = descripcion;
         this.image = image;
+        this.readMore = readMore;
         this.precio = precio;
     }
 
@@ -48,12 +52,28 @@ public class ProductoDto implements Serializable {
         this.nombre = nombre;
     }
 
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
     public String getImage() {
         return image;
     }
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    public String getReadMore() {
+        return readMore;
+    }
+
+    public void setReadMore(String readMore) {
+        this.readMore = readMore;
     }
 
     public Double getPrecio() {

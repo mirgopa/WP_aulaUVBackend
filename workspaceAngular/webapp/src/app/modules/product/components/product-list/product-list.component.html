@@ -3,16 +3,16 @@
   <div fxLayout="row">
     <mat-form-field class="productNameFilter">
       <mat-icon matPrefix>search</mat-icon>
-      <input matInput placeholder="Nombre" formControlName="nombre" />
+      <input
+        matInput
+        placeholder="Nombre"
+        formControlName="nombre"
+        autocomplete="off"
+      />
       <mat-hint>Introduzca un nombre de producto para filtrar</mat-hint>
-
-      <!--mat-error *ngIf="myForm.get('nombre').errors['required']">
-      This is <strong>required</strong> field
-    </mat-error-->
     </mat-form-field>
     <div class="productButtonForm">
       <button mat-raised-button color="primary" type="submit">
-        <!--[disabled]="myForm.get('nombre').value ? false : true"-->
         BUSCAR
       </button>
     </div>
@@ -43,7 +43,7 @@
         READ MORE
       </a>
       <div fxFlex></div>
-      <button mat-button>
+      <button mat-button (click)="edit(product.id)">
         <mat-icon>edit</mat-icon>
         &nbsp;EDITAR
       </button>
@@ -60,7 +60,7 @@
   <mat-toolbar>
     <mat-toolbar-row>
       <div fxFlex></div>
-      <button mat-raised-button color="primary">
+      <button mat-raised-button color="primary" (click)="edit()">
         <mat-icon>add_circle_outline</mat-icon>
         AÑADIR
       </button>

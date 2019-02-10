@@ -5,7 +5,309 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-02-01T02:24:41Z</updated>
+  <updated>2019-02-08T19:41:36Z</updated>
+  <entry>
+    <title>Spring Cloud Data Flow 1.7.4 and Skipper 1.1.4 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/08/spring-cloud-data-flow-1-7-4-and-skipper-1-1-4-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Mark Pollack</name>
+    </author>
+    <id>tag:spring.io,2019-02-08:3559</id>
+    <updated>2019-02-08T19:41:36Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;The &lt;a href="https://cloud.spring.io/spring-cloud-dataflow/"&gt;Spring Cloud Data Flow&lt;/a&gt; team is pleased to announce the release of &lt;code&gt;1.7.4&lt;/code&gt; of Data Flow for Local and Cloud Foundry.  The Kubernetes release is at version &lt;code&gt;1.7.3&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Follow the &lt;em&gt;Getting Started&lt;/em&gt; guides for running on &lt;a href="https://docs.spring.io/spring-cloud-dataflow/docs/1.7.4.RELEASE/reference/htmlsingle/#getting-started"&gt;Local&lt;/a&gt;, &lt;a href="http://docs.spring.io/spring-cloud-dataflow-server-cloudfoundry/docs/1.7.4.RELEASE/reference/htmlsingle/#getting-started"&gt;Cloud Foundry&lt;/a&gt;, and &lt;a href="http://docs.spring.io/spring-cloud-dataflow-server-kubernetes/docs/1.7.3.RELEASE/reference/htmlsingle/#kubernetes-getting-started"&gt;Kubernetes&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Various bugs since the &lt;code&gt;1.7 GA&lt;/code&gt; release have been fixed.  You can see the issues for &lt;a href="https://github.com/spring-cloud/spring-cloud-dataflow/issues?q=is%3Aissue+milestone%3A1.7.1.RELEASE+is%3Aclosed"&gt;1.7.1&lt;/a&gt;, &lt;a href="https://github.com/spring-cloud/spring-cloud-dataflow/issues?utf8=%E2%9C%93&amp;amp;q=is%3Aissue+milestone%3A1.7.2.RELEASE+is%3Aclosed+"&gt;1.7.2&lt;/a&gt;, &lt;a href="https://github.com/spring-cloud/spring-cloud-dataflow/issues?utf8=%E2%9C%93&amp;amp;q=is%3Aissue+milestone%3A1.7.3.RELEASE+is%3Aclosed+"&gt;1.7.3&lt;/a&gt;, and &lt;a href="https://github.com/spring-cloud/spring-cloud-dataflow/issues?utf8=%E2%9C%93&amp;amp;q=is%3Aissue+milestone%3A1.7.4.RELEASE+is%3Aclosed+"&gt;1.7.4&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We have also released &lt;code&gt;1.1.4&lt;/code&gt; release of &lt;a href="https://cloud.spring.io/spring-cloud-skipper/"&gt;Spring Cloud Skipper&lt;/a&gt;. The &lt;a href="https://docs.spring.io/spring-cloud-skipper/docs/1.1.4.RELEASE/reference/htmlsingle/#getting-started"&gt;getting started section&lt;/a&gt; in the reference guide is the best place to start if you want to use Skipper separately from Data Flow.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Various bugs since the &lt;code&gt;1.1 GA&lt;/code&gt; have been fixed.  You can see the issues for &lt;a href="https://github.com/spring-cloud/spring-cloud-skipper/issues?utf8=%E2%9C%93&amp;amp;q=is%3Aissue+milestone%3A1.1.1.RELEASE+is%3Aclosed+"&gt;1.1.1&lt;/a&gt;, &lt;a href="https://github.com/spring-cloud/spring-cloud-skipper/issues?utf8=%E2%9C%93&amp;amp;q=is%3Aissue+milestone%3A1.1.2.RELEASE+is%3Aclosed+"&gt;1.1.2&lt;/a&gt;, &lt;a href="https://github.com/spring-cloud/spring-cloud-skipper/issues?utf8=%E2%9C%93&amp;amp;q=is%3Aissue+milestone%3A1.1.3.RELEASE+is%3Aclosed+"&gt;1.1.3&lt;/a&gt;, and &lt;a href="https://github.com/spring-cloud/spring-cloud-skipper/issues?q=is%3Aissue+milestone%3A1.1.4.RELEASE+is%3Aclosed"&gt;1.1.4&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>A Bootiful Podcast: Dror Weiss</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/08/a-bootiful-podcast-dror-weiss" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-02-08:3558</id>
+    <updated>2019-02-08T01:10:09Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! In this installment I talk to Dror Weiss, CEO of Codota, a company that seeks to make smart code completion in your IDE even smarter.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.codota.com/"&gt;Codota&lt;/a&gt;&lt;br/&gt;&lt;a href="http://www.linkedin.com/in/drorwe"&gt;Dror Weiss&amp;rsquo; LinkedIn Page&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/571909224&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Cloud Data Flow and Skipper 2.0 M2 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/06/spring-cloud-data-flow-and-skipper-2-0-m2-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Mark Pollack</name>
+    </author>
+    <id>tag:spring.io,2019-02-06:3557</id>
+    <updated>2019-02-06T21:17:35Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;The &lt;a href="https://cloud.spring.io/spring-cloud-dataflow/"&gt;Spring Cloud Data Flow&lt;/a&gt; team is pleased to announce the release of &lt;code&gt;2.0 M2&lt;/code&gt; of Data Flow.  Follow the &lt;em&gt;Getting Started&lt;/em&gt; guides for running on &lt;a href="https://docs.spring.io/spring-cloud-dataflow/docs/2.0.0.M2/reference/htmlsingle/#getting-started-local"&gt;Local&lt;/a&gt;, &lt;a href="https://docs.spring.io/spring-cloud-dataflow/docs/2.0.0.M2/reference/htmlsingle/#getting-started-cloudfoundry"&gt;Cloud Foundry&lt;/a&gt;, and &lt;a href="https://docs.spring.io/spring-cloud-dataflow/docs/2.0.0.M2/reference/htmlsingle/#getting-started-kubernetes"&gt;Kubernetes&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Hand in hand is the &lt;code&gt;2.0 M2&lt;/code&gt; release of &lt;a href="https://cloud.spring.io/spring-cloud-skipper/"&gt;Spring Cloud Skipper&lt;/a&gt;. The &lt;a href="https://docs.spring.io/spring-cloud-skipper/docs/2.0.0.M2/reference/htmlsingle/#getting-started"&gt;getting started section&lt;/a&gt; in the reference guide is the best place to start if you want to use Skipper separately from Data Flow.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="here-are-the-highlights-for-data-flow"&gt;&lt;a class="anchor" href="#here-are-the-highlights-for-data-flow"&gt;&lt;/a&gt;Here are the highlights for Data Flow&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Launch tasks against multiple platforms&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Revamped metrics and monitoring of deployed applications&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Additional security roles&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dashboard improvements&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Database migration support&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="launch-tasks-against-multiple-platforms"&gt;&lt;a class="anchor" href="#launch-tasks-against-multiple-platforms"&gt;&lt;/a&gt;Launch tasks against multiple platforms&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;When a task is launched you can specify the platform where it will execute.
+The Data Flow server lets you configure multiple Kubernetes and Cloud Foundry task platforms.
+This is particularly useful when you want to orchestrate data pipelines against multiple platforms, but manage them all from a central location.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For example, if you are running Data Flow on Cloud Foundry in &lt;code&gt;org1/space1&lt;/code&gt;, you can launch tasks in &lt;code&gt;org2/space2&lt;/code&gt;.
+If running the Data Flow server locally, you can specify different local task platforms, say with different JVM properties, as an alternative to using task deployment properties.
+The docs describe how to configure multiple task platforms for &lt;a href="http://docs.spring.io/spring-cloud-dataflow/docs/2.0.0.M2/reference/htmlsingle/#configuration-local-tasks"&gt;Local&lt;/a&gt;, &lt;a href="http://docs.spring.io/spring-cloud-dataflow/docs/2.0.0.M2/reference/htmlsingle/#configuration-cloudfoundry-tasks"&gt;Cloud Foundry&lt;/a&gt;, and &lt;a href="http://docs.spring.io/spring-cloud-dataflow/docs/2.0.0.M2/reference/htmlsingle/#configuration-kubernetes-tasks"&gt;Kubernetes&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="revamped-metrics-and-monitoring-of-deployed-applications"&gt;&lt;a class="anchor" href="#revamped-metrics-and-monitoring-of-deployed-applications"&gt;&lt;/a&gt;Revamped metrics and monitoring of deployed applications&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Data Flow 2.0 introduces a new architecture for collecting and displaying application metrics for Streams.  The Data Flow Metrics Collector introduced in Data Flow 1.4 has been removed.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="imageblock"&gt;
+&lt;div class="content"&gt;
+&lt;img src="https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/master/spring-cloud-dataflow-docs/src/main/asciidoc/images/micrometer-arch.png" alt="Monitoring Architecture"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This new architecture is based on using the Micrometer library in the deployed applications to send metrics to popular monitoring systems and then visualizing the metrics with &lt;a href="https://grafana.com/"&gt;Grafana&lt;/a&gt;.
+Each application in the &lt;a href="https://cloud.spring.io/spring-cloud-stream-app-starters/"&gt;Einstein release train of the application starters&lt;/a&gt; contains Micrometer libraries for Prometheus, InfluxDB and DataDog.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We have provided instructions on how to get started using &lt;a href="http://docs.spring.io/spring-cloud-dataflow/docs/2.0.0.M2/reference/htmlsingle/#streams-monitoring-local-prometheus"&gt;Prometheus&lt;/a&gt; and &lt;a href="http://docs.spring.io/spring-cloud-dataflow/docs/2.0.0.M2/reference/htmlsingle/#streams-monitoring-local-influx"&gt;InfluxDB&lt;/a&gt; as the monitoring system for Data Flow running locally on your laptop.
+Instructions for CloudFoundry and Kubernetes will be available in the 2.0 RC1 release in a few weeks.
+Links to the Grafana dashboard from the Data Flow UI are also provided.
+Two Grafana dashboards are also provided, one that shows a more application centric view and other that show a more stream based view.  Here is a screenshot of the Grafana dashboard based on Prometheus showing the message rates for the applications in a stream.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="imageblock"&gt;
+&lt;div class="content"&gt;
+&lt;img src="https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/master/spring-cloud-dataflow-docs/src/main/asciidoc/images/grafana-prometheus-scdf-applications-dashboard.png" alt="Grafana Dashboard for applications in a stream"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Selectors for applications and streams allows you to navigate down to specific areas of interest.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="additional-security-roles"&gt;&lt;a class="anchor" href="#additional-security-roles"&gt;&lt;/a&gt;Additional security roles.&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Data Flow 2.0 is entirely OAuth2/OpenIDConnect compatible.
+The token-based authorization, password-grant type validation, and LDAP integration are a few options, and they are consistently supported with the help of UAA as the backend.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Building on this foundation, in this milestone, we also added &lt;a href="http://docs.spring.io/spring-cloud-dataflow/docs/2.0.0.M2/reference/htmlsingle/#configuration-security-customizing-authorization"&gt;new granular roles&lt;/a&gt; to govern the stream/task deployment operations.
+The granularity brings better alignment with the intended action, and the client-tools (Shell and Dashboard) automatically also adapt to it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="dashboard-improvements"&gt;&lt;a class="anchor" href="#dashboard-improvements"&gt;&lt;/a&gt;Dashboard improvements&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The UI supports launching a Task against a collection of backend platforms.
+The UI/UX is built with a consistent experience for both Stream and Task launches.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Building upon another important feature-set, it is now possible to automatically enable/disable Dashboard functionality based on granular roles defined in Data Flow.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A Grafana launch-icon is natively integrated in Dashboard’s Streams and Runtime pages.
+With Data Flow configured against the available Micrometer backends, monitoring streaming-pipeline metrics such as message-rates, error-counts, and latency is just a click away!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A new button to rollback to the previous version of a stream is now supported.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The analytics tab has been removed and it will be replaced with Micrometer-based Grafana dashboard in the 2.0 RC1 release.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="database-migration-support"&gt;&lt;a class="anchor" href="#database-migration-support"&gt;&lt;/a&gt;Database migration support&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Schema changes were introduced in moving from Data Flow 1.7 to Data Flow 2.0.
+A flyway based migration is now included allowing you to easily update your existing stream/task definitions to the new format when starting up the 2.0 Data Flow server.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="what-is-next"&gt;&lt;a class="anchor" href="#what-is-next"&gt;&lt;/a&gt;What is next&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We are planning to release 2.0 RC1 in a couple weeks.  Most of the feature development has been completed, but in addition to the monitoring improvements mentioned above, we will be adding support for getting the detailed history of Task deployments - application properties, deployment properties, much like is available today for Streams.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Also note that the 1.x line of Spring Cloud Data Flow will cease maintenance twelve months from the 2.0 GA announcement date. The 2.0 GA is tentatively planned for February 2019, so in February 2020, the 1.x line would reach end-of-general-support status.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="stay-in-touch"&gt;&lt;a class="anchor" href="#stay-in-touch"&gt;&lt;/a&gt;Stay in touch&amp;#8230;&amp;#8203;&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;As always, we welcome feedback and contributions, so please reach out to us on &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud-dataflow"&gt;Stackoverflow&lt;/a&gt; or &lt;a href="https://github.com/spring-cloud/spring-cloud-dataflow/issues"&gt;GitHub&lt;/a&gt; or via &lt;a href="https://gitter.im/spring-cloud/spring-cloud-dataflow"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>Legacy forums will be shutdown February 28</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/06/legacy-forums-will-be-shutdown-february-28" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Brian Dussault</name>
+    </author>
+    <id>tag:spring.io,2019-02-06:3556</id>
+    <updated>2019-02-06T12:51:00Z</updated>
+    <content type="html">&lt;p&gt;In 2014, we &lt;a href="https://spring.io/blog/2014/06/18/retiring-the-forum-spring-io-website"&gt;announced the retirement of our legacy forum&lt;/a&gt;, forum.spring.io, in favor of providing an improved community experience on stackoverflow.com. As part of that announcement, we put our forum into read-only mode, preserving forum posts that were referenced in various Spring issue trackers. &lt;/p&gt;
+&lt;p&gt;On February 28, 2019, we plan to take the forum completely offline. In preparation for this end-of-life activity, we have gone through our issue trackers and identified links to forum.spring.io that contain supplementary information related to an issue. Based on this analysis, we have either copied such text directly into the issue tracker or otherwise ensured that no essential information is lost. &lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Tips: Testing Reactive Code</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/06/spring-tips-testing-reactive-code" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-01-17:3542</id>
+    <updated>2019-02-06T00:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! In this installment of Spring Tips, we look at how to test reactive applications and microservices with TDD style, inside-out testing from component to contract.&lt;/p&gt;
+&lt;p&gt;speaker: &lt;a href="http://twitter.com/Starbuxman"&gt;Josh Long&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/RPmTXiw-dHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring - February 5th, 2019</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/05/this-week-in-spring-february-5th-2019" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-02-05:3555</id>
+    <updated>2019-02-05T16:52:23Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! First of all, &lt;a href="https://www.bbc.com/news/world-asia-47121421"&gt;Happy Lunar New Year&lt;/a&gt;, if you celebrate! (More than a billion people around the world do celebrate&amp;hellip;) &lt;/p&gt;
+&lt;p&gt;Today I&amp;rsquo;m going to be giving a 4-hour presentation, &lt;a href="https://www.safaribooksonline.com/live-training/courses/reactive-spring-boot/0636920240426/"&gt;&lt;em&gt;Reactive Spring&lt;/em&gt;&lt;/a&gt;, for Safari members. &lt;/p&gt;
+&lt;p&gt;So, without further ado, let&amp;rsquo;s get to it!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/02/04/spring-session-for-apache-geode-pivotal-gemfire-2-0-8-release-available"&gt;Spring Session for Apache Geode/Pivotal GemFire 2.0.8.RELEASE available!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Last week in &lt;em&gt;A Bootiful Podcast&lt;/em&gt;, I interviewed Spring messaging and integration maestro, and one of my oldest friends on the Spring team, &lt;a href="https://spring.io/blog/2019/02/01/a-bootiful-podcast-oleg-zhurakousky"&gt;Oleg Zhurakousky&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Hi Spring fans! In last week&amp;rsquo;s installment of &lt;em&gt;Spring Tips&lt;/em&gt;, &lt;a href="https://spring.io/blog/2019/01/30/spring-tips-the-reactor-context"&gt;&lt;em&gt;The Reactor Context&lt;/em&gt;&lt;/a&gt;, I look at how you can perpetuate state across thread execution jumps.&lt;/li&gt;
+  &lt;li&gt;If you&amp;rsquo;re using older versions of Cloud Foundry then you might be using &lt;a href="https://www.cloudfoundry.org/vulnerable-jdk-8u182/"&gt;a vulnerable version of Java&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I really liked this response from Kenny Bastani on &lt;a href="https://twitter.com/springcentral/status/1092022447606362113"&gt;eventual consistency&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This is an interesting post on using &lt;a href="https://banzaicloud.com/blog/vault-java-spotguide/"&gt;Spring Boot with Vault on Kubernetes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I love this - a look at using &lt;a href="https://twitter.com/springcentral/status/1091362057629417474"&gt;Neo4j and Spring Data Neo4j&lt;/a&gt; with the epic Mark Heckler and Jennifer Reif, among others&lt;/li&gt;
+  &lt;li&gt;I loved this look at Spring Data Redis and &lt;a href="https://twitter.com/springcentral/status/1090682564799549442"&gt;high-availability with Sentinel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check out this replay of the &lt;a href="https://www.brighttalk.com/webcast/14893/345709"&gt;Securing Microservices with Spring and Pivotal Cloud Foundry&lt;/a&gt; webinar&lt;/li&gt;
+  &lt;li&gt;Hey check this out - it&amp;rsquo;s a third-party thing you can use to get lightweight administration of Spring Batch jobs, &lt;a href="https://github.com/tuxdevelop/spring-batch-lightmin"&gt;Spring Batch Lightmin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This is interesting - it&amp;rsquo;s a program from &lt;code&gt;pacphi&lt;/code&gt; called &lt;code&gt;cf-butler&lt;/code&gt; that cleans stale apps and services on &lt;a href="https://github.com/pacphi/cf-butler"&gt;a Cloud Foundry foundation&lt;/a&gt;. It can be configured to report on and remove orphaned services and stopped app instances older than a configurable duration.&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Session for Apache Geode/Pivotal GemFire 2.0.8.RELEASE available!</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/04/spring-session-for-apache-geode-pivotal-gemfire-2-0-8-release-available" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>John Blum</name>
+    </author>
+    <id>tag:spring.io,2019-02-04:3554</id>
+    <updated>2019-02-04T19:59:16Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;I am pleased to announce &lt;em&gt;Spring Session for Apache Geode &amp;amp; Pivotal GemFire&lt;/em&gt; (SSDG) &lt;code&gt;2.0.8.RELEASE&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;SSDG &lt;a href="https://github.com/spring-projects/spring-session-data-geode/blob/2.0.8.RELEASE/gradle.properties#L11-L19"&gt;builds on&lt;/a&gt; &lt;em&gt;Spring Session&lt;/em&gt; &lt;code&gt;2.0.9.RELEASE&lt;/code&gt;, &lt;em&gt;Spring Data&lt;/em&gt; &lt;code&gt;Kay-SR13&lt;/code&gt; and  &lt;em&gt;Spring Framework&lt;/em&gt; &lt;code&gt;5.0.12.RELEASE&lt;/code&gt; along with Apache Geode &lt;code&gt;1.2.1&lt;/code&gt; and Pivotal GemFire &lt;code&gt;9.1.1&lt;/code&gt;.  Additionally, SSDG &lt;code&gt;2.0.8.RELEASE&lt;/code&gt; is compatible with &lt;em&gt;Spring Boot&lt;/em&gt; &lt;code&gt;2.0.x&lt;/code&gt; based applications.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This release pulls in many enhancements from the &lt;code&gt;2.1.x&lt;/code&gt; release branch along with a few minor fixes.  Highlights include:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="olist arabic"&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;
+&lt;p&gt;Prevent saving non-dirty Sessions (&lt;a href="https://github.com/spring-projects/spring-session-data-geode/issues/12"&gt;Issue-12&lt;/a&gt;).  This primarily protects against Apache Geode/Pivotal GemFire bug &lt;a href="https://issues.apache.org/jira/browse/GEODE-6032"&gt;GEODE-6032&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Standardize all logging on SLF4J (&lt;a href="https://github.com/spring-projects/spring-session-data-geode/issues/18"&gt;Issue-18&lt;/a&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed bug involving incorrect synchronization lock on Session attributes passed down from the Session object on creation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed bug involving &lt;em&gt;Data Serialization&lt;/em&gt; to properly identify when a user uses a custom &lt;em&gt;DataSerializer&lt;/em&gt; to de/serialize the Session.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="spring-session-for-apache-geode-pivotal-gemfire-code-2-0-x-code-end-of-life-eol-announcement"&gt;&lt;a class="anchor" href="#spring-session-for-apache-geode-pivotal-gemfire-code-2-0-x-code-end-of-life-eol-announcement"&gt;&lt;/a&gt;Spring Session for Apache Geode/Pivotal GemFire &lt;code&gt;2.0.x&lt;/code&gt; End-of-Life (EOL) Announcement&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Given the &lt;a href="https://spring.io/blog/2019/01/10/spring-data-lovelace-sr4-kay-sr13-and-ingalls-sr18-released#spring-data-1-x-and-2-0-x-end-of-life-eol"&gt;recent announcement&lt;/a&gt; for the EOL of &lt;em&gt;Spring
+Data&lt;/em&gt; &lt;code&gt;Kay&lt;/code&gt;, so too will SSDG &lt;code&gt;2.0.x&lt;/code&gt; reach it&amp;#8217;s EOL around the same timeframe (end of March/April).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;I will tentatively plan for 1 additional release (i.e. SSDG &lt;code&gt;2.0.9.RELEASE&lt;/code&gt;) if either SD &lt;code&gt;Kay-SR14&lt;/code&gt; is or &lt;em&gt;Spring Session&lt;/em&gt; &lt;code&gt;2.0.10.RELEASE&lt;/code&gt; is released.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Afterwards, all users are encouraged to upgrade to SSDG &lt;code&gt;2.1&lt;/code&gt;, based on Apache Geode &lt;code&gt;1.6&lt;/code&gt; and Pivotal GemFire &lt;code&gt;9.5&lt;/code&gt; along with &lt;em&gt;Spring Session&lt;/em&gt; &lt;code&gt;2.1&lt;/code&gt;, &lt;em&gt;Spring Data&lt;/em&gt; &lt;code&gt;Lovelace&lt;/code&gt; and &lt;em&gt;Spring Framework&lt;/em&gt; &lt;code&gt;5.1&lt;/code&gt;.  SSDG &lt;code&gt;2.1&lt;/code&gt; is compatible with &lt;em&gt;Spring Boot&lt;/em&gt; &lt;code&gt;2.1&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="feedback-welcome"&gt;&lt;a class="anchor" href="#feedback-welcome"&gt;&lt;/a&gt;Feedback Welcome&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;As always, any feedback on the new release via the usual channels is always greatly appreciated.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session-data-geode/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-session-data-geode/pulls"&gt;PR&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-session"&gt;StackOverflow&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
   <entry>
     <title>A Bootiful Podcast: Oleg Zhurakousky</title>
     <link rel="alternate" href="https://spring.io/blog/2019/02/01/a-bootiful-podcast-oleg-zhurakousky" />
@@ -1147,317 +1449,5 @@ cf restart myapp
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Bootiful!&lt;/p&gt;&lt;h2&gt;&lt;a href="#the-next-steps" class="anchor" name="the-next-steps"&gt;&lt;/a&gt;The Next Steps&lt;/h2&gt;
 &lt;p&gt;We&amp;rsquo;ve only just begun to scratch the surface of what&amp;rsquo;s possible with Spring, Microsoft Azure and Cloud Foundry in this and the posts before it. What should be clear is that there&amp;rsquo;s a nice symbiosis here, each technology making the layer below it even more powerful. It&amp;rsquo;s no wonder that a ton of Azure&amp;rsquo;s workloads are Linux, Spring Boot and Cloud Foundry-based: these things work well together. For those who want to learn even more about Spring on Microsoft Azure, check &lt;a href="https://docs.microsoft.com/en-us/java/azure/spring-framework/?view=azure-java-stable"&gt;out the resource portal from Azure&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: an Interview with Google Developer Advocate Ray Tsang</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/01/18/a-bootiful-podcast-an-interview-with-google-developer-advocate-ray-tsang" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-01-17:3544</id>
-    <updated>2019-01-18T00:00:00Z</updated>
-    <content type="html">&lt;p&gt;In this week&amp;rsquo;s installment I talk to Google Cloud developer advocate, fellow Java Champion and prolific speaker and open source contributor in the Kubernetes and Spring communities, &lt;a href="http://twitter.com/saturnism"&gt;Ray Tsang&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Listen to the Podcast on &lt;a href="https://soundcloud.com/a-bootiful-podcast/google-developer-advocate-ray-tsang"&gt;SoundCloud&lt;/a&gt; or on &lt;a href="https://itunes.apple.com/us/podcast/a-bootiful-podcast/id1438691771?mt=2"&gt;iTunes&lt;/a&gt;, among other places. &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Bootiful Azure: Object Storage Service (5/6)</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/01/17/bootiful-azure-object-storage-service-5-6" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-01-02:3517</id>
-    <updated>2019-01-17T00:00:00Z</updated>
-    <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;This is part 5 of a 6 part series, with new posts Mondays and Thursdays, introducing Microsoft Azure for Spring developers. I couldn&amp;rsquo;t have put this together without input from Microsoft&amp;rsquo;s Asir Vedamuthu Selvasingh, Yitao Dong, Bruno Borges, Brian Benz and Theresa Nguyen. You can find the code for this series &lt;a href="https://github.com/joshlong/bootiful-azure-article"&gt;on Github&lt;/a&gt;. Hit me up on &lt;a href="http://twitter.com/Starbuxman"&gt;Twitter (@starbuxman)&lt;/a&gt; as you&amp;rsquo;re reading the installments with any feedback or questions. You can also learn more about Microsoft Azure in my &lt;a href="http://twitter.com/SpringTipsLive"&gt;Spring Tips (@SpringTipsLive)&lt;/a&gt; installment, &lt;a href="https://spring.io/blog/2018/12/05/spring-tips-bootiful-microsoft-azure"&gt;&lt;em&gt;Bootiful Azure&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here are all the installments: &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/03/bootiful-azure-taking-your-first-steps-with-microsoft-azure-1-6"&gt;Bootiful Azure: Taking Your First Steps with Microsoft Azure&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/07/bootiful-azure-sql-based-data-access-with-microsoft-sql-server-2-6"&gt;Bootiful Azure: SQL-based data access with Microsoft SQL Server&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/10/bootiful-azure-global-scale-data-access-with-cosmosdb-3-6"&gt;Bootiful Azure: Global Scale Data Access with CosmosDB&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/14/bootiful-azure-integration-with-azure-service-bus-4-6"&gt;Bootiful Azure: Integration with Azure Service Bus&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/17/bootiful-azure-object-storage-service-5-6"&gt;Bootiful Azure: Object Storage Service&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/21/bootiful-azure-to-production-6-6"&gt;Bootiful Azure: To Production!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Now let&amp;rsquo;s turn to something a bit more&amp;hellip; mundane. Something that you, ideally, won&amp;rsquo;t even think about all that often. Applications often have storage requirements: they may need to store uploaded user content (binary data like pictures or documents), generated artifacts like PDF files, videos, music, etc. They might want to store logs. It&amp;rsquo;s not hard to think of things an application might want to durably store. &lt;/p&gt;
-&lt;p&gt;These applications &lt;em&gt;could&lt;/em&gt; use a filesystem, such as that on the local machine or a network attached filesystem like &lt;a href="https://en.wikipedia.org/wiki/Network_File_System"&gt;NFS (network file system)&lt;/a&gt;. I&amp;rsquo;ll use NFS to generically refer to any network attached file system like Samba, NFS (those mounted with the NFS protocol) itself, or legacy options like DAC, FAL, etc. NFS options provide a filesystem-like interface to files, often in a hierarchical format. NFS options are interesting because they&amp;rsquo;re like fileystems with which we&amp;rsquo;re all familiar, and everybody knows how to work with filesystems, right? Surely, everything looks like the hierarchy expressed in Windows Explorer? Or macOS Finder? Except, they look nothing like each other&amp;hellip;&lt;/p&gt;
-&lt;p&gt;Come to think of it, I had to say &amp;ldquo;like&amp;rdquo; when I said that NFS options are like filesystems. Some support more nuanced permissions models than others. Some support encoding and replication of metatadata attached to files and directories in the tree. Support support different speed guarantees for different operations; some filesystems may optimize for reads versus writes. Some might optimize for directory traversals. The client&amp;rsquo;s perspective of a file read or write is different depending on the client used. (Is a write consistent on all replication nodes immediately?) &lt;/p&gt;
-&lt;p&gt;Even if we assumed all the filesystems to which we wanted to write were POSIX-friendly - you could use &lt;code&gt;int open(const char *path, int flags)&lt;/code&gt; or &lt;code&gt;java.io.File&lt;/code&gt; - this may not be the case for our clients. What if the client doesn&amp;rsquo;t &amp;ldquo;speak&amp;rdquo; filesystem, and would prefer to manipulate the data in some other way? What if the client can only speak HTTP? Or if it wanted to speak Bittorrent for more efficient consolidation of downloads through peer-to-peer networks? &lt;/p&gt;
-&lt;p&gt;For these reasons, and more, Amazon Web Services introduced S3, the Simple Cloud Storage Service (get it? &amp;ldquo;S&amp;rdquo; times 3? &amp;ldquo;S3&amp;rdquo;?) which has since been something of a prevailing standard that all other cloud vendors need to support. For Microsoft Azure, the Object Storage Service (OSS) is the thing that provides an S3-like experience. It is not a POSIX filesystem. You can use its API directly, as we will here, but it&amp;rsquo;s &lt;a href="https://www.microsoft.com/developerblog/2016/05/22/access-azure-blob-storage-from-your-apps-using-s3-api/"&gt;also possible to use the S3Proxy to proxy writes to OSS&lt;/a&gt; using an AWS S3 client, of which there are countless! Azure&amp;rsquo;s Object Storage Service truly is &lt;em&gt;boring&lt;/em&gt; which is exactly what you want when dealing with something so fundamental as persistant volumes of file-like data. It even offers a standalone browser called &lt;a href="https://azure.microsoft.com/en-us/features/storage-explorer/"&gt;the Microsoft Azure Storage Explorer&lt;/a&gt; which runs (yep!) on Linux, Macintosh and Windows. That standalone browser lets you interrogate OSS stores &lt;em&gt;as well as&lt;/em&gt; CosmosDB data. How&amp;rsquo;s that for convenient? You can of course use the &lt;code&gt;az&lt;/code&gt; CLI or the API itself. We&amp;rsquo;re going to use the Spring integration for the Java API. &lt;/p&gt;&lt;h2&gt;&lt;a href="#configuring-azure-object-storage-service" class="anchor" name="configuring-azure-object-storage-service"&gt;&lt;/a&gt;Configuring Azure Object Storage Service&lt;/h2&gt;
-&lt;p&gt;You&amp;rsquo;ve got to create an Azure Object Storage Service account (&lt;code&gt;bootiful&lt;/code&gt;) assigned to the existing resource group &lt;code&gt;bootiful&lt;/code&gt;. Then, create a storage container (&lt;code&gt;files&lt;/code&gt;) assigned to the just-created storage account. Here&amp;rsquo;s a sample script.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint shell"&gt;#!/usr/bin/env bash&#xD;
-&#xD;
-rg=$1&#xD;
-accountname=bootiful&#xD;
-&#xD;
-az storage account create --name ${accountname} --resource-group ${rg}&#xD;
-az storage container create -n files --account-name ${accountname}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Use the following command to ascertain the connection string required to connect to the application.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint shell"&gt;az storage account show-connection-string --resource-group bootiful --name bootiful
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Note the connection string for later.&lt;/p&gt;&lt;h2&gt;&lt;a href="#introducing-azure-object-storage-service-into-your-spring-application" class="anchor" name="introducing-azure-object-storage-service-into-your-spring-application"&gt;&lt;/a&gt;Introducing Azure Object Storage Service into your Spring Application&lt;/h2&gt;
-&lt;p&gt;Add &lt;code&gt;com.microsoft.azure&lt;/code&gt;: &lt;code&gt;azure-storage-spring-boot-starter&lt;/code&gt; to your application&amp;rsquo;s build file. Make sure you&amp;rsquo;ve specified the OSS connection string for the &lt;code&gt;azure.storage.connection-string&lt;/code&gt; property.&lt;/p&gt;
-&lt;p&gt;We&amp;rsquo;ll read the bytes for an image of a cat in our application&amp;rsquo;s &lt;code&gt;src/main/resources&lt;/code&gt; directory and then write those bytes to the Object Storage Service as a &amp;ldquo;block blog&amp;rdquo;. There are other interfaces through which you can talk to OSS, but for our purposes it&amp;rsquo;s very natural to think about it as an ensemble of &amp;ldquo;containers&amp;rdquo; (logical groupings of things, almost like a directory or a bucket in S3 parlance) and &amp;ldquo;blobs.&amp;rdquo; A blob is a file, basically, with a name and metadata associated with it. All that the following example does is store the bytes for a photo of a cat into a container called &lt;code&gt;files&lt;/code&gt; under a random name prefixed with &lt;code&gt;cat-&lt;/code&gt; and suffixed with &lt;code&gt;.jpg&lt;/code&gt;. &lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;package com.example.bootifulazure;&#xD;
-&#xD;
-import com.microsoft.azure.storage.CloudStorageAccount;&#xD;
-import com.microsoft.azure.storage.StorageException;&#xD;
-import com.microsoft.azure.storage.blob.CloudBlobContainer;&#xD;
-import com.microsoft.azure.storage.blob.CloudBlockBlob;&#xD;
-import lombok.extern.log4j.Log4j2;&#xD;
-import org.springframework.beans.factory.annotation.Value;&#xD;
-import org.springframework.boot.context.event.ApplicationReadyEvent;&#xD;
-import org.springframework.context.event.EventListener;&#xD;
-import org.springframework.core.io.Resource;&#xD;
-import org.springframework.stereotype.Component;&#xD;
-&#xD;
-import java.io.InputStream;&#xD;
-import java.net.URISyntaxException;&#xD;
-import java.util.UUID;&#xD;
-&#xD;
-@Log4j2&#xD;
-@Component&#xD;
-class ObjectStorageServiceDemo {&#xD;
-&#xD;
-    private final CloudStorageAccount cloudStorageAccount;&#xD;
-    private final Resource resource;&#xD;
-    private final CloudBlobContainer files;&#xD;
-&#xD;
-    ObjectStorageServiceDemo(&#xD;
-        CloudStorageAccount csa,&#xD;
-        @Value(&amp;quot;classpath:/cat.jpg&amp;quot;) Resource cat) throws URISyntaxException, StorageException {&#xD;
-        this.resource = cat;&#xD;
-        this.cloudStorageAccount = csa;&#xD;
-        this.files = this.cloudStorageAccount&#xD;
-            .createCloudBlobClient()&#xD;
-            .getContainerReference(&amp;quot;files&amp;quot;);&#xD;
-    }&#xD;
-&#xD;
-    @EventListener(ApplicationReadyEvent.class)&#xD;
-    public void demo() throws Exception {&#xD;
-        CloudBlockBlob blockBlobReference = this.files.getBlockBlobReference(&amp;quot;cat-&amp;quot; + UUID.randomUUID().toString() + &amp;quot;.jpg&amp;quot;);&#xD;
-        try (InputStream in = this.resource.getInputStream()) {&#xD;
-            blockBlobReference.upload(in, this.resource.contentLength());&#xD;
-            log.info(&amp;quot;uploaded blockblob to &amp;quot; + blockBlobReference.getStorageUri());&#xD;
-        }&#xD;
-&#xD;
-    }&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The Microsoft Azure-specific bits are less than trivial. We obtain a reference to a container and then write to it and then log out the addressable URI of the resource. How &lt;em&gt;mundane&lt;/em&gt;! And that&amp;rsquo;s exactly what you want in a computing system primitive like a filesystem. It should be &lt;em&gt;mundane&lt;/em&gt;. To be very honest, I was more pleased with getting to use Java 7&amp;rsquo;s try-with-resources syntax for the &lt;code&gt;Autocloseable&lt;/code&gt; &lt;code&gt;InputStream&lt;/code&gt; reference! &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tips: JavaFX</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/01/16/spring-tips-javafx" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-01-16:3538</id>
-    <updated>2019-01-16T08:03:58Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! In this installment of Spring Tips, we look at how to integrate Spring with JavaFX, a UI framework that supports building rich desktop applications.&lt;/p&gt;
-&lt;p&gt;speaker: &lt;a href="http://twitter.com/Starbuxman"&gt;Josh Long&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/lPy9mc_O_gU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - January 15th, 2019</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/01/15/this-week-in-spring-january-15th-2019" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-01-15:3537</id>
-    <updated>2019-01-15T22:48:00Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;. I&amp;rsquo;ve just returned from Montreal, Canada and tomorrow I&amp;rsquo;m off to Dallas, Texas for customer visits. This time of year is marked by pronounced climate changes and the optimism for a new year ahead. I love it. That optimism is certainly visible in today&amp;rsquo;s roundup. We&amp;rsquo;ve got a lot to cover so let&amp;rsquo;s get to it! &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;You know, I never know what people will find interesting in our wonderful community! It&amp;rsquo;s for this reason that I try to cover as many topics as possible in the Spring Tips series. The latest installment has proven to be popular! Almost 100 likes no YouTube as of this writing. In it, I look at &lt;a href="https://spring.io/blog/2019/01/09/spring-tips-business-process-management-with-flowable"&gt;business process management with the Apache 2 licensed Flowable BPMN and CMMN engine&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The Spring Framework team just migrated from JIRA to Github issues. It was &lt;em&gt;not&lt;/em&gt; easy. Read here to learn about &lt;a href="https://spring.io/blog/2019/01/15/spring-framework-s-migration-from-jira-to-github-issues"&gt;what happened and how it happened&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/15/spring-session-bean-sr2-apple-sr8-and-1-3-5-released"&gt;Spring Session Bean-SR2, Apple-SR8, and 1.3.5 Released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/15/spring-cloud-task-2-1-0-rc1-is-now-available"&gt;Spring Cloud Task 2.1.0.RC1 is now available&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I&amp;rsquo;m continuing my six part series looking at how to use Spring with Azure. &lt;a href="https://spring.io/blog/2019/01/10/bootiful-azure-global-scale-data-access-with-cosmosdb-3-6"&gt;This is the third of six installments looking at how to scale data access with CosmosDB&lt;/a&gt;. In the fourth installment, published yesterday, we looked at &lt;a href="https://spring.io/blog/2019/01/14/bootiful-azure-integration-with-azure-service-bus-4-6"&gt;Messaging and Integration with Azure Service Bus&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/12/spring-boot-2-1-2-released"&gt;Spring Boot 2.1.2 released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/11/spring-boot-2-0-8-released"&gt;Spring Boot 2.0.8 Released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/11/spring-boot-1-5-19"&gt;Spring Boot 1.5.19&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/11/spring-security-5-1-3-5-0-11-4-2-11-released"&gt;Spring Security 5.1.3, 5.0.11, 4.2.11 Released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/10/spring-credhub-2-0-0-released"&gt;Spring CredHub 2.0.0 released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/10/spring-data-lovelace-sr4-kay-sr13-and-ingalls-sr18-released"&gt;Spring Data Lovelace SR4, Kay SR13, and Ingalls SR18 released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/09/composed-function-support-in-spring-cloud-data-flow"&gt;Composed Function Support in Spring Cloud Data Flow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/09/spring-framework-5-1-4-5-0-12-and-4-3-22-available-now"&gt;Spring Framework 5.1.4, 5.0.12 and 4.3.22 available now&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/springcloud/status/1085259389341220864"&gt;We&amp;rsquo;d love it if you&amp;rsquo;d take our survey on Spring Cloud Stream&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/springcentral/status/1085191154251968513"&gt;Ditto for our survey on Spring Cloud Data Flow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://connect.pivotal.io/QA-Panel-Session-with-the-Spring-Team.html"&gt;Want to meet the Spring Boot team? They&amp;rsquo;re in NYC and hanging out tomorrow!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://piotrminkowski.wordpress.com/2019/01/15/kotlin-microservice-with-spring-boot/"&gt;Piotr has a nice post on building microservices with Spring Boot and Kotlin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Steven van Beelen has updated the Axon article on the Baeldung blog &lt;a href="https://twitter.com/smcvbeelen/status/1084838866736082944?s=12"&gt;to reflect version 4.0 of Axon. Check it out!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;An interesting post by Arnold Galovics on &lt;a href="https://blog.arnoldgalovics.com/deploying-a-simple-spring-boot-with-mysql-app-to-aws-using-elastic-beanstalk/"&gt;deploying a simple Spring Boot with MySQL app to AWS using Elastic Beanstalk&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://aboullaite.me/spring-cloud-gateway/amp/?__twitter_impression=true"&gt;A look into Spring Cloud Gateway&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;You know what will be fun? &lt;a href="https://twitter.com/springcentral/status/1084868756956987398"&gt;The SpringOne Tour in London, on March 18-19. Join us!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/testcontainers/testcontainers-java/pull/1141"&gt; Spring Data ninja Mark Paluch has chimed in with some good news: Test Containers is working on R2DBC support.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.baeldung.com/spring-classpath-file-access"&gt;An oldie but a goodie from the Baeldung blog: how to access a &lt;code&gt;File&lt;/code&gt; from the classpath in a Spring Application&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;the Apache RocketMQ looks at the roadmap of &lt;a href="https://twitter.com/ApacheRocketMQ/status/1083975389737738241"&gt;Spring and Apache RocketMQ integration, thanks to the work of the Spring community&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/vaadin/status/1083432033651695616"&gt;How do you build reactive webapps using Spring Boot and Vaadin? This tutorial shows you from scratch. &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I love this ultimate guide to &lt;a href="https://medium.com/@brunoborges/visual-studio-code-for-java-the-ultimate-guide-2019-8de7d2b59902"&gt;Visual Studio Code for Java in 2019 by Microsoft&amp;rsquo;s Bruno Borges&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;How to deploy your &lt;a href="https://medium.freecodecamp.org/how-to-deploy-your-cloud-foundry-app-with-almost-zero-fear-using-travis-ci-926697fff8f6"&gt;Cloud Foundry app with (almost) zero fear using Travis CI&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;A friendly reminder that people are seeing &lt;a href="https://twitter.com/tiaanlouw/status/1083412161832071169?s=12"&gt;significant performance improvements in Spring Boot 2.1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;This is super cool: Eirini enables pluggable scheduling. &lt;a href="https://www.youtube.com/watch?list=PLhuMOCWn4P9gTEg3oKWOu4KRY1ui_Hm6K&amp;v=wT1ZImIYkrs"&gt;Choose whether Cloud Foundry Applicatio runtime should use Diego or Kubernetes to orchestrate applications&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Marco Behler looks at &lt;a href="https://www.marcobehler.com/episodes/174-spring-boot-properties-magic-part-1"&gt;Spring Boot &amp;ldquo;Properties&amp;rdquo; magic&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://content.pivotal.io/webinars/jan-29-securing-microservices-spring-and-pivotal-cloud-foundry-webinar?utm_source=promo&amp;utm_medium=webinar&amp;utm_campaign=spring-pcf&amp;utm_term=q119&amp;utm_content=1547125036"&gt;Don&amp;rsquo;t miss this upcoming webinar on application security on Pivotal CF&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;This is an oldie-but-a-goodie: check out Rob Winch&amp;rsquo;s &lt;a href="https://www.infoq.com/presentations/reactive-spring-security-5-1"&gt;awesome talk about Reactive Spring Security&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;An interesting post on &lt;a href="https://www.developer.com/java/data/understanding-spring-boot-starters-and-tools.html"&gt;understanding Spring Boot starters and tools&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Another fine installment of &lt;a href="http://www.rabbitmq.com/blog/2019/01/08/this-month-in-rabbitmq-jan-8-2019/"&gt;this Month in RabbitMQ — Jan 8, 2019&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Framework's Migration from Jira to GitHub Issues</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/01/15/spring-framework-s-migration-from-jira-to-github-issues" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Rossen Stoyanchev</name>
-    </author>
-    <id>tag:spring.io,2019-01-15:3536</id>
-    <updated>2019-01-15T22:12:00Z</updated>
-    <content type="html">&lt;p&gt;The Spring Framework has migrated its entire history of issues from Jira to GitHub. The goal of this blog post is to provide you with context and details about this move.&lt;/p&gt;&lt;h1&gt;&lt;a href="#migration-details" class="anchor" name="migration-details"&gt;&lt;/a&gt;Migration Details&lt;/h1&gt;
-&lt;hr/&gt;
-&lt;p&gt;The entire 15+ year history of every Spring Framework issue, and every comment, has been imported into GitHub. There is a lot to consider in such a move, so let&amp;rsquo;s take a tour and go over some details.&lt;/p&gt;&lt;h3&gt;&lt;a href="#links" class="anchor" name="links"&gt;&lt;/a&gt;Links&lt;/h3&gt;
-&lt;p&gt;If you have a link to an existing issue, e.g. &lt;a href="https://jira.spring.io/browse/SPR-16751"&gt;https://jira.spring.io/browse/SPR-16751&lt;/a&gt;, you&amp;rsquo;ll be redirected to the corresponding GitHub issue. If you actually mean to go to the Jira issue, append the query parameter &lt;code&gt;redirect=false&lt;/code&gt;. On the GitHub side, the imported issue has a link back to its Jira issue origin.&lt;/p&gt;
-&lt;p&gt;Jira issue keys that appear in text, e.g. &amp;ldquo;SPR-16751&amp;rdquo;, have been replaced with GitHub &lt;a href="https://help.github.com/articles/autolinked-references-and-urls/"&gt;issue references&lt;/a&gt; which has the benefit of inserting links in the timelines of issues on both sides. Another benefit is the mini-preview when you mouse over the link.&lt;/p&gt;
-&lt;p&gt;Jira issues keys to other Spring projects that appear in text, e.g. &amp;ldquo;DATAJPA-813&amp;rdquo;, have been replaced with links. For example see &lt;a href="https://github.com/spring-projects/spring-framework/issues/18558"&gt;#18558&lt;/a&gt; with a link to Spring Data JPA, &lt;a href="https://github.com/spring-projects/spring-framework/issues/20904"&gt;#20904&lt;/a&gt; to Spring Data MongoDB, and &lt;a href="https://github.com/spring-projects/spring-framework/issues/16906"&gt;#16906&lt;/a&gt; to Spring Integration Extensions.&lt;/p&gt;
-&lt;p&gt;Links to other GitHub project issues and pull requests that appear in text, get automatic benefits. After the migration, there are links in the timelines of the referenced issues that point back to the Spring Framework, and you get a preview of the link with a mouse over. For example see &lt;a href="https://github.com/spring-projects/spring-framework/issues/21362"&gt;#21362&lt;/a&gt; with a link to Spring Boot, &lt;a href="https://github.com/spring-projects/spring-framework/issues/20849#issuecomment-453465173"&gt;#20849&lt;/a&gt; to JUnit, &lt;a href="https://github.com/spring-projects/spring-framework/issues/20256"&gt;#20256&lt;/a&gt; to Jackson.&lt;/p&gt;
-&lt;p&gt;Links to commits and source code of any project on GitHub, get automatic benefits too. For example see the link to a source code range in issue &lt;a href="https://github.com/spring-projects/spring-framework/issues/18463"&gt;#18463&lt;/a&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#jira-details" class="anchor" name="jira-details"&gt;&lt;/a&gt;Jira Details&lt;/h3&gt;
-&lt;p&gt;Every imported issue displays information from Jira in the bottom half of its description. The idea is that all information from Jira is available on GitHub and you don&amp;rsquo;t have to go back and forth between the two. You may see one or more of the following, when available:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Affected versions&lt;/li&gt;
-  &lt;li&gt;Reference URL&lt;/li&gt;
-  &lt;li&gt;Attachments&lt;/li&gt;
-  &lt;li&gt;Sub-tasks and related issues&lt;/li&gt;
-  &lt;li&gt;Pull requests and commit references&lt;/li&gt;
-  &lt;li&gt;Backport versions&lt;/li&gt;
-  &lt;li&gt;Vote and watcher counts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Note that votes and watch subscriptions could not be carried over to GitHub. Even if spring-issuemaster has full privileges, it can only vote once. So please visit GitHub issues and re-apply reactions and subscribe to receive updates for specific issues.&lt;/p&gt;&lt;h3&gt;&lt;a href="#labels" class="anchor" name="labels"&gt;&lt;/a&gt;Labels&lt;/h3&gt;
-&lt;p&gt;Some Jira fields were converted to GitHub issue labels:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Jira Field &lt;/th&gt;
-      &lt;th&gt;Label&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Issue Type &lt;/td&gt;
-      &lt;td&gt;&lt;code&gt;&amp;quot;type: *&amp;quot;&lt;/code&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Status &lt;/td&gt;
-      &lt;td&gt;&lt;code&gt;&amp;quot;status: *&amp;quot;&lt;/code&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Resolution &lt;/td&gt;
-      &lt;td&gt;&lt;code&gt;&amp;quot;status: *&amp;quot;&lt;/code&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Component &lt;/td&gt;
-      &lt;td&gt;&lt;code&gt;&amp;quot;in: *&amp;quot;&lt;/code&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Two extra labels were also applied to imported issues:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Label &lt;/th&gt;
-      &lt;th&gt;Description&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code&gt;&amp;quot;has: votes-jira&amp;quot;&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;imported issues with 10+ votes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code&gt;&amp;quot;has: backports&amp;quot;&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;issues with backport versions&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;We used the opportunity to streamline the Jira field values, so for example 25 component values in Jira correspond to 5 &lt;code&gt;&amp;quot;in: *&amp;quot;&lt;/code&gt; labels on GitHub. The &lt;code&gt;&amp;quot;status: *&amp;quot;&lt;/code&gt; and the &lt;code&gt;&amp;quot;type: *&amp;quot;&lt;/code&gt; labels have also been given extra through and revised.&lt;/p&gt;
-&lt;p&gt;Our choice of labels is aligned with the labels used in Spring Boot. The Boot team has given their process and labels a lot of thought, and we know the consistency will be appreciated by many. See the complete &lt;a href="https://github.com/spring-projects/spring-framework/labels"&gt;set of labels&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In Jira, many fields and labels are modifiable. In GitHub, only contributors can add or remove labels. This makes perfect sense. Reporters simply describe the issue, while contributors categorize it. Both developers and contributors can use the labels to search.&lt;/p&gt;&lt;h3&gt;&lt;a href="#fix-versions" class="anchor" name="fix-versions"&gt;&lt;/a&gt;Fix Versions&lt;/h3&gt;
-&lt;p&gt;A Jira issue can have multiple fix versions, while a GitHub issue can have only one target milestone. This feels like a drawback but there is more than is apparent to the eye, and the constraint has forced us to consider some meaningful adjustments.&lt;/p&gt;
-&lt;p&gt;Take &lt;a href="https://jira.spring.io/browse/SPR-17226?redirect=false"&gt;SPR-17226&lt;/a&gt; for example with fix versions &amp;ldquo;4.3.19&amp;rdquo;, &amp;ldquo;5.0.9&amp;rdquo;, and &amp;ldquo;5.1 RC3&amp;rdquo;. While the issue was fixed in all 3 versions, there is no need to pollute the release notes of &amp;ldquo;5.1 RC3&amp;rdquo; which was still in development at the time. We can instead say it was fixed in 5.0.9 and backported to 4.3.19, and it&amp;rsquo;s a contributors&amp;rsquo; concern to make sure the fix is propagated to the next version that&amp;rsquo;s still in development. This is how it shows on the GitHub issue &lt;a href="https://github.com/spring-projects/spring-framework/issues/21759"&gt;#21759&lt;/a&gt; Could we have made this adjustment in the past? Sure, but the support for multiple fix versions in Jira didn&amp;rsquo;t force us to consider.&lt;/p&gt;
-&lt;p&gt;This is a small adjustment that will result in cleaner release notes, but it will also impact the way we commit fixes. When the next version is in development on master, we will apply the fix to the current production branch first, then forward merge to master, and then cherry-pick from the older production branch. As opposed to apply the fix to master, and then cherry-pick from the production branches. The result is a cleaner commit history since forward merges help git to be aware or related changes.&lt;/p&gt;
-&lt;p&gt;As for backports, since an issue can have only one target milestone, we must create separate issues to represent the backporting of a fix. To use the same example, it pays to pick &amp;ldquo;5.0.9&amp;rdquo; as the target milestone because we&amp;rsquo;d have one backport issue only. If we picked &amp;ldquo;5.1 RC3&amp;rdquo;, we would need two backport issues instead. To give you sense of the huge difference this makes, say the Spring Framework was on GitHub Issues from day 1. If we used the latter approach we&amp;rsquo;d have about 2,500 backport issues today. If we used the former, we would have about a 1000.&lt;/p&gt;
-&lt;p&gt;For historic backports, we&amp;rsquo;ve created one issue holder per release. There are about &lt;a href="https://github.com/spring-projects/spring-framework/issues?utf8=%E2%9C%93&amp;q=in%3Atitle+%22backported+issues%22"&gt;45 of those&lt;/a&gt;. Going forward we&amp;rsquo;ll have individual issues for all backported fixes which will be created automatically and used mainly for release tracking. As for discussions, the majority of conversations should happen on the main issue, while backport issues will be used only for discussions specific to the backport.&lt;/p&gt;&lt;h3&gt;&lt;a href="#markup" class="anchor" name="markup"&gt;&lt;/a&gt;Markup&lt;/h3&gt;
-&lt;p&gt;The markup was without a doubt the biggest and most painful part of the migration. A 15 year history of issue tracking reflects big shifts in programming styles styles that in turn determine what shows up in comments. &lt;/p&gt;
-&lt;p&gt;For example lots of XML was pasted in comments in the beginning, and Markdown treats that as &lt;a href="https://spec.commonmark.org/0.28/#html-blocks"&gt;HTML blocks&lt;/a&gt; which results in the tags not showing at all. Of course if those were surrounded with &lt;code&gt;{code:xml}...{code}&lt;/code&gt;, it would look fine, but in those days markup wasn&amp;rsquo;t commonly used and the XML snippets showed up anyway, not forcing the issue, and consequently making it impossible to migrate properly.&lt;/p&gt;
-&lt;p&gt;There are lots of other intricacies such as the escaping of curly braces, to avoid the effect of monospacing, or the escaping of asterisks to prevent them from disappearing as markup for bold. I&amp;rsquo;ll spare you the details. Suffice to say we put a lot of effort into making sure the quality of markup conversion is reasonably high.&lt;/p&gt;
-&lt;p&gt;One specific issue to highlight is the use of &amp;ldquo;@&amp;rdquo; in plain text (i.e. outside of code blocks). Those are user mentions on GitHub that trigger notifications. You might be surprised that &lt;a href="https://github.com/bean"&gt;@Bean&lt;/a&gt;, &lt;a href="https://github.com/configuration"&gt;@Configuration&lt;/a&gt;, &lt;a href="https://github.com/component"&gt;@Component&lt;/a&gt; are actual GitHub users. First name references like @andy, @arjen, @brian colliding with GitHub user names were also common at some point, and all of those are a huge nuisance in an import of 17K+ issues with comments. This is why we&amp;rsquo;ve taken care to escape them. Going forward, when creating new issues or comments, please, be a good GitHub citizen and use backticks, e.g. `@Foo` (yes, &lt;a href="https://github.com/foo"&gt;https://github.com/foo&lt;/a&gt; does exist).&lt;/p&gt;&lt;h1&gt;&lt;a href="#background" class="anchor" name="background"&gt;&lt;/a&gt;Background&lt;/h1&gt;
-&lt;hr/&gt;
-&lt;p&gt;I&amp;rsquo;ve used and liked Jira for a long time. The idea of migrating to GitHub Issues did not come to me immediately. It seemed too basic by comparison. What turned me around completely has little to do with a feature-by-feature comparison, although I must admit GitHub Issues has really grown on me since the move. What I&amp;rsquo;m hinting at are larger forces at work.&lt;/p&gt;
-&lt;p&gt;GitHub is the home of just about every open source project, including &lt;em&gt;every&lt;/em&gt; Spring project, and all users can be reasonably expected to have GitHub credentials. As a result it has become untenable today to expect developers to maintain a separate login for the issue tracker of every open source project they depend on or want to report an issue against.&lt;/p&gt;
-&lt;p&gt;Then there are the benefits of co-locating source code and issues. I&amp;rsquo;ve mentioned many of those earlier, like the &lt;a href="https://help.github.com/articles/autolinked-references-and-urls/"&gt;autolinked references&lt;/a&gt; across issues, pull requests, source code and commits, within a single project and across all projects on GitHub. The ability to mention and notify any GitHub user. All of those are very powerful benefits that are simply not possible with siloed issue tracking. I doubt anyone wants to go back to the days when open source projects were hosted in different places. The same is true for issue tracking.&lt;/p&gt;
-&lt;p&gt;There are deeper, less obvious benefits for co-located source code and issues. GitHub treats issues and pull requests as equal. They are assigned numbers from the same sequence. They look the same (description, comments, labels, and target milestone). They appear in release notes without distinction. A pull request is nothing but an issue with commits attached.&lt;/p&gt;
-&lt;p&gt;Historically in the Spring Framework, we&amp;rsquo;ve insisted on a Jira issue for every pull request. We didn&amp;rsquo;t like the burden either but we needed a single place of record for all issues. As a consequence of this split situation, it was never too clear what should be discussed under the pull request and how much belongs in the Jira issue. &lt;/p&gt;
-&lt;p&gt;Going forward this is no longer a problem. We expect either an issue or a pull request, not both. If you need to start with a discussion first, which we &lt;em&gt;do&lt;/em&gt; encourage, create an issue, and later, if you submit a pull request, the PR will supersede the issue. The two are linked still and nothing is lost. The conversation simply follows the action.&lt;/p&gt;
-&lt;p&gt;Not to be overlooked is the markup question. There is no doubt in my mind that Wiki markup is painful for code related discussions. I&amp;rsquo;ve used it for years on a daily basis. I&amp;rsquo;m used to it but some things are just hard, and require too much effort. Here is a reminder of what it takes to display something as common as curly braces and asterisks in code snippets:&lt;br/&gt;&lt;code&gt;{{/endpoint/\{server-id\}/\{session-id\}/\{transport/\*\}}}&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;There is no question that Markdown is easier for code related comments. It requires less typing and it just works when it comes to formatting code because it&amp;rsquo;s simpler and does not clash with symbols that commonly appear in code. This has looked obvious to me from the start, since I&amp;rsquo;ve also used GitHub and Markdown in parallel for years too. I never understood why Jira still doesn&amp;rsquo;t support Markdown. To be clear this wasn&amp;rsquo;t a decisive factor. It&amp;rsquo;s just one of those things you learn to live with that later can become extra incentive for change.&lt;/p&gt;
-&lt;p&gt;Last but not least, today most developers use Spring through Spring Boot which has always used GitHub Issues. From that perspective alone, there is enough incentive for the Spring Framework to migrate, since Spring Boot isn&amp;rsquo;t about to migrate to Jira, and that would be the only other way to create a more consistent experience for Spring users.&lt;/p&gt;&lt;h1&gt;&lt;a href="#the-actual-migration" class="anchor" name="the-actual-migration"&gt;&lt;/a&gt;The Actual Migration&lt;/h1&gt;
-&lt;hr/&gt;
-&lt;p&gt;Despite a lot of preparation there is nothing like the day of the actual migration. We used GitHub&amp;rsquo;s unofficial &lt;a href="https://gist.github.com/jonmagic/5282384165e0f86ef105"&gt;import API&lt;/a&gt; which is documented to not trigger any notifications. We hadn&amp;rsquo;t noticed any problem with that during testing. Once the actual migration started, notifications for every issue and every comment started pouring in.&lt;/p&gt;
-&lt;p&gt;We began to reach out to GitHub support using every available channel available. Fortunately for us they noticed too. How could they not? By my estimate, the 2,600 issues that were imported before we pulled the breaks must have generated tens of millions of emails, not surprisingly causing notification disruptions.&lt;/p&gt;
-&lt;p&gt;A day later, after GitHub support had corrected the issues and turned off all notifications for the Spring Framework project to be on the safe side, we were onto a smoother path to importing all issues over the course of 8-9 hours. It took another few hours to make a second pass over all issues and comments, to replace Jira issue keys with GitHub reference numbers, and then several more days to check and clean up markup conversion issues.&lt;/p&gt;
-&lt;p&gt;All of that is now complete, and it is my pleasure to announce we are now open for business on &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;GitHub Issues&lt;/a&gt;.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Session Bean-SR2, Apple-SR8, and 1.3.5 Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/01/15/spring-session-bean-sr2-apple-sr8-and-1-3-5-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Rob Winch</name>
-    </author>
-    <id>tag:spring.io,2019-01-15:3535</id>
-    <updated>2019-01-15T19:10:30Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;em&gt;This post was authored by &lt;a href="https://github.com/vpavic"&gt;Vedran Pavi?&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the community I’m pleased to announce the releases of Spring Session BOM &lt;code&gt;Bean-SR2&lt;/code&gt; (based on Spring Session &lt;code&gt;2.1.3.RELEASE&lt;/code&gt;), &lt;code&gt;Apple-SR8&lt;/code&gt; (based on &lt;code&gt;2.0.9.RELEASE&lt;/code&gt;), and &lt;code&gt;1.3.5.RELEASE&lt;/code&gt;. These maintenance releases bring a couple of bug fixes together with the usual dependency upgrades.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Complete details of these releases can be found in the following changelogs:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/50?closed=1"&gt;&lt;code&gt;2.1.3.RELEASE&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/51?closed=1"&gt;&lt;code&gt;2.0.9.RELEASE&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/49?closed=1"&gt;&lt;code&gt;1.3.5.RELEASE&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://projects.spring.io/spring-session/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-session/docs/2.1.3.RELEASE/reference/html5/"&gt;Documentation&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-session/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-session"&gt;Gitter&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-session"&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Cloud Task 2.1.0.RC1 is now available</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/01/15/spring-cloud-task-2-1-0-rc1-is-now-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Glenn Renfro</name>
-    </author>
-    <id>tag:spring.io,2019-01-14:3533</id>
-    <updated>2019-01-15T14:30:26Z</updated>
-    <content type="html">&lt;p&gt;We are pleased to announce that Spring Cloud Task 2.1.0.RC1 is now available on Github and the Pivotal download repository. Many thanks to all of those who contributed to this release.&lt;/p&gt;&lt;h2&gt;&lt;a href="#what-rsquo-s-new" class="anchor" name="what-rsquo-s-new"&gt;&lt;/a&gt;What&amp;rsquo;s New?&lt;/h2&gt;
-&lt;p&gt;As a follow up to 2.1.0.M2, this release primarily encompasses minor enhancements and bug fixes.&lt;/p&gt;&lt;h2&gt;&lt;a href="#what-do-you-think" class="anchor" name="what-do-you-think"&gt;&lt;/a&gt;What Do You Think?&lt;/h2&gt;
-&lt;p&gt;We look forward to your feedback on these new features in &lt;a href="https://github.com/spring-cloud/spring-cloud-task/issues"&gt;Github&lt;/a&gt;, &lt;a href="http://stackoverflow.com/tags/spring-cloud-task"&gt;StackOverflow&lt;/a&gt;, &lt;a href="https://gitter.im/spring-cloud/spring-cloud-task"&gt;Gitter&lt;/a&gt;, or directly via Twitter to &lt;a href="https://twitter.com/michaelminella"&gt;@michaelminella&lt;/a&gt; or &lt;a href="https://twitter.com/cppwfs"&gt;@cppwfs&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cloud.spring.io/spring-cloud-task/"&gt;Spring Cloud Task Home&lt;/a&gt; | &lt;a href="https://github.com/spring-cloud/spring-cloud-task"&gt;Source on GitHub&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-cloud-task/docs/2.1.0.RC1/reference/htmlsingle/"&gt;Reference Documentation&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

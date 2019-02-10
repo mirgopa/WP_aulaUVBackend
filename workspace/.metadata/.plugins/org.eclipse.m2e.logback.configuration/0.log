@@ -4707,3 +4707,12 @@ org.eclipse.core.runtime.CoreException: Launch configuration SpringBootTestAppli
 2019-02-03 19:35:55,605 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2019-02-03 19:35:55,615 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-02-03 19:35:55,615 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\entornoDevelop\workspace\webapp\src\test\resources
+2019-02-05 12:58:11,503 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-02-05 13:23:02,666 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-02-05 13:23:30,996 [Worker-7: Launching webapp - WebappApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-05 13:23:31,011 [Worker-7: Launching webapp - WebappApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-02-05 13:23:31,073 [Worker-7: Launching webapp - WebappApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-05 13:23:31,073 [Worker-7: Launching webapp - WebappApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\entornoDevelop\workspace\webapp\src\test\resources
+2019-02-07 23:17:09,436 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-02-09 14:24:39,690 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-02-10 17:01:36,375 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

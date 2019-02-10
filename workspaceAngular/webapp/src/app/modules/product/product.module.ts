@@ -11,9 +11,11 @@ import { MaterialModule } from '../../material';
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { DialogComponent } from '../../components/dialog/dialog.component';
 import { ProductService } from '../../services/product.service';
+import { ProductEditComponent } from './components/product-edit/product-edit.component';
+import { SnackbarComponent } from 'src/app/components/snackbar/snackbar.component';
 
 @NgModule({
-  declarations: [ProductListComponent],
+  declarations: [ProductListComponent, ProductEditComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -24,8 +26,13 @@ import { ProductService } from '../../services/product.service';
     FormsModule,
     ReactiveFormsModule,
   ],
-  exports: [ProductListComponent],
-  entryComponents: [ProductListComponent, DialogComponent],
+  exports: [ProductListComponent, ProductEditComponent],
+  entryComponents: [
+    ProductListComponent,
+    ProductEditComponent,
+    DialogComponent,
+    SnackbarComponent,
+  ],
   providers: [ProductService],
 })
 export class ProductModule {}

@@ -20,6 +20,7 @@ import { HomeComponent } from './components/home/home.component';
 import { SectionService } from './services/section.service';
 import { TabsService } from './services/tabs.service';
 import { DialogComponent } from './components/dialog/dialog.component';
+import { SnackbarComponent } from './components/snackbar/snackbar.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { DialogComponent } from './components/dialog/dialog.component';
     TabTemplatesComponent,
     HomeComponent,
     DialogComponent,
+    SnackbarComponent,
   ],
   imports: [
     BrowserModule,

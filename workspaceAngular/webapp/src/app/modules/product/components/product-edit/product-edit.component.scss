@@ -1,0 +1,30 @@
+$primary: #3f51b5;
+$primaryDark: #303f9f;
+$secondary: #ff4081;
+$grey: #c5cae9;
+$black: #212121;
+
+mat-dialog-content {
+  width: 600px;
+
+  .fieldForm {
+    width: 100%;
+  }
+
+  textarea {
+    font-size: 16px !important;
+    height: 70px;
+  }
+
+  input {
+    font-size: 16px !important;
+  }
+}
+
+mat-form-field {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: $primaryDark;
+}

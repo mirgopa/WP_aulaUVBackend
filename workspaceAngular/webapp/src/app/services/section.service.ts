@@ -15,7 +15,7 @@ export class SectionService {
       name: 'Compra',
       description: 'Listados de compra',
       icon: 'shopping_cart',
-      component: 'example2Tab',
+      component: 'compraList',
     },
   ];
 

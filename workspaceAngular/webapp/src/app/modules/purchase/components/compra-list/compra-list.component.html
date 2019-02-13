@@ -1,12 +1,12 @@
 <!-- FILTERS -->
-<form [formGroup]="myForm" (ngSubmit)="onSubmit()" class="productForm">
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()" class="compraForm">
   <div fxLayout="row">
-    <mat-form-field class="productNameFilter">
+    <mat-form-field class="compraNameFilter">
       <mat-icon matPrefix>search</mat-icon>
       <input matInput placeholder="Nombre" formControlName="nombre" autocomplete="off" />
-      <mat-hint>Introduzca un nombre de producto para filtrar</mat-hint>
+      <mat-hint>Introduzca un nombre de compra para filtrar</mat-hint>
     </mat-form-field>
-    <div class="productButtonForm">
+    <div class="compraButtonForm">
       <button mat-raised-button color="primary" type="submit">
         BUSCAR
       </button>
@@ -17,25 +17,22 @@
 <br /><br />
 
 <!-- GRID -->
-<div fxLayout="row wrap" fxLayoutAlign="center" class="gridProducts">
-  <mat-card *ngFor="let product of productList">
-    <img mat-card-image src="{{ product.image }}" alt="{{ product.nombre }}" />
+<div fxLayout="row wrap" fxLayoutAlign="center" class="gridCompra">
+  <mat-card *ngFor="let compra of compraList">
+    <img mat-card-image src="https://marincarolina.com/wp-content/uploads/2018/07/ciclo-compra.jpg" alt="{{ compra.nombre }}" />
 
     <mat-card-content>
-      <mat-card-title>{{ product.nombre }}</mat-card-title>
-      <mat-card-subtitle color="accent">Precio / Unidad: {{ product.precio }} €</mat-card-subtitle>
-      <p>{{ product.descripcion }}</p>
+      <mat-card-title>{{ compra.nombre }}</mat-card-title>
+      <mat-card-subtitle color="accent">Presupuesto: {{ compra.presupuesto }} €</mat-card-subtitle>
+      <!--p>{{ product.descripcion }}</p-->
     </mat-card-content>
     <mat-card-actions align="end">
-      <a mat-flat-button aria-label="Wikipedia" href="{{ product.readMore }}" target="_blank">
-        READ MORE
-      </a>
       <div fxFlex></div>
-      <button mat-button (click)="edit(product.id)">
+      <button mat-button (click)="edit(compra.id)">
         <mat-icon>edit</mat-icon>
         &nbsp;EDITAR
       </button>
-      <button mat-button (click)="delete(product.id)">
+      <button mat-button (click)="delete(compra.id)">
         <mat-icon>delete</mat-icon>
         &nbsp;ELIMINAR
       </button>

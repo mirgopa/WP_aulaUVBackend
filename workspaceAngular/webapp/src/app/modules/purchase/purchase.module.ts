@@ -2,21 +2,21 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { MaterialModule } from '../../material';
 
-import { Example2TabComponent } from './components/example2-tab/example2-tab.component';
+import { DialogComponent } from '../../components/dialog/dialog.component';
+import { SnackbarComponent } from 'src/app/components/snackbar/snackbar.component';
+import { CompraListComponent } from './components/compra-list/compra-list.component';
 
 @NgModule({
-  declarations: [Example2TabComponent],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    CommonModule,
-    MaterialModule,
-  ],
-  exports: [Example2TabComponent],
-  entryComponents: [Example2TabComponent],
+  declarations: [CompraListComponent],
+  imports: [BrowserModule, BrowserAnimationsModule, CommonModule, MaterialModule, FlexLayoutModule, HttpClientModule, FormsModule, ReactiveFormsModule],
+  exports: [CompraListComponent],
+  entryComponents: [CompraListComponent, DialogComponent, SnackbarComponent],
   providers: [],
 })
 export class PurchaseModule {}

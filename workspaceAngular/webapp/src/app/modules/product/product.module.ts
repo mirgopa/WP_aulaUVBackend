@@ -16,23 +16,9 @@ import { SnackbarComponent } from 'src/app/components/snackbar/snackbar.componen
 
 @NgModule({
   declarations: [ProductListComponent, ProductEditComponent],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    CommonModule,
-    MaterialModule,
-    FlexLayoutModule,
-    HttpClientModule,
-    FormsModule,
-    ReactiveFormsModule,
-  ],
+  imports: [BrowserModule, BrowserAnimationsModule, CommonModule, MaterialModule, FlexLayoutModule, HttpClientModule, FormsModule, ReactiveFormsModule],
   exports: [ProductListComponent, ProductEditComponent],
-  entryComponents: [
-    ProductListComponent,
-    ProductEditComponent,
-    DialogComponent,
-    SnackbarComponent,
-  ],
+  entryComponents: [ProductListComponent, ProductEditComponent, DialogComponent, SnackbarComponent],
   providers: [ProductService],
 })
 export class ProductModule {}

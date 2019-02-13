@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Example2TabComponent } from './example2-tab.component';
+import { CompraListComponent } from './compra-list.component';
 
-describe('Example2TabComponent', () => {
-  let component: Example2TabComponent;
-  let fixture: ComponentFixture<Example2TabComponent>;
+describe('CompraListComponent', () => {
+  let component: CompraListComponent;
+  let fixture: ComponentFixture<CompraListComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Example2TabComponent ]
+      declarations: [ CompraListComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Example2TabComponent);
+    fixture = TestBed.createComponent(CompraListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

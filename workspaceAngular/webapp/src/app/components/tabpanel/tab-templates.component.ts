@@ -8,12 +8,12 @@ import { TabsService } from '../../services/tabs.service';
 })
 export class TabTemplatesComponent implements OnInit {
   @ViewChild('productList') productListComponent;
-  @ViewChild('example2Tab') example2TabComponent;
+  @ViewChild('compraList') compraListComponent;
 
   constructor(private tabService: TabsService) {}
 
   ngOnInit() {
     this.tabService.tabs.productList = this.productListComponent;
-    this.tabService.tabs.example2Tab = this.example2TabComponent;
+    this.tabService.tabs.compraList = this.compraListComponent;
   }
 }

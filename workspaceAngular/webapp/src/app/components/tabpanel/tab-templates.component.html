@@ -1,2 +1,5 @@
 <ng-template #productList> <app-product-list></app-product-list> </ng-template>
 <ng-template #compraList> <app-compra-list></app-compra-list> </ng-template>
+<ng-template #compraEdit let-data="data">
+  <app-compra-edit [data]="data" (closeComponent)="updateCompraList($event)"></app-compra-edit>
+</ng-template>

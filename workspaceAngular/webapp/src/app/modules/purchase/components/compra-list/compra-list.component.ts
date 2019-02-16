@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { MatDialog, MatSnackBar } from '@angular/material';
 
 import { CompraService } from 'src/app/services/compra.service';
+import { TabsService } from 'src/app/services/tabs.service';
 import { ObDialog } from '../../../../models/ObDialog';
 import { DialogComponent } from '../../../../components/dialog/dialog.component';
 import { SnackbarComponent } from 'src/app/components/snackbar/snackbar.component';
@@ -17,7 +18,13 @@ export class CompraListComponent implements OnInit {
   compraList: any = [];
   myForm: FormGroup;
 
-  constructor(private compraService: CompraService, private formBuilder: FormBuilder, private dialog: MatDialog, private snackBar: MatSnackBar) {}
+  constructor(
+    private compraService: CompraService,
+    private formBuilder: FormBuilder,
+    private dialog: MatDialog,
+    private snackBar: MatSnackBar,
+    private tabsService: TabsService,
+  ) {}
 
   ngOnInit() {
     this.myForm = this.formBuilder.group({
@@ -51,6 +58,23 @@ export class CompraListComponent implements OnInit {
       },
       (err) => console.error(err),
     );
+  }
+
+  edit(id?: number) {
+    if (id !== null && id !== undefined) {
+      this.compraService.get(id).subscribe(
+        (res) => this.tabsService.component.openTab(`${Msg.compra.update.title} ${id}`, this.tabsService.tabs['compraEdit'], res, true),
+        (err) => {
+          const obDialog: ObDialog = {
+            title: Msg.compra.get.errTitle,
+            description: `${Msg.compra.get.errDesc1} ${id.toString()} ${Msg.compra.get.errDesc2}`,
+          };
+          this.openDialog(obDialog);
+        },
+      );
+    } else {
+      this.tabsService.component.openTab(Msg.compra.insert.title, this.tabsService.tabs['compraEdit'], {}, true);
+    }
   }
 
   delete(id: number) {

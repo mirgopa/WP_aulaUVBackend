@@ -5,7 +5,107 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-02-08T19:41:36Z</updated>
+  <updated>2019-02-14T14:41:06Z</updated>
+  <entry>
+    <title>Spring Security 5.1.4 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/14/spring-security-5-1-4-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Josh Cummings</name>
+    </author>
+    <id>tag:spring.io,2019-02-13:3563</id>
+    <updated>2019-02-14T14:41:06Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the community I am pleased to announce the release of Spring Security 5.1.4 (&lt;a href="https://github.com/spring-projects/spring-security/issues?q=is%3Aclosed+milestone%3A5.1.4+sort%3Aupdated-desc"&gt;changelog&lt;/a&gt;). This release provides a round of bug fixes and users are encouraged to update to the latest patch release.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; |
+&lt;a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/"&gt;Reference&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Data Lovelace SR5 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/13/spring-data-lovelace-sr5-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Mark Paluch</name>
+    </author>
+    <id>tag:spring.io,2019-02-13:3562</id>
+    <updated>2019-02-13T15:12:04Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the Spring Data team, I&amp;rsquo;d like to announce the availability of the Lovelace SR5 maintenance release. This release ships on top of the just-released Spring Framework 5.1.5. Spring Boot 2.1.3 is going to pick up Lovelace SR5, for your convenience.&lt;/p&gt;
+&lt;p&gt;The service releases ship with mostly bug fixes and a few dependency upgrades addressing &lt;a href="https://jira.spring.io/issues/?filter=16369"&gt;about 40 tickets&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last but not least, here&amp;rsquo;s the laundry list:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring Data Commons 2.1.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-commons/2.1.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/2.1.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/2.1.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/2.1.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data JDBC 1.0.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-jdbc/1.0.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jdbc/docs/1.0.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jdbc/docs/1.0.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jdbc/docs/1.0.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data JPA 2.1.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-jpa/2.1.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/2.1.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/2.1.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/2.1.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data KeyValue 2.1.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-keyvalue/2.1.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/keyvalue/docs/2.1.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/keyvalue/docs/2.1.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/keyvalue/docs/2.1.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data for Apache Solr 4.0.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-solr/4.0.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/4.0.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/4.0.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/4.0.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data Gemfire 2.1.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-gemfire/2.1.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/gemfire/docs/2.1.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/gemfire/docs/2.1.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/gemfire/docs/2.1.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data Neo4j 5.1.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-neo4j/5.1.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/5.1.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/5.1.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/5.1.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data MongoDB 2.1.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-mongodb/2.1.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/2.1.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/2.1.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/2.1.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data for Apache Cassandra 2.1.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-cassandra/2.1.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/cassandra/docs/2.1.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/cassandra/docs/2.1.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/cassandra/docs/2.1.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data for Apache Geode 2.1.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-geode/2.1.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/geode/docs/2.1.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/geode/docs/2.1.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/geode/docs/2.1.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data LDAP 2.1.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-ldap/2.1.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/ldap/docs/2.1.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/ldap/docs/2.1.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/ldap/docs/2.1.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data Envers 2.1.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-envers/2.1.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/envers/docs/2.1.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/envers/docs/2.1.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data REST 3.1.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-rest-webmvc/3.1.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/3.1.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/3.1.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/3.1.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data Redis 2.1.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-redis/2.1.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/2.1.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/2.1.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/2.1.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data Elasticsearch 3.1.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-elasticsearch/3.1.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/3.1.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/3.1.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/3.1.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Data Couchbase 3.1.5 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-couchbase/3.1.5.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/3.1.5.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/3.1.5.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/3.1.5.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Framework 5.1.5 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/13/spring-framework-5-1-5-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Stéphane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2019-02-13:3561</id>
+    <updated>2019-02-13T08:06:54Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, it is my pleasure to announce that Spring Framework 5.1.5 &lt;a href="http://projects.spring.io/spring-framework"&gt;is available now&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This maintenance release includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.1.5.RELEASE"&gt;over 40 fixes and improvements&lt;/a&gt;. As usual, we&amp;rsquo;ll follow-up later this week with a maintenance release for Spring Boot 2.1, stay tuned!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-framework"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.1.5.RELEASE/spring-framework-reference"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Tips: Apache Geode</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/13/spring-tips-apache-geode" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-01-17:3543</id>
+    <updated>2019-02-13T00:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! In this installment of Spring Tips we look at Gemfire&amp;hellip; err.. Apache Geode, the fantastic distributed data grid you&amp;rsquo;ve probably never heard of, BUT YOU SHOULD, that integrates nicely with the Spring Data for Apache Geode project.&lt;/p&gt;
+&lt;p&gt;speaker: &lt;a href="http://twitter.com/Starbuxman"&gt;Josh Long&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/dmBMs-mubHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring - February 12, 2019</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/12/this-week-in-spring-february-12-2019" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-02-12:3560</id>
+    <updated>2019-02-12T21:57:00Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve got good stuff to get to but first, I want to invite you to be part of the discussion and consider submitting to the &lt;em&gt;SpringOne Platform 2019&lt;/em&gt; event. The &lt;a href="https://springoneplatform.io/2019/cfp"&gt;call-for-papers opened today&lt;/a&gt;! &lt;/p&gt;
+&lt;p&gt;Now then, we&amp;rsquo;ve got a ton to get to this week so without further ado..&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;WATCH: Hi Spring fans! In last week&amp;rsquo;s &lt;em&gt;Spring Tips&lt;/em&gt; I looked at &lt;a href="https://spring.io/blog/2019/02/06/spring-tips-testing-reactive-code"&gt;testing reactive code&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;LISTEN: For last week&amp;rsquo;s installment of &lt;em&gt;The Bootiful Podcast&lt;/em&gt; I talked to Dror Weiss about Codota, which aims to bring &lt;em&gt;much&lt;/em&gt; &lt;a href="https://spring.io/blog/2019/02/08/a-bootiful-podcast-dror-weiss"&gt;smarter code completion to your IDE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/02/08/spring-cloud-data-flow-1-7-4-and-skipper-1-1-4-released"&gt;Spring Cloud Data Flow 1.7.4 and Skipper 1.1.4 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[](&lt;a href="https://spring.io/blog/2019/02/06/spring-cloud-data-flow-and-skipper-2-0-m2-released"&gt;https://spring.io/blog/2019/02/06/spring-cloud-data-flow-and-skipper-2-0-m2-released&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Notice! The &lt;a href="https://spring.io/blog/2019/02/06/legacy-forums-will-be-shutdown-february-28"&gt;legacy question-and-answer forums will be shutdown February 28&lt;/a&gt;! The good news, of course, is that we&amp;rsquo;re still on &lt;a href="http://spring.io/questions"&gt;StackOverflow&lt;/a&gt; and we&amp;rsquo;d &lt;em&gt;love&lt;/em&gt; to engage with you there!&lt;/li&gt;
+  &lt;li&gt;This is a bit meta, but would you like to learn a little more about what it is I (try) to do, in my capacity as the first Spring Developer Advocate at Pivotal? You might enjoy this episode &lt;a href="http://devrelrad.io/josh-long-on-live-coding-and-more?tdest_id=660362"&gt;of the &lt;em&gt;Devrel Radio&lt;/em&gt; podcast&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I&amp;rsquo;d like to welcome back Sam Brannen to the Spring team. Sam was a member of the Spring team years ago, and contributed to, among other things, the Spring Test support. He&amp;rsquo;s also now the lead of JUnit 5. &lt;a href="https://twitter.com/springcentral/status/1095243271968825345"&gt;It&amp;rsquo;s so nice to have him back!&lt;/a&gt; Welcome, Sam!&lt;/li&gt;
+  &lt;li&gt;I like this writeup on &lt;a href="https://www.nurkiewicz.com/2019/02/rxjava-vs-reactor.html"&gt;RxJava vs. Reactor&lt;/a&gt;. SPOILER: it depends!&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcentral/status/1093896741760495617"&gt;Join us at SpringOne Tour London! We&amp;rsquo;d love to see you there!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I love this example by Robert Roeser &lt;a href="https://github.com/netifi/proteus-spring-kafka-example"&gt;demonstrating RSocket-based RPC, Proteus, and Project Reactor&amp;rsquo;s Kafka client.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I think this is a pretty interesting discussion of &lt;a href="https://www.excelsiorjet.com/blog/articles/aot-compilation-of-spring-boot-behind-the-scenes/"&gt;AOT Compilation of Spring Boot from the Excelsior JET team blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Spring Cloud Data Flow 1.7.4 and Skipper 1.1.4 Released</title>
     <link rel="alternate" href="https://spring.io/blog/2019/02/08/spring-cloud-data-flow-1-7-4-and-skipper-1-1-4-released" />
@@ -766,688 +866,5 @@ dependencies {&#xD;
     ...&#xD;
 }
 &lt;/code&gt;&lt;/pre&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tips: Hedging Client Requests with the Reactive WebClient and a service registry</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/01/23/spring-tips-hedging-client-requests-with-the-reactive-webclient-and-a-service-registry" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-01-16:3540</id>
-    <updated>2019-01-23T00:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! In this installment of Spring Tips we look at how to use the reactive &lt;code&gt;WebFlux&lt;/code&gt; client to make a number of concurrent requests to distinct service instances (discovered using a service registry like Netflix Eureka or Consul through the Spring Cloud &lt;code&gt;DiscoveryClient&lt;/code&gt; abstraction) and meet SLAs by using the fastest request to return.&lt;/p&gt;
-&lt;p&gt;speaker: &lt;a href="http://twitter.com/Starbuxman"&gt;Josh Long&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/SLG8gUGvdx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - January 22nd, 2019</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/01/22/this-week-in-spring-january-22nd-2019" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-01-22:3546</id>
-    <updated>2019-01-22T21:04:56Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans and welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! This week I&amp;rsquo;m off to pleasant Pittsburgh, PA to speak at, among other places, &lt;a href="https://www.meetup.com/DICKS-Sporting-Goods-Tech-Talk-Thursdays/events/256576574/?_xtd=gqFyqTI1ODU5NTQxNqFwo3dlYg&amp;from=ref"&gt;DICK&amp;rsquo;s Sporting Goods&lt;/a&gt;. Join me! &lt;/p&gt;
-&lt;p&gt;Now that my entire six part series introducing how to use &lt;strong&gt;Spring Boot with Microsoft Azure&lt;/strong&gt; just concluded, with the last parts being released in this last week, I wanted to give you the whole thread here for your consumption.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/03/bootiful-azure-taking-your-first-steps-with-microsoft-azure-1-6"&gt;Bootiful Azure: Taking Your First Steps with Microsoft Azure (1/6)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/07/bootiful-azure-sql-based-data-access-with-microsoft-sql-server-2-6"&gt;Bootiful Azure: SQL-based data access with Microsoft SQL Server (2/6)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/10/bootiful-azure-global-scale-data-access-with-cosmosdb-3-6"&gt;Bootiful Azure: Global Scale Data Access with CosmosDB (3/6)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/14/bootiful-azure-integration-with-azure-service-bus-4-6"&gt;Bootiful Azure: Integration with Azure Service Bus (4/6)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/17/bootiful-azure-object-storage-service-5-6"&gt;Bootiful Azure: Object Storage Service (5/6)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/21/bootiful-azure-to-production-6-6"&gt;Bootiful Azure: To Production! (6/6)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I also did a similar eight part series on using &lt;strong&gt;Spring with Google Cloud Platform&lt;/strong&gt; a while back. Check that out here. There are eight posts in the series. Here they all are: &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/08/20/bootiful-gcp-getting-started-with-spring-cloud-for-google-cloud-platform-1-8"&gt;Bootiful GCP: Getting Started with Spring Cloud for Google Cloud Platform (1/8)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/08/23/bootiful-gcp-relational-data-access-with-spring-cloud-gcp-2-8"&gt;Bootiful GCP: Relational Data Access with Spring Cloud GCP (2/8)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/08/27/bootiful-gcp-globally-consistent-data-access-with-spanner-3-8"&gt;Bootiful GCP: Globally Consistent Data Access with Spanner (3/8)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/08/30/bootiful-gcp-integration-with-google-cloud-pub-sub-4-8"&gt;Bootiful GCP: Integration with Google Cloud Pub/Sub (4/8)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/09/03/bootiful-gcp-runtime-configuration-with-spring-cloud-gcp-runtime-config-5-8"&gt;Bootiful GCP: Runtime Configuration with Spring Cloud GCP Runtime Config (5/8)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/09/06/bootiful-gcp-supporting-observability-with-spring-cloud-gcp-stackdriver-trace-6-8"&gt;Bootiful GCP: Supporting Observability with Spring Cloud GCP Stackdriver Trace (6/8)&lt;br/&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/09/10/bootiful-gcp-use-spring-cloud-gcp-to-connect-to-other-gcp-services-7-8"&gt;Bootiful GCP: Use Spring Cloud GCP to Connect to Other GCP Services (7/8)&lt;br/&gt; &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/09/13/bootiful-gcp-to-production-8-8"&gt;Bootiful GCP: To Production! (8/8)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Now, let&amp;rsquo;s get back to our regularly scheduled programming and review all the other, really amazing content on the internet. &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;I liked this post from the good Dr. Dave Syer on &lt;a href="https://spring.io/blog/2019/01/21/manual-bean-definitions-in-spring-boot"&gt;Manual Bean Definitions in Spring Boot&lt;/a&gt;. In it, he looks at how to widdle down the number of objects in play in a Spring Boot application in order to acheive better performance. You could get non-trivial Spring Boot applications down below 1s startup times, whre they belong!&lt;/li&gt;
-  &lt;li&gt;Last week I released the latest installment of my podcast, A Bootiful Podcast, and this time my interview was &lt;a href="https://spring.io/blog/2019/01/18/a-bootiful-podcast-an-interview-with-google-developer-advocate-ray-tsang"&gt;with Google Developer Advocate Ray Tsang&lt;/a&gt;. Ray has been a friend to the Spring community and I wanted to highlight his work here. Are you already a subscriber? You can be! Listen to the Podcast on &lt;a href="https://soundcloud.com/a-bootiful-podcast/google-developer-advocate-ray-tsang"&gt;SoundCloud&lt;/a&gt; or on &lt;a href="https://itunes.apple.com/us/podcast/a-bootiful-podcast/id1438691771?mt=2"&gt;iTunes&lt;/a&gt;, among other places. If you like it, &lt;em&gt;please&lt;/em&gt; leave a nice review on iTunes. It really helps the podcast. Thanks.&lt;/li&gt;
-  &lt;li&gt;Last week I also released my latest installment of Spring Tips, this time looking at &lt;a href="https://spring.io/blog/2019/01/16/spring-tips-javafx"&gt;JavaFX&lt;/a&gt;. &amp;ldquo;JavaFX!&amp;rdquo; I hear you cry. I know, but trust me - it&amp;rsquo;s awesome. If you&amp;rsquo;re going to build a native desktop application (granted, that&amp;rsquo;s a big &lt;em&gt;if&lt;/em&gt;) then JavaFX is a very credible way to do so and it plays rather nicely with Spring. Not much required to make it work, either. It&amp;rsquo;s as if the folks working on JavaFX saw fit to build it to be flexible enough to support integration with other technologies. Wonderful.&lt;/li&gt;
-  &lt;li&gt;A friendly reminder that Spring Data auto-derived queries are exceptions, not the rules. &lt;a href="https://twitter.com/SpringData/status/1087791586149314560"&gt;Use &lt;code&gt;@Query&lt;/code&gt;, please&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;You know who I loved working with and who I&amp;rsquo;ll miss now that he&amp;rsquo;s leaving Pivotal? &lt;a href="https://twitter.com/jmckenty/status/1087423107944443906"&gt;My friend Josh Mckenty (@jmckenty).&lt;/a&gt;. He&amp;rsquo;s a fellow Python-programmer, and a Cloud Foundry fan. He and I did a wonderful video, &lt;a href="https://www.oreilly.com/library/view/cloud-foundry-livelessons/9780134836126/"&gt;Cloud Foundry Livelessons&lt;/a&gt;, that to this day ranks among my favorites. It is &lt;em&gt;so&lt;/em&gt; ambitious and &lt;em&gt;so&lt;/em&gt; dense! Farewell, better Josh, and thank you.&lt;/li&gt;
-  &lt;li&gt;Thomas Darimont just upgraded an example application using the Spring Boot Admin with Keycloak to the latest &lt;a href="https://github.com/thomasdarimont/spring-boot-admin-keycloak-example"&gt;Spring Boot version 2.1.2.RELEASE&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://content.pivotal.io/blog/pks-azure-multi-cloud-kubernetes?_lrsc=760e1aed-b496-4a4b-a63c-b2a2f8bd54cf&amp;utm_source=employee-social&amp;utm_medium=twitter&amp;utm_campaign=employee_advocacy"&gt;PKS, Pivotal&amp;rsquo;s Kubernetes Service, now runs on Azure!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Thanks to Java Champion and industry legend &lt;a href="https://twitter.com/trisha_gee/status/1087632992602857472?s=12"&gt;Trisha Gee&lt;/a&gt; for pointing me to this thread for advice to give to young, impressionable programmers beginning their journey.&lt;/li&gt;
-  &lt;li&gt;This has very little to do with Spring, per se, but &lt;a href="http://Twitter.com/MarioGray"&gt;Mario Gray&lt;/a&gt; and I got Java editing and Asciidoctor editing working in &lt;code&gt;emacs&lt;/code&gt; yesterday and documented it here: &lt;a href="http://joshlong.com/jl/blogPost/emacs-pt-1.html"&gt;Getting Emacs Ready for Writin&amp;rsquo;, Part 1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;PicoCLI, a library for building command-line applications on the JVM, &lt;a href="https://twitter.com/picocli/status/1087251260707729408?s=12"&gt;now supports Spring Boot&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Unsurprisingly, Java still dominates the &lt;a href="https://twitter.com/elderjava/status/1086293944886022144?s=12"&gt;TIOBE language rankings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Thanks to Olga Maciaszek we have &lt;a href="https://github.com/spring-cloud/spring-cloud-contract/pull/855"&gt;XML support in Spring Cloud Contract!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;(Reactive) Spring Data engineer Mark Paluch does an amazing job in identifying &lt;a href="https://twitter.com/mp911de/status/1086240112135077895"&gt;a &amp;ldquo;Reactive Programmming Maturity Model&amp;rdquo; in this Tweet&lt;/a&gt;. Brilliant!&lt;/li&gt;
-  &lt;li&gt;Working towards your Spring Core Professional certification? &lt;a href="https://twitter.com/springcentral/status/1086284839114997760"&gt;Check out these resources&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Laszlo Csontos has a nice example of &lt;a href="https://twitter.com/craftingjava/status/1048241529968574464?s=12"&gt;using Twitter4J together with Spring Integration&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Don&amp;rsquo;t miss January 29th&amp;rsquo;s &lt;a href="https://twitter.com/springcentral/status/1085917418101166080"&gt;application security and OAuth webinar&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-projects/spring-framework/issues/21490"&gt;Want to see a WebMVC.fn similar to Webflux.fn in Spring Framework? Vote for this issue&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;We could use your &lt;a href="https://twitter.com/springcloud/status/1085574805431242752"&gt;feedback on Spring Cloud Task&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Many years ago I created the first pull-request for what was then only a mirror of the Spring Framwork on Github, a thing that &lt;a href="https://twitter.com/shidi/status/1085512615063769088?s=12"&gt;Rashidi Zin noticed on Twitter.&lt;/a&gt; Now, keep in mind, I am &lt;em&gt;by no means&lt;/em&gt; the first person to send a fix or patch or changeset or anything of the sort to Spring Framework. Just the first to do so on Github, which has only been a thing for the last few years. Spring&amp;rsquo;s been around in some form or another, on CVS, Subversion, Git and now - just recently - on Github for closer to twenty years.&lt;/li&gt;
-  &lt;li&gt;The Codecentric &lt;a href="https://twitter.com/joshiste/status/1085136545504522242?s=12"&gt;Spring Boot Admin 2.1.2 has been released!&lt;/a&gt; It now supports Dischord, thanks to a contribution from the community.&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Cloud Task 2.1.0 GA is now available</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/01/22/spring-cloud-task-2-1-0-ga-is-now-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Glenn Renfro</name>
-    </author>
-    <id>tag:spring.io,2019-01-14:3534</id>
-    <updated>2019-01-22T20:01:41Z</updated>
-    <content type="html">&lt;p&gt;We are pleased to announce that Spring Cloud Task 2.1.0.RELEASE is now available on Github and the Pivotal download repository. Many thanks to all of those who contributed to this release.&lt;/p&gt;&lt;h2&gt;&lt;a href="#what-rsquo-s-new" class="anchor" name="what-rsquo-s-new"&gt;&lt;/a&gt;What&amp;rsquo;s New?&lt;/h2&gt;
-&lt;p&gt;Spring Cloud Task 2.1.0.RELEASE is intended to be the version of the framework aligned with Spring Boot 2.1.0. Updates from 2.1.x include:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Update all dependencies.&lt;/li&gt;
-  &lt;li&gt;Spring Cloud Task infrastructure components are now enabled through auto-configuration.&lt;/li&gt;
-  &lt;li&gt;The &lt;code&gt;exitCode&lt;/code&gt; of a &lt;code&gt;TaskExecution&lt;/code&gt; is &lt;code&gt;null&lt;/code&gt; when a task is executing.&lt;/li&gt;
-  &lt;li&gt;Spring Cloud Task is compatible with Java 8, 9, 10, 11.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Let&amp;rsquo;s walk through these updates in more detail.&lt;/p&gt;&lt;h2&gt;&lt;a href="#update-to-all-dependencies" class="anchor" name="update-to-all-dependencies"&gt;&lt;/a&gt;Update to All Dependencies&lt;/h2&gt;
-&lt;p&gt;As stated earlier, this release brings Spring Cloud Task into alignment with Spring Boot 2.1. This includes updating all dependencies. &lt;/p&gt;&lt;h2&gt;&lt;a href="#spring-cloud-task-foundation-components-are-now-enabled-through-auto-configuration" class="anchor" name="spring-cloud-task-foundation-components-are-now-enabled-through-auto-configuration"&gt;&lt;/a&gt;Spring Cloud Task Foundation Components are Now Enabled through Auto-configuration&lt;/h2&gt;
-&lt;p&gt;Auto configuration is now used to create the &lt;code&gt;TaskExplorer&lt;/code&gt;, &lt;code&gt;TaskRepository&lt;/code&gt;, and other beans but does not create the &lt;code&gt;TaskLifecycleListener&lt;/code&gt; (the bean that executes the Spring Cloud Task core functionality). We added this feature to let users who are building their own applications that are not tasks monitor or browse the task repository by using the provided auto configuration. The &lt;code&gt;TaskLifecycleListener&lt;/code&gt; bean is created when a user adds the &lt;code&gt;@EnableTask&lt;/code&gt; to their application or configuration.&lt;/p&gt;&lt;h2&gt;&lt;a href="#task-execution-rsquo-s-code-exitcode-code-is-null-when-a-task-executes" class="anchor" name="task-execution-rsquo-s-code-exitcode-code-is-null-when-a-task-executes"&gt;&lt;/a&gt;Task Execution&amp;rsquo;s &lt;code&gt;exitCode&lt;/code&gt; Is Null When a Task Executes&lt;/h2&gt;
-&lt;p&gt;In previous releases of Spring Cloud Task, the &lt;code&gt;TaskExecution&lt;/code&gt; returned from Spring Cloud Task always showed that a running task&amp;rsquo;s &lt;code&gt;exitCode&lt;/code&gt; was &lt;code&gt;0&lt;/code&gt;. Now the &lt;code&gt;TaskExecution&lt;/code&gt; instances returned from Spring Cloud Task have an &lt;code&gt;exitCode&lt;/code&gt; of &lt;code&gt;null&lt;/code&gt; if the task is still executing.&lt;/p&gt;&lt;h2&gt;&lt;a href="#what-do-you-think" class="anchor" name="what-do-you-think"&gt;&lt;/a&gt;What Do You Think?&lt;/h2&gt;
-&lt;p&gt;We look forward to your feedback on these new features in &lt;a href="https://github.com/spring-cloud/spring-cloud-task/issues"&gt;Github&lt;/a&gt;, on &lt;a href="http://stackoverflow.com/tags/spring-cloud-task"&gt;StackOverflow&lt;/a&gt;, &lt;a href="https://gitter.im/spring-cloud/spring-cloud-task"&gt;Gitter&lt;/a&gt;, or directly via Twitter to &lt;a href="https://twitter.com/michaelminella"&gt;@michaelminella&lt;/a&gt; or &lt;a href="https://twitter.com/cppwfs"&gt;@cppwfs&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cloud.spring.io/spring-cloud-task/"&gt;Spring Cloud Task Home&lt;/a&gt; | &lt;a href="https://github.com/spring-cloud/spring-cloud-task"&gt;Source on GitHub&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-cloud-task/docs/2.1.0.RELEASE/reference/htmlsingle/"&gt;Reference Documentation&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Manual Bean Definitions in Spring Boot</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/01/21/manual-bean-definitions-in-spring-boot" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Dave Syer</name>
-    </author>
-    <id>tag:spring.io,2019-01-21:3545</id>
-    <updated>2019-01-21T14:32:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;Suppose you want to use Spring Boot, but you don&amp;#8217;t want to
-&lt;code&gt;@EnableAutoConfiguration&lt;/code&gt;. What should you do exactly? In an
-&lt;a href="https://spring.io/blog/2018/12/12/how-fast-is-spring"&gt;earlier article&lt;/a&gt;
-I showed that Spring is intrinsically fast and lightweight, but one of
-the short pieces of advice improve startup time was to consider
-manually importing the Spring Boot autoconfigurations, instead of
-sucking them all in automatically. It won&amp;#8217;t be the right thing to do
-for all applications, but it might help, and it certainly won&amp;#8217;t hurt
-to understand what the options are. In this piece we explore various
-ways of doing manual configuration and assess their impact.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="full-autoconfiguration-hello-world-webflux"&gt;&lt;a class="anchor" href="#full-autoconfiguration-hello-world-webflux"&gt;&lt;/a&gt;Full Autoconfiguration: Hello World WebFlux&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;As a baseline, let&amp;#8217;s look at a Spring Boot application that has a
-single HTTP endpoint:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-java" data-lang="java"&gt;@SpringBootApplication
-@RestController
-public class DemoApplication {
-
-  @GetMapping("/")
-  public Mono&amp;lt;String&amp;gt; home() {
-    return Mono.just("Hello World");
-  }
-
-  public void main(String[] args) {
-    SpringApplication.run(DemoApplication.class, args);
-  }
-
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;If you run this app with all the tweaks suggested in the earlier
-article it should start in round about a second, or a bit longer
-depending on your hardware. It does a lot in that time - sets up a
-logging system, reads and binds to configuration files, starts Netty
-and listens on port 8080, providing a route to the &lt;code&gt;@GetMapping&lt;/code&gt; in
-the application, and also provides default error handling. If the
-Spring Boot Actuator is on the classpath, you also get a /health and
-an /info endpoint (and it will take a bit longer to start up because
-of that).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The &lt;code&gt;@SpringBootApplication&lt;/code&gt; annotation, in case you didn&amp;#8217;t know, is
-meta-annotated with &lt;code&gt;@EnableAutoConfiguration&lt;/code&gt; and this is what
-provides all that useful functionality for free. That&amp;#8217;s what makes
-Spring Boot popular, so we don&amp;#8217;t want to lose any of it, but we can
-take a closer look at what is actually happening and maybe do some of
-it manually, to see if we learn anything.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="admonitionblock note"&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td class="icon"&gt;
-&lt;div class="title"&gt;Note&lt;/div&gt;
-&lt;/td&gt;
-&lt;td class="content"&gt;
-if you want to try this code out, it&amp;#8217;s easy to get an empty
-WebFlux app from the &lt;a href="https://spring.io"&gt;Spring Initializr&lt;/a&gt;. Just select
-the "Reactive Web" checkbox and download the project.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="manual-imports-of-autoconfiguration"&gt;&lt;a class="anchor" href="#manual-imports-of-autoconfiguration"&gt;&lt;/a&gt;Manual Imports of Autoconfiguration&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;While the &lt;code&gt;@EnableAutoConfiguration&lt;/code&gt; feature makes adding features to
-an application easy, it also takes away some control over which
-features are enabled. Most people are happy to make that compromise -
-the ease of use outweighs the loss of control. Potentially there are
-performance penalties - the application might start a bit slower
-because Spring Boot has to do some work to find all those features and
-install them. In fact there is not a significant amount of effort
-involved in finding the right features: there is no classpath scan,
-and condition evaluation is extremely fast, after careful
-optimization. The bulk (80% or so) of startup time for one of this
-application is taken up by the JVM loading classes, so practically the
-only way to make it start up quicker is to ask it to do less, by
-installing fewer features.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Autoconfiguration can always be disabled using the &lt;code&gt;exclude&lt;/code&gt; attribute
-in the &lt;code&gt;@EnableAutoConfiguration&lt;/code&gt; annotation. Some individual
-autoconfigurations also have their own boolean configuration flag that
-can be set externally, e.g. for JMX we could use
-&lt;code&gt;spring.jmx.enabled=false&lt;/code&gt; (as a System property or in a properties
-file, for example). We could go down that road and manually switch off
-everything we didn&amp;#8217;t want to use, but that gets a bit clumsy and
-doesn&amp;#8217;t stop additional things being switched on if the classpath
-changes.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Instead, let&amp;#8217;s see what we can do using the existing autoconfiguration
-classes but just applying the ones we know we want to use,
-corresponding to the features we like. We could call this the "a la
-carte" approach, as opposed to "all you can eat" that comes with full
-autoconfiguration. Autoconfiguration classes are just regular
-&lt;code&gt;@Configuration&lt;/code&gt; so in principle we can &lt;code&gt;@Import&lt;/code&gt; them into an
-application that does not &lt;code&gt;@EnableAutoConfiguration&lt;/code&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="admonitionblock warning"&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td class="icon"&gt;
-&lt;div class="title"&gt;Warning&lt;/div&gt;
-&lt;/td&gt;
-&lt;td class="content"&gt;
-Don&amp;#8217;t do this without reading the rest of the article. It&amp;#8217;s
-not the right way to use Spring Boot Autoconfiguration. It might break
-something, but as always your mileage may vary.
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;For example, here is the application above, with all the features we
-want (excluding actuators):&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-java" data-lang="java"&gt;@SpringBootConfiguration
-@Import({
-    WebFluxAutoConfiguration.class,
-    ReactiveWebServerFactoryAutoConfiguration.class,
-    ErrorWebFluxAutoConfiguration.class,
-    HttpHandlerAutoConfiguration.class,
-    ConfigurationPropertiesAutoConfiguration.class,
-    PropertyPlaceholderAutoConfiguration.class
-})
-@RestController
-public class DemoApplication {
-
-  @GetMapping("/")
-  public Mono&amp;lt;String&amp;gt; home() {
-    return Mono.just("Hello World");
-  }
-
-  public void main(String[] args) {
-    SpringApplication.run(DemoApplication.class, args);
-  }
-
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This version of the application will still have all the features we
-described above, but will start faster (probably by 30% or so). So
-what did we give up to get that faster start up? Here&amp;#8217;s a quick
-rundown:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The full features set of Spring Boot autoconfiguration includes
-other stuff that might actually be needed in a real application, as
-opposed to the specific tiny sample. In other words, the 30% speed up
-is not going to be available for all applications, and your mileage
-may vary.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The manual configuration is brittle, and hard to guess. If you wrote
-another application that did slightly different things, you would need
-a different configuration import. You can mitigate this by extracting
-it into a convenience class or annotation, and re-using it.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;An &lt;code&gt;@Import&lt;/code&gt; does not behave the same way as
-&lt;code&gt;@EnableAutoConfiguration&lt;/code&gt; in relation to ordering of configuration
-classes. The order is important within the &lt;code&gt;@Import&lt;/code&gt; in case some
-classes have conditional behaviour that depend on earlier
-classes. To mitigate you just have to be careful.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;There is another ordering problem in a typical real-world
-application. To mimic the behaviour of &lt;code&gt;@EnableAutoConfiguration&lt;/code&gt; you
-need the user configurations to be processed first, so that they can
-override the conditional configuration in Spring Boot. If you use
-&lt;code&gt;@ComponentScan&lt;/code&gt;, you can&amp;#8217;t control the order of the scan, or the
-order those classes are processed compared to &lt;code&gt;@Imports&lt;/code&gt;. You can
-mitigate this by using a different annotation (see below).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The Spring Boot autoconfigurations were actually never designed to
-be used this way, and doing so might introduce subtle bugs in your
-application. The only mitigations for this are exhaustive testing that
-it works the way you expect, and being cautious about upgrades.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="sect2"&gt;
-&lt;h3 id="adding-actuators"&gt;&lt;a class="anchor" href="#adding-actuators"&gt;&lt;/a&gt;Adding Actuators&lt;/h3&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;We can also add the actuators if they are on the classpath:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-java" data-lang="java"&gt;@SpringBootConfiguration
-@Import({
-    WebFluxAutoConfiguration.class,
-    ReactiveWebServerFactoryAutoConfiguration.class,
-    ErrorWebFluxAutoConfiguration.class,
-    HttpHandlerAutoConfiguration.class,
-    EndpointAutoConfiguration.class,
-    HealthIndicatorAutoConfiguration.class, HealthEndpointAutoConfiguration.class,
-    InfoEndpointAutoConfiguration.class, WebEndpointAutoConfiguration.class,
-    ReactiveManagementContextAutoConfiguration.class,
-    ManagementContextAutoConfiguration.class,
-    ConfigurationPropertiesAutoConfiguration.class,
-    PropertyPlaceholderAutoConfiguration.class
-})
-@RestController
-public class DemoApplication {
-
-  @GetMapping("/")
-  public Mono&amp;lt;String&amp;gt; home() {
-    return Mono.just("Hello World");
-  }
-
-  public void main(String[] args) {
-    SpringApplication.run(DemoApplication.class, args);
-  }
-
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This app starts even faster comparative to the full
-&lt;code&gt;@EndpointAutoConfiguration&lt;/code&gt; application (maybe even 50% faster),
-because we only included the configuration relevant to the two default
-endpoints. Spring Boot activates all endpoints by default but does not
-expose them to HTTP. If we only care about /health and /info that is
-wasteful, but of course it also leaves a lot of really useful features
-on the table.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="admonitionblock note"&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td class="icon"&gt;
-&lt;div class="title"&gt;Note&lt;/div&gt;
-&lt;/td&gt;
-&lt;td class="content"&gt;
-Spring Boot may well do more in the future to disable actuators
-that have not been exposed or have not been used. E.g. see issues on
-&lt;a href="https://github.com/spring-projects/spring-boot/issues/7578"&gt;lazy
-actuators&lt;/a&gt; and
-&lt;a href="https://github.com/spring-projects/spring-boot/issues/15451"&gt;conditional
-endpoints&lt;/a&gt; (which is already in Spring Boot 2.1.2).
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect2"&gt;
-&lt;h3 id="what-s-the-difference"&gt;&lt;a class="anchor" href="#what-s-the-difference"&gt;&lt;/a&gt;What&amp;#8217;s the difference?&lt;/h3&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The manually configured application has 51 beans, while the fully
-leaded autoconfigured application has 107 beans (not counting
-actuators). So it&amp;#8217;s maybe not a surprise that it starts up a bit
-quicker. Before we move on to a different way to implement the sample
-application, let&amp;#8217;s take a look at what we have left out in order to
-get it to start up faster. If you list the bean definitions in both
-apps you will see that all the differences come from the
-autoconfigurations that we left out, and which would not have been
-conditionally excluded by Spring Boot. Here&amp;#8217;s the list (assuming that
-you are using &lt;code&gt;spring-boot-start-webflux&lt;/code&gt; with no manual exclusions):&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;AutoConfigurationPackages
-CodecsAutoConfiguration
-JacksonAutoConfiguration
-JmxAutoConfiguration
-ProjectInfoAutoConfiguration
-ReactorCoreAutoConfiguration
-TaskExecutionAutoConfiguration
-TaskSchedulingAutoConfiguration
-ValidationAutoConfiguration
-HttpMessageConvertersAutoConfiguration
-RestTemplateAutoConfiguration
-WebClientAutoConfiguration&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;So that&amp;#8217;s 12 autoconfigurations that we didn&amp;#8217;t need (yet anyway) and
-which led to 56 additional beans in the autoconfigured
-application. They all provide useful features, so we might want to
-include them again one day, but for now let&amp;#8217;s assume that we are happy
-to live without whatever they are doing.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="admonitionblock note"&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td class="icon"&gt;
-&lt;div class="title"&gt;Note&lt;/div&gt;
-&lt;/td&gt;
-&lt;td class="content"&gt;
-&lt;code&gt;spring-boot-autoconfigure&lt;/code&gt; has 122 autoconfigurations (there
-are more in &lt;code&gt;spring-boot-actuator-autoconfigure&lt;/code&gt;) and the fully leaded
-autoconfigured sample application above only used 18 of them. The
-computation of which ones to use takes place very early and most of
-them are discarded by Spring Boot before any classes are even
-loaded. It&amp;#8217;s very fast (a few milliseconds).
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="spring-boot-autoconfiguration-imports"&gt;&lt;a class="anchor" href="#spring-boot-autoconfiguration-imports"&gt;&lt;/a&gt;Spring Boot Autoconfiguration Imports&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The ordering issue associated with the difference between user
-configuration (which has to be applied first) and autoconfiguration can
-be addressed partially by using a different annotation. Spring Boot
-provides an annotation for this: &lt;code&gt;@ImportAutoConfiguration&lt;/code&gt;, which is
-from &lt;code&gt;spring-boot-autoconfigure&lt;/code&gt; but used in the
-&lt;a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-testing-spring-boot-applications-testing-autoconfigured-tests"&gt;test
-slices&lt;/a&gt; features that ship with Spring Boot Test. So you can replace
-the &lt;code&gt;@Import&lt;/code&gt; annotation in the examples above with
-&lt;code&gt;@ImportAutoConfiguration&lt;/code&gt; and the effect is to defer processing of
-the autoconfigurations until after all the user configurations
-(e.g. picked up via &lt;code&gt;@ComponentScan&lt;/code&gt; or &lt;code&gt;@Import&lt;/code&gt;).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;We can even go a stage further than that if we are prepared to curate
-the list of autoconfigurations into a custom annotation. Instead of
-just copying them into an explicit &lt;code&gt;@ImportAutoConfiguration&lt;/code&gt;, we can
-write a custom annotation like this:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-java" data-lang="java"&gt;@Target(ElementType.TYPE)
-@Retention(RetentionPolicy.RUNTIME)
-@Documented
-@Inherited
-@ImportAutoConfiguration
-public @interface EnableWebFluxAutoConfiguration {
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The main feature of this annotation is that it is meta-annotated with
-&lt;code&gt;@ImportAutoConfiguration&lt;/code&gt;. With that in place we can add the new
-annotation to our application:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-java" data-lang="java"&gt;@SpringBootConfiguration
-@EnableWebFluxAutoConfiguration
-@RestController
-public class DemoApplication {
-
-  @GetMapping("/")
-  public Mono&amp;lt;String&amp;gt; home() {
-    return Mono.just("Hello World");
-  }
-
-  public void main(String[] args) {
-    SpringApplication.run(DemoApplication.class, args);
-  }
-
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;and list the actual configuration classes in &lt;code&gt;/META-INF/spring.factories&lt;/code&gt;:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code&gt;com.example.config.EnableWebFluxAutoConfiguration=\
-org.springframework.boot.autoconfigure.web.reactive.WebFluxAutoConfiguration,\
-org.springframework.boot.autoconfigure.web.reactive.ReactiveWebServerFactoryAutoConfiguration,\
-org.springframework.boot.autoconfigure.web.reactive.error.ErrorWebFluxAutoConfiguration,\
-org.springframework.boot.autoconfigure.web.reactive.HttpHandlerAutoConfiguration,\
-org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration,\
-org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The advantages of doing this are that the application code no longer
-has to manually enumerate the configurations, and also that the
-ordering is now taken care of by Spring Boot (the properties file
-entry is sorted before it is used). The disadvantage is that it is
-only useful for applications which need precisely these features, and
-has to be replaced or augmented in any application that wants to do
-something a bit different. It is still fast though - Spring Boot does
-a little bit of extra work for the book keeping (sorting and
-ordering), but not really very much. It will probably still start in
-less than 700ms on the right hardware, with the right JVM flags.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="functional-bean-definitions"&gt;&lt;a class="anchor" href="#functional-bean-definitions"&gt;&lt;/a&gt;Functional Bean Definitions&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;In the earlier article I mentioned that functional bean definitions
-would be the most efficient way to get an application started with
-Spring. This is still the case, and we can squeeze an extra 10% or so
-out of this application by re-writing all the Spring Boot
-autoconfigurations as &lt;code&gt;ApplicationContextInitializers&lt;/code&gt;. You could do
-that manually, or you could use some initializers that have already
-been prepared for you, as long as you don&amp;#8217;t mind trying out some
-experimental features. There are 2 projects currently active exploring
-the idea of new tools and new programming models based on functional
-bean definitions: &lt;a href="https://github.com/spring-projects/spring-fu"&gt;Spring
-Fu&lt;/a&gt; and
-&lt;a href="https://github.com/spring-projects-experimental/spring-init"&gt;Spring
-Init&lt;/a&gt;. Both provide at least a minimal set of functional bean
-definitions replacing or wrapping the Spring Boot
-autoconfigurations. Spring Fu is API (DSL) based, and doesn&amp;#8217;t use
-reflection or annotations. Spring Init has the functional bean
-definitions and also has a prototype of an annotation-based
-programming model for "a la carte" configuration. Both are covered
-in more detail elsewhere.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The main point to note here is that functional bean definitions are
-faster, but if that is your main concern, remember that it is only a
-10% effect. As soon as you put all the features back in the
-application that we stripped down above, you are back to loading all
-the necessary classes and back to roughly the same approximate startup
-time as well. To put this another way, the cost of the
-&lt;code&gt;@Configuration&lt;/code&gt; processing at runtime is not completely negligible,
-but it also isn&amp;#8217;t very high (10% or so in these tiny apps, or maybe
-100ms).&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="summary-and-future-directions"&gt;&lt;a class="anchor" href="#summary-and-future-directions"&gt;&lt;/a&gt;Summary and Future Directions&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Here&amp;#8217;s a graph summarizing some benchmark results from a different
-application, the &lt;a href="https://github.com/spring-projects/spring-petclinic"&gt;Spring PetClinic&lt;/a&gt;:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="imageblock"&gt;
-&lt;div class="content"&gt;
-&lt;img src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpSEfx0Y1W9aD3XVyn91-S0jtUp2DRCQSy_W_LMGyMR91YLAQ1mL7MiR1BRd8VzshvtuxzL6WAnlxf/pubchart?oid=1003506885&amp;format=image" alt="pubchart?oid=1003506885&amp;amp;format=image"&gt;
-&lt;/div&gt;
-&lt;div class="title"&gt;Figure 1. Petclinic Startup Time (Seconds)&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;It&amp;#8217;s not a "real" application, but it is heavier than the simple
-sample, and uses a lot more features at runtime (like Hibernate for
-example), so it is somewhat more realistic. There are two
-versions, "demo" and "actr", where the latter is just the same but
-with Actuators. For both samples, the fastest startup time is the
-yellow dot, which is functional bean definitions, but only 10% behind
-that (about 200ms in this app) are the "a la carte" options (green and
-red). Green uses a custom annotation like the
-&lt;code&gt;@EnableWebFluxAutoConfiguration&lt;/code&gt; one above. Red is a different "a la
-carte" option where groups of autoconfigurations can be imported
-together via a different custom annotation, currently named
-&lt;code&gt;@SpringInitApplication&lt;/code&gt; and being prototyped in Spring Init. Blue is
-the fully leaded autoconfiguration (out of the box Spring Boot).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Spring Boot autoconfiguration is hugely convenient, but can be
-characterized as "all you can eat". Currently (as of 2.1.x) it is
-maybe providing more features than some applications use or
-require. In the "a la carte" approach, you can use Spring Boot as a
-convenient collection of prepared and pre-tested configurations and
-choose which parts you use. If you do that then
-&lt;code&gt;@ImportAutoConfiguration&lt;/code&gt; is an important part of the toolkit, but
-exactly how you should best use it might change as we research this
-topic further. Future versions of Spring Boot, and possibly other new
-projects like Spring Fu or Spring Init, will make it easier to narrow
-the choice of configurations used at runtime, either automatically or
-by explicit choice. At the end of the day, &lt;code&gt;@Configuration&lt;/code&gt; processing
-at runtime is not free, but it isn&amp;#8217;t particularly expensive either
-(especially with Spring Boot 2.1.x). The smaller number of features
-you use, the fewer classes are loaded, which lead to faster
-startup. At the end of the day we don&amp;#8217;t expect
-&lt;code&gt;@EnableAutoConfiguration&lt;/code&gt; to lose its value or its popularity, and
-remember your mileage may vary: the PetClinic and simple samples in
-this article are not a guide to what you can expect with larger, more
-complex applications.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Bootiful Azure: To Production (6/6)</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/01/21/bootiful-azure-to-production-6-6" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-01-02:3516</id>
-    <updated>2019-01-21T00:00:00Z</updated>
-    <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;This is part 6 of a 6 part series, with new posts Mondays and Thursdays, introducing Microsoft Azure for Spring developers. I couldn&amp;rsquo;t have put this together without input from Microsoft&amp;rsquo;s Asir Vedamuthu Selvasingh, Yitao Dong, Bruno Borges, Brian Benz and Theresa Nguyen. You can find the code for this series &lt;a href="https://github.com/joshlong/bootiful-azure-article"&gt;on Github&lt;/a&gt;. Hit me up on &lt;a href="http://twitter.com/Starbuxman"&gt;Twitter (@starbuxman)&lt;/a&gt; as you&amp;rsquo;re reading the installments with any feedback or questions. You can also learn more about Microsoft Azure in my &lt;a href="http://twitter.com/SpringTipsLive"&gt;Spring Tips (@SpringTipsLive)&lt;/a&gt; installment, &lt;a href="https://spring.io/blog/2018/12/05/spring-tips-bootiful-microsoft-azure"&gt;&lt;em&gt;Bootiful Azure&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here are all the installments: &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/03/bootiful-azure-taking-your-first-steps-with-microsoft-azure-1-6"&gt;Bootiful Azure: Taking Your First Steps with Microsoft Azure&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/07/bootiful-azure-sql-based-data-access-with-microsoft-sql-server-2-6"&gt;Bootiful Azure: SQL-based data access with Microsoft SQL Server&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/10/bootiful-azure-global-scale-data-access-with-cosmosdb-3-6"&gt;Bootiful Azure: Global Scale Data Access with CosmosDB&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/14/bootiful-azure-integration-with-azure-service-bus-4-6"&gt;Bootiful Azure: Integration with Azure Service Bus&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/17/bootiful-azure-object-storage-service-5-6"&gt;Bootiful Azure: Object Storage Service&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/21/bootiful-azure-to-production-6-6"&gt;Bootiful Azure: To Production!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This last post in our series looking at Microsoft Azure is really a quick wrapup post that looks at things to keep in mind when deploying an application built with Spring Boot and Micosoft Azure to production.&lt;/p&gt;&lt;h2&gt;&lt;a href="#secure-configuration" class="anchor" name="secure-configuration"&gt;&lt;/a&gt;Secure Configuration&lt;/h2&gt;
-&lt;p&gt;We&amp;rsquo;ve developed the application with ease and aplomb from the comfort of our local machines, plugging in the relevant confuguration values as we need them. Trouble is, these are often very sensitie values tht shouldn&amp;rsquo;t be left laying around on the filesystem at rest, unencrypted. There are a &lt;em&gt;number&lt;/em&gt; of good solutions for this. You could of course deploy the Spring Cloud Config Service itself. If you&amp;rsquo;re running &lt;a href="https://pivotal.io/partners/microsoft"&gt;Pivotal Cloud Foundry on Microsoft Azure (or otherwise)&lt;/a&gt;, this is the recommended way because it&amp;rsquo;s a one-liner to get it deployed and working. You could of course deploy &lt;a href="https://www.hashicorp.com/resources/introduction-to-using-hashicorp-vault-with-azure"&gt;Hashicorp Vault and use Spring Cloud Vault&lt;/a&gt;. Or, you could store the keys and values in Microsoft&amp;rsquo;s &lt;a href="https://azure.microsoft.com/en-us/services/key-vault/"&gt;own Key Vault service&lt;/a&gt;. In order to effectively use Key Vault you&amp;rsquo;ll need to get into configuring Microsoft Active Directory which, while not something I&amp;rsquo;d wish on you or your loved ones, dear reader, is something in which I&amp;rsquo;m &lt;em&gt;quite&lt;/em&gt; interested.&lt;/p&gt;&lt;h2&gt;&lt;a href="#microsoft-active-directory" class="anchor" name="microsoft-active-directory"&gt;&lt;/a&gt;Microsoft Active Directory&lt;/h2&gt;
-&lt;p&gt;In my 20+ years of helping organizations build software I&amp;rsquo;ve seen nary a handful that &lt;em&gt;weren&amp;rsquo;t&lt;/em&gt; using Microsoft Active Directory even if only from the LDAP interface. Sure, I hope Google Apps gains more traction in the enterprise, but let&amp;rsquo;s be very clear: Active Directory is &lt;em&gt;the&lt;/em&gt; prevailing standard in enterprise IT. It is a way of life, even if you and I probably don&amp;rsquo;t have to worry about it all that often in our idealized world of application development. And for good reason! It integrates the entire Windows desktop experience for the business professional. It&amp;rsquo;s the beating heart of the Office365 story and it&amp;rsquo;s the way organization organizes and self structures itself. Want to know if you got that promotion? Check Active Directory! Want to know where someone is seated? Check Active Directory! Want to force password resets? Maintain enterprise-wide audit logs? &lt;em&gt;Fire someone&lt;/em&gt;? Check Active Directory! You may think your organizations runs Active Directory but lets be clear: it runs your organization.&lt;/p&gt;
-&lt;p&gt;Active Directory is a directoy server. It provides a tree of users, organizations and more. It acts as identity manager for technologies like Microsoft CRM, Microsoft SQL Server, Microsoft Office and even Microsoft Windows itself. You can describe users, their rights and roles, and so much more in Active Directory. Which brings us back around. Microsoft Azure runs Active Directory for you! You can import and configure all the relevant information for your Microsoft Active Directory install right from the platform. &lt;a href="https://azure.microsoft.com/en-us/blog/spring-security-azure-ad/"&gt;There&amp;rsquo;s even a Spring Boot starter to connect Microsoft Azure to your OAuth-delegating Spring Boot- and Spring Security-powered applications&lt;/a&gt;. Could you deploy and manage something like Microsoft SQL Server or Microsoft Active Directory yourself? Sure. But, &lt;em&gt;should you&lt;/em&gt;?&lt;/p&gt;&lt;h2&gt;&lt;a href="#application-insights" class="anchor" name="application-insights"&gt;&lt;/a&gt;Application Insights&lt;/h2&gt;
-&lt;p&gt;As you scale out and spin up more microservices you&amp;rsquo;ll introduce more and more moving parts and it becomes all the more critical to be able to observe the movement of data from one node to another in the system. Here, the Microsoft Application Insights integration for Spring applications - which is for the moment at least delivered separate from the main Spring integration for Microsoft Azure - makes using it an cinch! Add &lt;code&gt;com.microsoft.azure&lt;/code&gt;: &lt;code&gt;applicationinsights-spring-boot-starter&lt;/code&gt; : &lt;code&gt;1.1.0-BETA&lt;/code&gt; to your build file.&lt;/p&gt;
-&lt;p&gt;You can script the creation of an Application Insights subscription, like this: &lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint shell"&gt;#!/usr/bin/env bash&#xD;
-&#xD;
-rg=$1&#xD;
-appname=${rg}-appinsights&#xD;
-&#xD;
-az resource create \&#xD;
-    --resource-group $rg \&#xD;
-    --resource-type &amp;quot;Microsoft.Insights/components&amp;quot; \&#xD;
-    --name $appname \&#xD;
-    --location &amp;quot;South Central US&amp;quot; \&#xD;
-    --properties &amp;#39;{&amp;quot;ApplicationId&amp;quot;:&amp;quot;bootiful&amp;quot;,&amp;quot;Application_Type&amp;quot;:&amp;quot;web&amp;quot;}&amp;#39;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;That&amp;rsquo;ll create a subscription and bind it to the &lt;code&gt;bootiful&lt;/code&gt; resource group. Use the following command to access the resulting key (assuming the same &lt;code&gt;$rg&lt;/code&gt; and &lt;code&gt;$appname&lt;/code&gt; variables are in scope):&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint shell"&gt;az resource show -g $rg -n $appname --resource-type &amp;quot;Microsoft.Insights/components&amp;quot; --query properties.InstrumentationKey
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You&amp;rsquo;ll then need to specify the &lt;code&gt;azure.application-insights.instrumentation-key&lt;/code&gt; and to give your application a &lt;code&gt;spring.application.name&lt;/code&gt; name. Which, to be fair, you should do anyway. That&amp;rsquo;s it! Restart your application, drive some traffic through an HTTP endpoint in your application (even just running on &lt;code&gt;localhost&lt;/code&gt;) and then login to the Microsoft Application Insights dashboard and watch the instrumentation in action!&lt;/p&gt;&lt;h2&gt;&lt;a href="#cloud-foundry" class="anchor" name="cloud-foundry"&gt;&lt;/a&gt;Cloud Foundry&lt;/h2&gt;
-&lt;p&gt;You shouldn&amp;rsquo;t run software that you can&amp;rsquo;t charge for. Pivotal legend &lt;a href="http://twitter.com/WattersJames"&gt;James Watters&lt;/a&gt; often talks about work that&amp;rsquo;s &amp;ldquo;below the value line,&amp;rdquo; and the idea that technologists and executives should focus on work that&amp;rsquo;s above that value line for a given organization. The average organization has enough problems. Running commodity software like MySQL or Kafka shouldn&amp;rsquo;t be among them. Running things that don&amp;rsquo;t differentiate your business shouldn&amp;rsquo;t be among them. It&amp;rsquo;ll cost infinitely less, over enough time, to pay someone to run that, whatever &lt;em&gt;that&lt;/em&gt; is, for you if someone else can do a competent job. Ideally, whoever ends up running that software should have a vested interest in running those things well. Most organizations have a mission anything but configuring SSL, or debugging MySQL replication issues. It is virtually always cheaper to let someone else do that for you. &lt;/p&gt;
-&lt;p&gt;If you are trying to do something standard, then you should absolutely rely on standardized tools. Why use a cloud vendor&amp;rsquo;s lockin-ware to run a Java or Node-based application when you could use something like Cloud Foundry or Kubernetes, for which the hiring pool is larger, the cost can be virtually nill, and the ease of use is on-par or better than whatever the cloud vendor is offering?&lt;/p&gt;
-&lt;p&gt;This is a big part of the reason that Microsoft and Pivotal have such a great relationship. Enterprise customers understand that for some workloads the public cloud is a foregone conclusion, but they don&amp;rsquo;t want to be locked in. Optionality is valuable. Being able to move to a different platform is valuable. Agility - the ability to respond to change - is &lt;em&gt;valuable&lt;/em&gt;. We see this all the time; Google Cloud Platform&amp;rsquo;s prices were for some workload-types cheaper than Amazon Web Services at its debuts. Some public cloud vendors have availability zones in regions you might want to be in that others dont. Increasingly, organizations embark upon hybrid cloud or mutlicloud strategies, knowing that their workloads will vary, and their availability demands will vary. As much as possible, these organizations want to reduce the cost of operationalizing, securing, training-up and deploying to the varities of cloud infrastructure.&lt;/p&gt;
-&lt;p&gt;Pivotal Cloud Foundry is a natural choice here; it allows organizations to deploy reliably to any of a number of cloud platforms and, as easily, and when necessary, drop down to platform-specific services. This fact is one of the reasons that Microsoft named Pivotal partner of the year in 2017 and 2018. Pivotal Cloud Foundry, our distribution of the Apache 2 licensed open-source Cloud Foundry project, helps drive resource usage on Microsoft Azure and does so in as portable a way possible while still surfacing that which is valuable and unique.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m all for using something like Microsoft Azure to simplify the work of standing up infrastructure where Microsoft can provide a differentiated experience. But running a Java process or a Node.js process? Stick to de-facto standard infrastructure like Cloud Foundry or Kubernetes. It&amp;rsquo;s fairly trivial to get Cloud Foundry deployed on top of Microsoft Azure and, once deployed, it&amp;rsquo;s trivial to deploy Spring Boot applications there. It&amp;rsquo;s often as simple as &lt;code&gt;cf push -p my.jar&lt;/code&gt;. You&amp;rsquo;ll need the Cloud Foundry CLI, &lt;a href="https://docs.cloudfoundry.org/cf-cli/install-go-cli.html"&gt;of course&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In the world of Cloud Foundry a &lt;em&gt;service broker&lt;/em&gt; is an HTTP API with which the Cloud Foundry platform interacts to manage the provisoning and lifecycle of&amp;hellip; &lt;em&gt;something&lt;/em&gt;. It could be a database like MySQL or a message queue like Apache Kafka. It could be an Active Directory installation or a CosmosDB connection. It could be any of a number of things. The Microsoft and Pivotal teams have worked hand-in-hand to ensure that the service broker options for users running Pivotal Cloud Foundry on Microsoft Azure support &lt;a href="https://docs.pivotal.io/partners/azure-sb/index.html"&gt;the tentpole services in as convenient a way possible&lt;/a&gt;. This list includes Microsoft Azure services like Azure Storage, Azure Redis Cache, Azure Service Bus, Azure Event Hubs, Azure SQL Databases (SQL Server, PostgreSQL and MySQL) and failover groups, and Azure CosmosDB. &lt;/p&gt;
-&lt;p&gt;You can inspect the Cloud Foundry service catalog by issuing a &lt;code&gt;cf marketplace&lt;/code&gt; command on the CLI. It&amp;rsquo;ll show you all the relevant services and you can then choose to provision an instance of the service and its associated plan. A plan describes the particular levels of service you can expect from a service broker resource and is naturally specific to each service broker on offer.&lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s say you have a Spring Boot application deployed to Cloud Foundry, given the logical name &lt;code&gt;myapp&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint shell"&gt;&amp;gt; cf push -p my.jar --no-start myapp
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Suppose you wanted to provision an instance of Microsoft SQL Server for your application, and you wanted to be able to reference that database, logically, as &lt;code&gt;mydb&lt;/code&gt;. Your session might look like this. The following command would provision an instance of SQL Server, with parameters specified via inline JSON or a &lt;code&gt;.json&lt;/code&gt; file path, and assign it a logical name &lt;code&gt;mydb&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint shell"&gt;&amp;gt; cf create-service azure-sqldb basic mydb -c &amp;#39;{&amp;quot;sqlServerName&amp;quot;: &amp;quot;Bootiful&amp;quot;}&amp;#39;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The service would soon be provisioned and usable from within an application. You&amp;rsquo;d just need to bind the service to your application, so that the relevant connectivity information could be injected into the application&amp;rsquo;s environment as an environment variable.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint shell"&gt;cf bind-service myapp mydb&#xD;
-cf restart myapp
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now your running Spring Boot application would have an environment variable, &lt;code&gt;VCAP_SERVICES&lt;/code&gt;, whose contents would include the connection information for the just-provisioned service. It&amp;rsquo;d look something like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint json"&gt;&amp;quot;VCAP_SERVICES&amp;quot;: {&#xD;
-  &amp;quot;azure-sqldb&amp;quot;: [&#xD;
-    {&#xD;
-      &amp;quot;credentials&amp;quot;: {&#xD;
-        &amp;quot;sqldbName&amp;quot;: &amp;quot;fake-database&amp;quot;,&#xD;
-        &amp;quot;sqlServerName&amp;quot;: &amp;quot;fake-server&amp;quot;,&#xD;
-        &amp;quot;sqlServerFullyQualifiedDomainName&amp;quot;: &amp;quot;fake-server.database.windows.net&amp;quot;,&#xD;
-        &amp;quot;databaseLogin&amp;quot;: &amp;quot;ulrich&amp;quot;,&#xD;
-        &amp;quot;databaseLoginPassword&amp;quot;: &amp;quot;u1r8chP@ss&amp;quot;,&#xD;
-        &amp;quot;jdbcUrl&amp;quot;: &amp;quot;jdbc:sqlserver://fake-server.database.windows.net:1433;database=fake-database;user=fake-admin;password=fake-password;Encrypt=true;TrustServerCertificate=false;HostNameInCertificate=*.database.windows.net;loginTimeout=30&amp;quot;,&#xD;
-        &amp;quot;jdbcUrlForAuditingEnabled&amp;quot;: &amp;quot;jdbc:sqlserver://fake-server.database.secure.windows.net:1433;database=fake-database;user=fake-admin;password=fake-password;Encrypt=true;TrustServerCertificate=false;HostNameInCertificate=*.database.secure.windows.net;loginTimeout=30&amp;quot;,&#xD;
-        &amp;quot;hostname&amp;quot;: &amp;quot;fake-server.database.windows.net&amp;quot;,&#xD;
-        &amp;quot;port&amp;quot;: 1433,&#xD;
-        &amp;quot;name&amp;quot;: &amp;quot;fake-database&amp;quot;,&#xD;
-        &amp;quot;username&amp;quot;: &amp;quot;ulrich&amp;quot;,&#xD;
-        &amp;quot;password&amp;quot;: &amp;quot;u1r8chP@ss&amp;quot;,&#xD;
-        &amp;quot;uri&amp;quot;: &amp;quot;mssql://ulrich:u1r8chP@ss@fake-server.database.windows.net:1433/fake-database?encrypt=true&amp;amp;TrustServerCertificate=false&amp;amp;HostNameInCertificate=*.database.windows.net&amp;quot;&#xD;
-      }&#xD;
-    }&#xD;
-  ]&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In Spring Boot, you could reference these properties using a flattened property access syntax, e.g.: &lt;code&gt;vcap.services.mydb.credentials.jdbcUrl&lt;/code&gt;. A common pattern here is to run applications in the cloud with a Spring profile active. Say, &lt;code&gt;cloud&lt;/code&gt;? That way you could put a config file in your code under &lt;code&gt;application-cloud.properties&lt;/code&gt; and that property file would be loaded when the application starts up in Cloud Foundry. You could put default, local configuration in &lt;code&gt;application-default.properties&lt;/code&gt;. So, when Spring Boot starts with no profile specified it&amp;rsquo;ll load the configuration in &lt;code&gt;application-default.properties&lt;/code&gt;. When running in Cloud Foundry on Azure it&amp;rsquo;d load the configuration in &lt;code&gt;application-cloud.properties&lt;/code&gt;. You could thus add the following to your &lt;code&gt;application-default.properties&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint properties"&gt;spring.datasource.url=${vcap.services.mydb.credentials.jdbcUrl}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Bootiful!&lt;/p&gt;&lt;h2&gt;&lt;a href="#the-next-steps" class="anchor" name="the-next-steps"&gt;&lt;/a&gt;The Next Steps&lt;/h2&gt;
-&lt;p&gt;We&amp;rsquo;ve only just begun to scratch the surface of what&amp;rsquo;s possible with Spring, Microsoft Azure and Cloud Foundry in this and the posts before it. What should be clear is that there&amp;rsquo;s a nice symbiosis here, each technology making the layer below it even more powerful. It&amp;rsquo;s no wonder that a ton of Azure&amp;rsquo;s workloads are Linux, Spring Boot and Cloud Foundry-based: these things work well together. For those who want to learn even more about Spring on Microsoft Azure, check &lt;a href="https://docs.microsoft.com/en-us/java/azure/spring-framework/?view=azure-java-stable"&gt;out the resource portal from Azure&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

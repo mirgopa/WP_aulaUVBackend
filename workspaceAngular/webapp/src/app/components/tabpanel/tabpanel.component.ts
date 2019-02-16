@@ -1,17 +1,9 @@
-import {
-  Component,
-  ContentChildren,
-  QueryList,
-  ViewChild,
-  ComponentFactoryResolver,
-  Output,
-  EventEmitter,
-  OnInit,
-} from '@angular/core';
+import { Component, ContentChildren, QueryList, ViewChild, ComponentFactoryResolver, Output, EventEmitter, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
 import { TabDirective } from '../tabpanel/tab.directive';
 import { TabComponent } from './tab.component';
+import { componentRefresh } from '@angular/core/src/render3/instructions';
 
 @Component({
   selector: 'app-tabpanel',
@@ -62,6 +54,13 @@ export class TabpanelComponent implements OnInit {
     }
   }
 
+  activeTab() {
+    const activeTabs: TabComponent[] = this.dynamicTabs.filter((tab) => tab.active === true);
+    if (activeTabs && activeTabs.length > 0) {
+      return activeTabs[0];
+    }
+  }
+
   closeTab(tab: TabComponent) {
     const index = this.dynamicTabs.findIndex((t) => t.title === tab.title);
 
@@ -73,6 +72,13 @@ export class TabpanelComponent implements OnInit {
       viewContainerRef.remove(index);
 
       this.selected.setValue(index >= 0 ? index : 0);
+    }
+  }
+
+  closeActive() {
+    const activeTabs: TabComponent[] = this.dynamicTabs.filter((tab) => tab.active === true);
+    if (activeTabs && activeTabs.length > 0) {
+      this.closeTab(activeTabs[0]);
     }
   }
 }

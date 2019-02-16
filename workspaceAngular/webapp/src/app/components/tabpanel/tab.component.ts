@@ -4,7 +4,7 @@
  * and ngTemplateOutletContext directives.
  */
 
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-tab',
@@ -18,12 +18,7 @@ import { Component, Input } from '@angular/core';
   template: `
     <div [hidden]="!active" class="pane">
       <ng-content></ng-content>
-      <ng-container
-        *ngIf="template"
-        [ngTemplateOutlet]="template"
-        [ngTemplateOutletContext]="{ data: dataContext }"
-      >
-      </ng-container>
+      <ng-container *ngIf="template" [ngTemplateOutlet]="template" [ngTemplateOutletContext]="{ data: dataContext }"> </ng-container>
     </div>
   `,
 })

@@ -27,6 +27,24 @@ export const Msg = {
     },
   },
   compra: {
+    get: {
+      errTitle: 'Error al recuperar la compra',
+      errDesc1: 'La compra con identificador<strong class="pAccent">',
+      errDesc2: `</strong><strong>NO</strong> se ha podido recuperar de la base de datos.<br/> Por favor, consulte con su proveedor de servicios.`,
+    },
+    update: {
+      title: 'Edición compra ',
+      ok1: 'La compra<strong class="pAccent">',
+      ok2: '</strong>ha sido editada con éxito.',
+    },
+    insert: {
+      title: 'Alta de compra',
+      ok1: 'La compra<strong class="pAccent">',
+      ok2: '</strong>ha sido insertada en la base de datos con éxito.',
+      errTitle: 'Error al insertar la compra',
+      errDesc1: 'La compra<strong class="pAccent">',
+      errDesc2: `</strong><strong>NO</strong> ha sido insertada en la base de datos.<br/>Por favor, consulte con su proveedor de servicios.`,
+    },
     delete: {
       ok1: 'La compra<strong class="pAccent">',
       ok2: '</strong>con identificador <strong class="pAccent">',

@@ -16,10 +16,7 @@
   </mat-sidenav>
 
   <mat-sidenav-content>
-    <app-navigation
-      [titleApp]="title"
-      (toggleSidenav)="sidenav.toggle()"
-    ></app-navigation>
+    <app-navigation [titleApp]="title" (toggleSidenav)="sidenav.toggle()"></app-navigation>
     <app-tabpanel (closeSidenav)="sidenav.close()"></app-tabpanel>
     <tab-templates></tab-templates>
   </mat-sidenav-content>

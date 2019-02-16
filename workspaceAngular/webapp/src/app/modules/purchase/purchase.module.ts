@@ -11,12 +11,13 @@ import { MaterialModule } from '../../material';
 import { DialogComponent } from '../../components/dialog/dialog.component';
 import { SnackbarComponent } from 'src/app/components/snackbar/snackbar.component';
 import { CompraListComponent } from './components/compra-list/compra-list.component';
+import { CompraEditComponent } from './components/compra-edit/compra-edit.component';
 
 @NgModule({
-  declarations: [CompraListComponent],
+  declarations: [CompraListComponent, CompraEditComponent],
   imports: [BrowserModule, BrowserAnimationsModule, CommonModule, MaterialModule, FlexLayoutModule, HttpClientModule, FormsModule, ReactiveFormsModule],
-  exports: [CompraListComponent],
-  entryComponents: [CompraListComponent, DialogComponent, SnackbarComponent],
+  exports: [CompraListComponent, CompraEditComponent],
+  entryComponents: [CompraListComponent, CompraEditComponent, DialogComponent, SnackbarComponent],
   providers: [],
 })
 export class PurchaseModule {}

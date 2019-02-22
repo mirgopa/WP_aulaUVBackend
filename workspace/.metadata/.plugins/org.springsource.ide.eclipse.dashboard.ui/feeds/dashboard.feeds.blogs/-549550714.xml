@@ -5,7 +5,42 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-02-22T00:34:09Z</updated>
+  <updated>2019-02-22T15:52:36Z</updated>
+  <entry>
+    <title>Spring Tools 4.1.2 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/22/spring-tools-4-1-2-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Martin Lippert</name>
+    </author>
+    <id>tag:spring.io,2019-02-22:3573</id>
+    <updated>2019-02-22T15:52:36Z</updated>
+    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I am happy to announce the 4.1.2 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Atom.&lt;/p&gt;
+&lt;p&gt;Highlights from this release include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; new: live hover information for bean wirings now supports war-packaged boot apps running in a local server installation&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; new: live hover information for &lt;code&gt;@Value&lt;/code&gt; annotations (&lt;a href="https://github.com/spring-projects/sts4/issues/177"&gt;#177&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; new: bean symbols from XML config files now include exact location information&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; fixed: navigate to resource in live hovers for apps running on CF works again&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; fixed: search for symbols in project now happens on the server side to avoid no project-related symbols showing up on the client side before you start typing in a query&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; performance: improvement to further reduce the CPU load when checking processes for live hovers (&lt;a href="https://github.com/spring-projects/sts4/issues/140"&gt;#140&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; performance: the language server doesn&amp;rsquo;t trigger a full source and javadoc download for Maven projects anymore&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Concourse)&lt;/em&gt; new: support for hierarchical symbols in file added, produces nice outline view information now&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Concourse)&lt;/em&gt; new: support for YAML anchors, references, extend added (&lt;a href="https://github.com/spring-projects/sts4/issues/58"&gt;#58&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; new: quick text search can be switched to non-modal mode (&lt;a href="https://github.com/spring-projects/sts4/issues/189"&gt;#189&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; new: quick text search allows results to be filtered for certain file types (&lt;a href="https://github.com/spring-projects/sts4/issues/185"&gt;#185&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; fixed: startup performance regression found in early builds on Eclipse 4.11&lt;/li&gt;
+  &lt;li&gt;various additional bug fixes and improvements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Atom, please go visit:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring Tools 4: &lt;a href="https://spring.io/tools/"&gt;https://spring.io/tools/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Detailed changes can be found here: &lt;a href="https://github.com/spring-projects/sts4/wiki/Changelog#2019-02-21-412-release"&gt;https://github.com/spring-projects/sts4/wiki/Changelog#2019-02-21-412-release&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Spring Tools 4.2.0 is scheduled to be released in late March 2019 (including an update to Eclipse 2019-03).&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>A Bootiful Podcast: an Interview with Sree Tummidi, Senior Product Manager for Security at Pivotal</title>
     <link rel="alternate" href="https://spring.io/blog/2019/02/22/a-bootiful-podcast-an-interview-with-sree-tummidi-senior-product-manager-for-security-at-pivotal" />
@@ -673,65 +708,5 @@ A flyway based migration is now included allowing you to easily update your exis
   &lt;li&gt;Hey check this out - it&amp;rsquo;s a third-party thing you can use to get lightweight administration of Spring Batch jobs, &lt;a href="https://github.com/tuxdevelop/spring-batch-lightmin"&gt;Spring Batch Lightmin&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;This is interesting - it&amp;rsquo;s a program from &lt;code&gt;pacphi&lt;/code&gt; called &lt;code&gt;cf-butler&lt;/code&gt; that cleans stale apps and services on &lt;a href="https://github.com/pacphi/cf-butler"&gt;a Cloud Foundry foundation&lt;/a&gt;. It can be configured to report on and remove orphaned services and stopped app instances older than a configurable duration.&lt;/li&gt;
 &lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Session for Apache Geode/Pivotal GemFire 2.0.8.RELEASE available!</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/02/04/spring-session-for-apache-geode-pivotal-gemfire-2-0-8-release-available" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>John Blum</name>
-    </author>
-    <id>tag:spring.io,2019-02-04:3554</id>
-    <updated>2019-02-04T19:59:16Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;I am pleased to announce &lt;em&gt;Spring Session for Apache Geode &amp;amp; Pivotal GemFire&lt;/em&gt; (SSDG) &lt;code&gt;2.0.8.RELEASE&lt;/code&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;SSDG &lt;a href="https://github.com/spring-projects/spring-session-data-geode/blob/2.0.8.RELEASE/gradle.properties#L11-L19"&gt;builds on&lt;/a&gt; &lt;em&gt;Spring Session&lt;/em&gt; &lt;code&gt;2.0.9.RELEASE&lt;/code&gt;, &lt;em&gt;Spring Data&lt;/em&gt; &lt;code&gt;Kay-SR13&lt;/code&gt; and  &lt;em&gt;Spring Framework&lt;/em&gt; &lt;code&gt;5.0.12.RELEASE&lt;/code&gt; along with Apache Geode &lt;code&gt;1.2.1&lt;/code&gt; and Pivotal GemFire &lt;code&gt;9.1.1&lt;/code&gt;.  Additionally, SSDG &lt;code&gt;2.0.8.RELEASE&lt;/code&gt; is compatible with &lt;em&gt;Spring Boot&lt;/em&gt; &lt;code&gt;2.0.x&lt;/code&gt; based applications.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This release pulls in many enhancements from the &lt;code&gt;2.1.x&lt;/code&gt; release branch along with a few minor fixes.  Highlights include:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="olist arabic"&gt;
-&lt;ol class="arabic"&gt;
-&lt;li&gt;
-&lt;p&gt;Prevent saving non-dirty Sessions (&lt;a href="https://github.com/spring-projects/spring-session-data-geode/issues/12"&gt;Issue-12&lt;/a&gt;).  This primarily protects against Apache Geode/Pivotal GemFire bug &lt;a href="https://issues.apache.org/jira/browse/GEODE-6032"&gt;GEODE-6032&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Standardize all logging on SLF4J (&lt;a href="https://github.com/spring-projects/spring-session-data-geode/issues/18"&gt;Issue-18&lt;/a&gt;).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed bug involving incorrect synchronization lock on Session attributes passed down from the Session object on creation.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Fixed bug involving &lt;em&gt;Data Serialization&lt;/em&gt; to properly identify when a user uses a custom &lt;em&gt;DataSerializer&lt;/em&gt; to de/serialize the Session.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class="sect2"&gt;
-&lt;h3 id="spring-session-for-apache-geode-pivotal-gemfire-code-2-0-x-code-end-of-life-eol-announcement"&gt;&lt;a class="anchor" href="#spring-session-for-apache-geode-pivotal-gemfire-code-2-0-x-code-end-of-life-eol-announcement"&gt;&lt;/a&gt;Spring Session for Apache Geode/Pivotal GemFire &lt;code&gt;2.0.x&lt;/code&gt; End-of-Life (EOL) Announcement&lt;/h3&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Given the &lt;a href="https://spring.io/blog/2019/01/10/spring-data-lovelace-sr4-kay-sr13-and-ingalls-sr18-released#spring-data-1-x-and-2-0-x-end-of-life-eol"&gt;recent announcement&lt;/a&gt; for the EOL of &lt;em&gt;Spring
-Data&lt;/em&gt; &lt;code&gt;Kay&lt;/code&gt;, so too will SSDG &lt;code&gt;2.0.x&lt;/code&gt; reach it&amp;#8217;s EOL around the same timeframe (end of March/April).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;I will tentatively plan for 1 additional release (i.e. SSDG &lt;code&gt;2.0.9.RELEASE&lt;/code&gt;) if either SD &lt;code&gt;Kay-SR14&lt;/code&gt; is or &lt;em&gt;Spring Session&lt;/em&gt; &lt;code&gt;2.0.10.RELEASE&lt;/code&gt; is released.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Afterwards, all users are encouraged to upgrade to SSDG &lt;code&gt;2.1&lt;/code&gt;, based on Apache Geode &lt;code&gt;1.6&lt;/code&gt; and Pivotal GemFire &lt;code&gt;9.5&lt;/code&gt; along with &lt;em&gt;Spring Session&lt;/em&gt; &lt;code&gt;2.1&lt;/code&gt;, &lt;em&gt;Spring Data&lt;/em&gt; &lt;code&gt;Lovelace&lt;/code&gt; and &lt;em&gt;Spring Framework&lt;/em&gt; &lt;code&gt;5.1&lt;/code&gt;.  SSDG &lt;code&gt;2.1&lt;/code&gt; is compatible with &lt;em&gt;Spring Boot&lt;/em&gt; &lt;code&gt;2.1&lt;/code&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="sect2"&gt;
-&lt;h3 id="feedback-welcome"&gt;&lt;a class="anchor" href="#feedback-welcome"&gt;&lt;/a&gt;Feedback Welcome&lt;/h3&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;As always, any feedback on the new release via the usual channels is always greatly appreciated.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session-data-geode/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-session-data-geode/pulls"&gt;PR&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-session"&gt;StackOverflow&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Thank you!&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content>
   </entry>
 </feed>

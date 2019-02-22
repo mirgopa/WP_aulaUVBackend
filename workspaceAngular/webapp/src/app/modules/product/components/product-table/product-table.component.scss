@@ -1,7 +1,15 @@
+.containerTable {
+  position: relative;
+  bottom: 5px;
+}
+
 table {
   width: 100%;
-  max-height: calc(100vh - 361px);
-  overflow: auto;
+}
+
+th {
+  border-top: 1px solid;
+  border-top-color: rgba(0, 0, 0, 0.1);
 }
 
 .mat-column-select {
@@ -12,8 +20,11 @@ table {
   width: 100px;
 }
 
-.mat-column-nombre,
+.mat-column-nombre {
+  width: calc(50vh - 66px);
+}
+
 .mat-column-precio,
 .mat-column-readMore {
-  width: calc(33vh - 66px);
+  width: calc(25vh - 66px);
 }

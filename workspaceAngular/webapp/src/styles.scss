@@ -52,6 +52,7 @@ body {
 
   .mat-tab-body.mat-tab-body-active {
     z-index: 0 !important;
-    padding-bottom: 40px;
+    height: calc(100vh - 347px);
+    padding: 16px 16px 0px 16px;
   }
 }

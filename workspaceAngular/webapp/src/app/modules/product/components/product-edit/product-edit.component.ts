@@ -13,7 +13,6 @@ import { UrlValidator } from 'src/app/directives/url-validator';
 })
 export class ProductEditComponent implements OnInit {
   myForm: FormGroup;
-  private regex: RegExp = new RegExp(/^[0-9]{1,6}(\.[0-9]{1,3})?$/g);
 
   constructor(private formBuilder: FormBuilder, public dialogRef: MatDialogRef<ProductEditComponent>, @Inject(MAT_DIALOG_DATA) private data: Product) {}
 

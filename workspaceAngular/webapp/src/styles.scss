@@ -7,9 +7,11 @@ $secondary: #ff4081;
 $grey: #c5cae9;
 $black: #212121;
 
+html,
 body {
   padding: 0px;
   margin: 0px;
+  height: 100%;
 }
 
 .pAccent {
@@ -17,7 +19,7 @@ body {
 }
 
 /*
- + SOBREESCRITURA DEL TABPANEL "HOME"
+ * SOBREESCRITURA DEL TABPANEL "HOME"
  */
 #appTabs .mat-tab-label {
   padding: 0px 14px !important;
@@ -28,12 +30,28 @@ body {
 }
 
 #appTabs .mat-tab-label:first-child {
-  min-width: 0px !important;
-  width: 48px !important;
-  padding: 0px 24px !important;
+  min-width: 0px;
+  width: 48px;
+  padding: 0px 24px;
 }
 
 #appTabs .mat-tab-label-active {
   color: $primary;
   opacity: 1;
+}
+
+/*
+ * SOBREESCRITURA DEL TABPANEL INTERNO EN LAS EDICIONES
+ */
+.tabPanelEdit {
+  .mat-tab-label {
+    min-width: 160px !important;
+    width: inherit !important;
+    padding: 0px 14px !important;
+  }
+
+  .mat-tab-body.mat-tab-body-active {
+    z-index: 0 !important;
+    padding-bottom: 40px;
+  }
 }

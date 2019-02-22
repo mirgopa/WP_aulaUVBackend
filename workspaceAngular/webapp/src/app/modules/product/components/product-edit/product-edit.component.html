@@ -1,96 +1,44 @@
 <form [formGroup]="myForm">
-  <h2 mat-dialog-title *ngIf="data.id !== null && data.id !== undefined">
-    Edición de producto ({{ data.id }})
-  </h2>
+  <h2 mat-dialog-title *ngIf="data.id !== null && data.id !== undefined">Edición de producto ({{ data.id }})</h2>
   <h2 mat-dialog-title *ngIf="!(data.id !== null && data.id !== undefined)">
     Alta de producto
   </h2>
   <mat-dialog-content class="mat-typography">
     <input type="hidden" formControlName="id" />
     <mat-form-field class="fieldForm">
-      <input
-        matInput
-        placeholder="Nombre"
-        maxlength="60"
-        formControlName="nombre"
-        autocomplete="off"
-        required
-      />
+      <input matInput placeholder="Nombre" maxlength="60" formControlName="nombre" autocomplete="off" required />
       <mat-hint>Nombre de producto (60 caracteres)</mat-hint>
 
       <mat-error>Este campo es <strong>obligatorio</strong> </mat-error>
     </mat-form-field>
     <mat-form-field class="fieldForm">
-      <textarea
-        matInput
-        placeholder="Descripción"
-        maxlength="250"
-        formControlName="descripcion"
-        autocomplete="off"
-        required
-      ></textarea>
+      <textarea matInput placeholder="Descripción" maxlength="250" formControlName="descripcion" autocomplete="off" required></textarea>
       <mat-hint>Descripción del producto (250 caracteres)</mat-hint>
 
-      <mat-error
-        >Este campo es <strong>obligatorio</strong>
-      </mat-error> </mat-form-field
+      <mat-error>Este campo es <strong>obligatorio</strong> </mat-error> </mat-form-field
     ><mat-form-field class="fieldForm">
-      <input
-        matInput
-        placeholder="Imagen"
-        maxlength="500"
-        formControlName="image"
-        autocomplete="off"
-        required
-      />
+      <input matInput placeholder="Imagen" maxlength="500" formControlName="image" autocomplete="off" required />
       <mat-hint>URL de la imagen (500 caracteres)</mat-hint>
       <mat-error *ngIf="myForm.get('image').errors">
-        <div
-          *ngIf="
-            myForm.get('image').errors.required ||
-            myForm.get('image').errors.validateUrl
-          "
-        >
+        <div *ngIf="myForm.get('image').errors.required || myForm.get('image').errors.validateUrl">
           Este campo es <strong>obligatorio y su formato no es correcto</strong>
         </div>
       </mat-error>
     </mat-form-field>
     <mat-form-field class="fieldForm">
-      <input
-        matInput
-        placeholder="Leer más"
-        maxlength="500"
-        formControlName="readMore"
-        autocomplete="off"
-      />
+      <input matInput placeholder="Leer más" maxlength="500" formControlName="readMore" autocomplete="off" />
       <mat-hint>URL de la referencia a 'Leer más' (500 caracteres)</mat-hint>
       <mat-error *ngIf="myForm.get('readMore').errors">
-        <div *ngIf="myForm.get('readMore').errors.validateUrl">
-          El formato del campo <strong>no es correcto</strong>
-        </div>
+        <div *ngIf="myForm.get('readMore').errors.validateUrl">El formato del campo <strong>no es correcto</strong></div>
       </mat-error>
     </mat-form-field>
     <mat-form-field class="fieldForm">
-      <input
-        matInput
-        type="number"
-        placeholder="Precio"
-        maxlength="60"
-        formControlName="precio"
-        autocomplete="off"
-        step=".001"
-        required
-      />
+      <input matInput type="number" placeholder="Precio" maxlength="60" formControlName="precio" autocomplete="off" step=".001" required />
       <!--appDecimaNumber-->
       <span matPrefix>€&nbsp;</span>
       <mat-hint>Precio de producto (6,3 caracteres)</mat-hint>
       <mat-error *ngIf="myForm.get('precio').errors">
-        <div
-          *ngIf="
-            myForm.get('precio').errors.required ||
-            myForm.get('precio').errors.validateNumber
-          "
-        >
+        <div *ngIf="myForm.get('precio').errors.required || myForm.get('precio').errors.validateNumber">
           Este campo es <strong>obligatorio y su formato no es correcto</strong>
         </div>
       </mat-error>
@@ -98,13 +46,7 @@
   </mat-dialog-content>
   <mat-dialog-actions align="end">
     <button mat-button (click)="onNoClick()">CANCELAR</button>
-    <button
-      mat-button
-      [mat-dialog-close]="myForm.value"
-      [disabled]="!myForm.valid"
-      color="primary"
-      cdkFocusInitial
-    >
+    <button mat-raised-button [mat-dialog-close]="myForm.value" [disabled]="!myForm.valid" color="primary" cdkFocusInitial>
       GUARDAR
     </button>
   </mat-dialog-actions>

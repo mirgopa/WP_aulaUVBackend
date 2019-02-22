@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+  max-height: calc(100vh - 361px);
+  overflow: auto;
+}
+
+.mat-column-select {
+  width: 80px;
+}
+
+.mat-column-id {
+  width: 100px;
+}
+
+.mat-column-nombre,
+.mat-column-precio,
+.mat-column-readMore {
+  width: calc(33vh - 66px);
+}

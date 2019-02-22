@@ -1,8 +1,5 @@
 <div id="appTabs">
-  <mat-tab-group
-    [selectedIndex]="selected.value"
-    (selectedIndexChange)="selectTab($event)"
-  >
+  <mat-tab-group [selectedIndex]="selected.value" (selectedIndexChange)="selectTab($event)">
     <mat-tab>
       <ng-template mat-tab-label> <mat-icon>home</mat-icon> </ng-template>
       Contenido Home

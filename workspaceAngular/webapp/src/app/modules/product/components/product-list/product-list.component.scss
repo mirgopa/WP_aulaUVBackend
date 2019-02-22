@@ -4,9 +4,15 @@ $secondary: #ff4081;
 $grey: #c5cae9;
 $black: #212121;
 
+/* Size de las cards en la APP */
+$cardSizeW: 400px;
+$cardSizeH: 434px;
+
 // FILTERS
 .gridProducts {
-  padding-bottom: 40px;
+  height: calc(100vh - 281px);
+  overflow: auto;
+  padding-top: 15px;
 }
 
 .productForm {
@@ -32,9 +38,10 @@ $black: #212121;
 
 // GRID
 mat-card {
-  width: 400px;
+  width: $cardSizeW;
   margin-right: 15px;
   margin-bottom: 15px;
+  max-height: $cardSizeH;
 
   img {
     height: 250px;

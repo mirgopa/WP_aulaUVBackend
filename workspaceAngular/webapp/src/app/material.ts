@@ -10,6 +10,9 @@ import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule, MatSortModule, MatCheckboxModule } from '@angular/material';
 
 @NgModule({
   imports: [
@@ -23,6 +26,11 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatInputModule,
     MatDialogModule,
     MatSnackBarModule,
+    MatDividerModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatCheckboxModule,
   ],
   exports: [
     MatToolbarModule,
@@ -35,6 +43,11 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatInputModule,
     MatDialogModule,
     MatSnackBarModule,
+    MatDividerModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatCheckboxModule,
   ],
 })
 export class MaterialModule {}

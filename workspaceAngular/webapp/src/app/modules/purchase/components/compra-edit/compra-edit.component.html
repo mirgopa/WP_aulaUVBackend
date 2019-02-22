@@ -1,6 +1,36 @@
-{{ data.nombre }}
+<form [formGroup]="myForm" class="compraForm">
+  <div fxLayout="row">
+    <input type="hidden" formControlName="id" />
+    <mat-form-field class="fieldForm">
+      <input matInput placeholder="Nombre" maxlength="50" formControlName="nombre" autocomplete="off" required />
+      <mat-hint>Nombre de la lista de la compra (50 caracteres)</mat-hint>
 
-<button mat-raised-button color="primary" (click)="close()">
-  <mat-icon>close</mat-icon>
-  CERRAR
-</button>
+      <mat-error>Este campo es <strong>obligatorio</strong> </mat-error>
+    </mat-form-field>
+  </div>
+</form>
+
+<mat-tab-group class="tabPanelEdit">
+  <mat-tab label="Productos">
+    <div fxLayout="row wrap" fxLayoutAlign="center" class="tabContent">
+      <app-product-table [dataC]="data"></app-product-table>
+    </div>
+  </mat-tab>
+</mat-tab-group>
+
+<!-- FOOTER (GLOBAL ACTIONS) -->
+<footer>
+  <mat-toolbar>
+    <mat-toolbar-row>
+      <div fxFlex></div>
+      <button mat-button (click)="close(true)">
+        CANCELAR
+      </button>
+      <button mat-raised-button (click)="close(false)" [disabled]="!myForm.valid" color="primary" cdkFocusInitial>
+        GUARDAR
+      </button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</footer>
+
+<!--{{ data.nombre }}-->

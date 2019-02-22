@@ -14,7 +14,8 @@
   </div>
 </form>
 
-<br /><br />
+<br />
+<mat-divider></mat-divider>
 
 <!-- GRID -->
 <div fxLayout="row wrap" fxLayoutAlign="center" class="gridCompra">
@@ -24,7 +25,9 @@
     <mat-card-content>
       <mat-card-title>{{ compra.nombre }}</mat-card-title>
       <mat-card-subtitle color="accent">Presupuesto: {{ compra.presupuesto }} €</mat-card-subtitle>
-      <!--p>{{ product.descripcion }}</p-->
+      <p>
+        <i>Última modificación: {{ compra.created }}</i>
+      </p>
     </mat-card-content>
     <mat-card-actions align="end">
       <div fxFlex></div>

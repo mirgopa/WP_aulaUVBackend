@@ -3,7 +3,7 @@ import { Product } from 'src/app/models/Product';
 export interface Compra {
   id: number;
   nombre: string;
-  created: string;
+  created: Date;
   productos: Product[];
   presupuesto: number;
 }

@@ -24,9 +24,9 @@
 
     <mat-card-content>
       <mat-card-title>{{ compra.nombre }}</mat-card-title>
-      <mat-card-subtitle color="accent">Presupuesto: {{ compra.presupuesto }} €</mat-card-subtitle>
+      <mat-card-subtitle color="accent">Presupuesto: {{ compra.presupuesto || 0 }} €</mat-card-subtitle>
       <p>
-        <i>Última modificación: {{ compra.created }}</i>
+        <i>Última modificación: {{ compra.created | date: 'dd/MM/yyyy HH:mm:ss' }}</i>
       </p>
     </mat-card-content>
     <mat-card-actions align="end">

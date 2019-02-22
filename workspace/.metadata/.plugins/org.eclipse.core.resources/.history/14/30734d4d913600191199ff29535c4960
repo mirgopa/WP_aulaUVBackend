@@ -83,8 +83,6 @@ public class CompraServiceImpl implements CompraService {
                 }
             }
             compraNew.setProductos(productos);
-        } else {
-            compraNew.setProductos(new ArrayList<Producto>());
         }
 
         Compra compraUpdated = getCompraDao().update(compraNew);

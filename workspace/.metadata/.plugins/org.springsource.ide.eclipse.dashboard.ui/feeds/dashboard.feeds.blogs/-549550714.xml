@@ -5,7 +5,20 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-02-21T17:06:10Z</updated>
+  <updated>2019-02-22T00:34:09Z</updated>
+  <entry>
+    <title>A Bootiful Podcast: an Interview with Sree Tummidi, Senior Product Manager for Security at Pivotal</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/22/a-bootiful-podcast-an-interview-with-sree-tummidi-senior-product-manager-for-security-at-pivotal" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-02-22:3572</id>
+    <updated>2019-02-22T00:34:09Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! This week I&amp;rsquo;m excited to welcome Sreee Tummidi, a senior product manager working at the intersection of application security and platform at Pivotal. We talked about security, Spring Security, cloud platforms, OAuth, OIDC and OIDC Connect, SAML, and of course the Cloud Foundry UAA, and tons more.&lt;/p&gt;
+&lt;p&gt;Twitter: &lt;a href="http://twitter.com/sreetummidi"&gt;@sreetummidi&lt;/a&gt;&lt;br/&gt;&lt;a href="github.com/cloudfoundry/uaa"&gt;UAA&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/579250395&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;</content>
+  </entry>
   <entry>
     <title>CVE-2019-3778: Spring Security OAuth 2.3.5, 2.2.4, 2.1.4, 2.0.17 Released</title>
     <link rel="alternate" href="https://spring.io/blog/2019/02/21/cve-2019-3778-spring-security-oauth-2-3-5-2-2-4-2-1-4-2-0-17-released" />
@@ -720,18 +733,5 @@ Data&lt;/em&gt; &lt;code&gt;Kay&lt;/code&gt;, so too will SSDG &lt;code&gt;2.0.x
 &lt;p&gt;Thank you!&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: Oleg Zhurakousky</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/02/01/a-bootiful-podcast-oleg-zhurakousky" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-02-01:3553</id>
-    <updated>2019-02-01T02:24:41Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! In this installment we talk to Oleg Zhurakousky, lead of the Spring Cloud Stream project, an application integration and messaging wonk, and a prolific contributor to Spring Integration. Oleg also has the dubious honor of being one of my oldest friends on the Spring team - poor guy!&lt;/p&gt;
-&lt;p&gt;Twitter: &lt;a href="http://twitter.com/z_oleg"&gt;@z_oleg&lt;/a&gt;&lt;br/&gt;Twitter: &lt;a href="http://twitter.com/SpringCloud"&gt;@SpringCloud&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/568258017&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;</content>
   </entry>
 </feed>

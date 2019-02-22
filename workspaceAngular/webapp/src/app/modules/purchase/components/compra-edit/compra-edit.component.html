@@ -26,7 +26,7 @@
       <button mat-button (click)="close(true)">
         CANCELAR
       </button>
-      <button mat-raised-button (click)="close(false)" [disabled]="!myForm.valid" color="primary" cdkFocusInitial>
+      <button mat-raised-button (click)="update()" [disabled]="!myForm.valid" color="primary" cdkFocusInitial>
         GUARDAR
       </button>
     </mat-toolbar-row>

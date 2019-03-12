@@ -22,7 +22,7 @@ Se dispone de una aplicación web SOA, basada en el siguiente software de carác
 *	Node (v8.12.0): descargar
 *	NPM (v6.4.1)
 *	Angular (v7)
-
+<br/>
 Como soporte a dicha tecnología, se hace uso del servidor de aplicaciones embebido en Spring Boot, un IDE de desarrollo STS (v3.9.0) y un MySQL Server (v8.0.13), que permite la publicación de contenidos, el desarrollo y el almacenamiento de la información respectivamente.
 
 Para el presente supuesto y con objeto de facilitar la instalación de todos los componentes necesarios de la práctica, se dispone de un repositorio GitHub (https://github.com/mirgopa/WP_aulaUVBackend) donde encontrar:
@@ -30,7 +30,7 @@ Para el presente supuesto y con objeto de facilitar la instalación de todos los
 *	Los ficheros “.gitignore” y “README.md”.
 * Un comprimido con las aplicaciones necesarias para el desarrollo (JDK, Maven, MySQL y STS).
   * La carpeta mysql albergará tanto el Dockerfile para levantar un servidor de MySQL, como el conjunto de scripts para inicialización de la base de datos.
-
+<br/>
 La estructura del código está orientada a un modelo de Servicios, haciendo que sea posible el aislamiento y modularización de cada parte del desarrollo. Asimismo, tanto para vista como para negocio, se emplea una arquitectura MVC (Modelo-Vista-Controlador) bien diferenciada y permitiendo la centralización en negocio y en arquitectura, pero no en vista.
 
 Se pretende seguir una metodología de desarrollo ordenada y coherente con la programación incremental. Para ello, se presentarán etapas, donde sobre cada una, se establecerá un hito bien definido (Modelo, DAO, Service y finalmente Controllers). La conjunción de hitos conllevará la consecución de la práctica.

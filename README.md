@@ -35,7 +35,7 @@ La estructura del código está orientada a un modelo de Servicios, haciendo que
 
 Se pretende seguir una metodología de desarrollo ordenada y coherente con la programación incremental. Para ello, se presentarán etapas, donde sobre cada una, se establecerá un hito bien definido (Modelo, DAO, Service y finalmente Controllers). La conjunción de hitos conllevará la consecución de la práctica.
 
-<br/><br/>
+<br/>
 
 ### 1.1 Preparación de los entornos
 
@@ -67,6 +67,6 @@ C:\entornoDevelop\apps\mysql> docker exec -it mysql-webapp mysql -u root -p
 C:\entornoDevelop> npm install -g @angular/cli
 ```
 
-<br/><br/>
+<br/>
 
 ### 1.2 Sinopsis de la Aplicación Web

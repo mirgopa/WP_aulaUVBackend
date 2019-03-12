@@ -125,7 +125,9 @@ A nivel global, se permitirá llevar a cabo la acción de _Alta de nuevos produc
 <br/>
 
 > NOTA: Todos los borrados son de carácter físico (no existen históricos).
+
 <br/>
+
 ![Mantenimiento de productos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/entornoZIP/assets/Mantenimiento%20de%20productos.PNG)
 <br/><br/>
 ![Mantenimiento de productos - Edit](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/entornoZIP/assets/Mantenimiento%20de%20productos%20-%20Edit.PNG)
@@ -143,7 +145,9 @@ Sobre cada entidad de compra (card) se podrá llevar a cabo las siguientes accio
 <br/>
 
 A nivel global, se permitirá llevar a cabo la acción de _Alta de nuevas listas de la compra_.
+
 <br/>
+
 ![Mantenimiento de compras](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/entornoZIP/assets/Mantenimiento%20de%20compra.PNG)
 <br/><br/>
 ![Mantenimiento de compras - Edit](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/entornoZIP/assets/Mantenimiento%20de%20compra%20-%20Edit.PNG)

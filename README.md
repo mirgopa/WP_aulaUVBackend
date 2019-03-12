@@ -96,7 +96,7 @@ Gracias al seguimiento paso a paso de la práctica, el alumno debe ser capaz de 
 
 Tal como se ha detallado anteriormente, vamos a completar una herramienta para la gestión de una lista de la compra. Hoy en día, casi todas las aplicaciones web poseen parte móvil y parte web, pero en este caso únicamente nos centraremos en el backend, puesto que seguiremos el concepto de centralización de negocio (backend único, sea cual sea el número de fronts).
 En cualquier caso, el objetivo del tutorial no se centra en la elaboración de interfaces, por lo que se proporcionan de antemano para evitar desviar el objetivo de la guía.
-
+<br/>
 __Vamos al supuesto:__
 La empresa "A" quiere facilitar la existencia a sus clientes, aportándoles una herramienta web donde definan de antemano los productos que van a comprar en su visita al supermercado. El objetivo es que el cliente disponga de todos los productos de la tienda desde su casa y posteriormente, acuda al centro con la lista en su móvil, sabiendo de antemano lo que se va a gastar.
 Esta herramienta está en fase piloto, por lo que únicamente se proporcionará en formato web y en base a la aceptación pública, se desarrollará la plataforma móvil.
@@ -109,3 +109,41 @@ Como desarrolladores del backend de la aplicación, debemos completar el desarro
 
 ### 2.1 Mantenimiento de productos
 
+Se permitirá la gestión integral de productos de una posible lista de la compra, especificando para ello "Nombre", "Descripción", "Imagen", "ReadMore" y "Precio" del mismo.
+
+La información quedará reflejada sobre un listado de cards, con la posibilidad de emplear filtros (sobre el campo Nombre) y realizar operaciones de mantenimiento (alta, edición y borrado).
+Sobre cada entidad de producto (card) se podrá llevar a cabo las siguientes acciones:
+*	_Edición de producto._
+*	_Borrado de producto._
+* _Enlace con más información del producto._
+<br/>
+
+A nivel global, se permitirá llevar a cabo la acción de _Alta de nuevos productos_.
+
+<br/>
+
+> NOTA: Todos los borrados son de carácter físico (no existen históricos).
+
+![Mantenimiento de productos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/entornoZIP/assets/Mantenimiento%20de%20productos.PNG)
+<br/><br/>
+![Mantenimiento de productos - Edit](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/entornoZIP/assets/Mantenimiento%20de%20productos%20-%20Edit.PNG)
+
+<br/>
+
+### 2.2 Listado de compras
+
+Se permitirá la gestión integral de compras, especificando para ello el "Nombre" y el conjunto de "Productos" incluidos sobre el listado.
+
+La información básica de cada listado quedará reflejada sobre un grid de cards, con la posibilidad de emplear filtros sobre el mismo (sobre el campo Nombre) y realizar operaciones de mantenimiento (alta, edición y borrado).
+Sobre cada entidad de compra (card) se podrá llevar a cabo las siguientes acciones:
+*	_Edición de lista de la compra._
+*	_Borrado de lista de la compra._
+<br/>
+
+A nivel global, se permitirá llevar a cabo la acción de _Alta de nuevas listas de la compra_.
+
+![Mantenimiento de compras](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/entornoZIP/assets/Mantenimiento%20de%20compra.PNG)
+<br/><br/>
+![Mantenimiento de compras - Edit](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/entornoZIP/assets/Mantenimiento%20de%20compra%20-%20Edit.PNG)
+
+<br/>

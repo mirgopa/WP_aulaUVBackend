@@ -11,7 +11,12 @@
 [1.3 Objetivos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#13-objetivos)<br/><br/>
 [2. Presentación de la aplicación](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#2-presentaci%C3%B3n-de-la-aplicaci%C3%B3n)<br/>
 [2.1 Mantenimiento de productos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#21-mantenimiento-de-productos)<br/>
-[2.2 Listado de compras](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#22-listado-de-compras)
+[2.2 Listado de compras](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#22-listado-de-compras)<br/>
+[3. Tutorial del supuesto]()<br/>
+[3.1 PASO 1: Modelo de datos]()<br/>
+[3.3.1 Definición de Mapping HBT y DTO]()<br/>
+[3.3.2 Generación de DAOs]()<br/>
+[3.3.3 Generación de SERVICEs]()
 
 <br/><br/>
 
@@ -158,3 +163,95 @@ A nivel global, se permitirá llevar a cabo la acción de _Alta de nuevas listas
 ![Mantenimiento de compras - Edit](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/entornoZIP/assets/Mantenimiento%20de%20compra%20-%20Edit.PNG)
 
 <br/>
+
+## 3. Tutorial del supuesto
+
+### 3.1 PASO 1: Modelo de datos
+
+Se parte de un modelo de datos propuesto (ver conceptual presentado anteriormente) y ya ejecutado en base de datos, mediante el arranque de un contenedor Docker construido a partir de un Dockerfile.
+
+Es posible visualizar la definición completa de las tablas existentes sobre los siguientes cuadros:
+
+<table>
+	<tr>
+  <th><b>PRODUCTO</b></th>
+		<th colspan="2"><i>Esta entidad representa un producto presente en cualquier lista de la compra.</i></th>
+	</tr>
+	<tr><th>NOMBRE</th><th>TIPO</th><th>OBLIGATORIO</th></tr>
+	<tr><td>ID (PK)</td><td>BIGINT(16)</td><td>S</td></tr>
+	<tr><td>NOMBRE</td><td>VARCHAR(60)</td><td>S</td></tr>
+	<tr><td>DESCRIPCION</td><td>VARCHAR(250)</td><td>S</td></tr>
+	<tr><td>IMAGE</td><td>VARCHAR(500)</td><td>N</td></tr>
+	<tr><td>READMORE</td><td>VARCHAR(500)</td><td>N</td></tr>
+	<tr><td>PRECIO</td><td>DECIMAL(6, 3)</td><td>N</td></tr>
+</table>
+<br/>
+<table>
+	<tr>
+  <th><b>COMPRA</b></th>
+		<th colspan="2"><i>Esta entidad representa un listado de la compra con productos.</i></th>
+	</tr>
+	<tr><th>NOMBRE</th><th>TIPO</th><th>OBLIGATORIO</th></tr>
+	<tr><td>ID (PK)</td><td>BIGINT(16)</td><td>S</td></tr>
+	<tr><td>NOMBRE</td><td>VARCHAR(60)</td><td>S</td></tr>
+	<tr><td>CREATED</td><td>TIMESTAMP</td><td>N</td></tr>
+</table>
+<br/>
+<table>
+	<tr>
+  <th><b>COMPRA_PRODUCTO</b></th>
+		<th colspan="2"><i>ManyToMany encargada de manifestar la conjunción entre productos y listas de la compra.</i></th>
+	</tr>
+	<tr><th>NOMBRE</th><th>TIPO</th><th>OBLIGATORIO</th></tr>
+	<tr><td>COMPRA_ID (PK)</td><td>BIGINT(16)</td><td>S</td></tr>
+	<tr><td>PRODUCTO_ID (PK)</td><td>BIGINT(16)</td><td>S</td></tr>
+</table>
+
+<br/>
+
+### 3.2 PASO 2: Configuraciones
+
+A continuación, se realiza un breve repaso de todas aquellas clases y configuraciones presentes en la aplicación Spring Boot y esenciales para el correcto funcionamiento del entorno:
+* Template de CRUD básico para Hibernate: _AbstractJpaDao.java y JpaDao.java_
+  * Pese a la utilización de Spring Boot Data para agilizar el desarrollo, tenemos muy pocas posibilidades para personalizar queries, hacer transformaciones a DTOs, etc. Esta tecnología ofrece muy poca flexibilidad en el momento en que las consultas se complican y van más allá de un listado sin joins o filtros.
+*	Configuración del mapeo de entidades (POJO -> DTO): _BeanUtils.java, DTOTransformer.java y dozer-mapping.xml_
+*	Configuración de la aplicación: _Config.java_
+*	Propiedades de la capa de persistencia: _application.properties_
+<br/>
+
+### 3.3 PASO 3: Construcción del backend
+Se procederá a la construcción del backend completo que dará respuesta a los servicios presentados a continuación:
+*	Servicio de búsqueda general de compras, empleada para definir el contenido del listado y para la que se debe permitir el filtrado mediante el campo: "nombre". _Revisar contrato 1._
+*	Servicio de consulta de información para una compra concreta (incluyendo los productos asociados a la misma). _Revisar contrato 2._
+*	Servicio de inserción/actualización de información de una compra (incluyendo los productos asociados a la misma). _Revisar contrato 3._
+*	Servicio de eliminación de una compra (incluyendo las asociaciones entre la propia compra y los productos incluidos en la misma). _Revisar contrato 4._
+<br/>
+
+Cada parte seguirá una misma metodología de desarrollo, no obstante, todas ellas darán comienzo en la definición de un POJO y su DTO asociado.
+
+<br/>
+
+#### 3.3.1 Definición de Mapping HBT y DTO
+
+En este punto definiremos un POJO (Plain Old Java Object) que cubrirá la función de mapear la tabla existente en base de datos para su representación como objeto de Java.
+
+Hibernate se nutrirá de las anotaciones incorporadas a la clase, atributos o métodos, para enlazar los contenidos y evitar así la utilización de código SQL puro sobre negocio. De este modo, abstraeremos el SGBD de nuestro desarrollo, permitiendo así minimizar impactos ante un cambio de base de datos (pj. De MySQL a Oracle).
+
+Dicha abstracción viene motivada principalmente por la utilización de un nuevo lenguaje de consultas: HQL (Hibernate Query Language), sin cláusulas especiales y no dependiente de plataformas.
+
+Un POJO anotado por Hibernate puede tener menos campos que su correspondiente tabla en Base de Datos (esto no dará problemas en caso de campos excluidos en los que se permita NULL), o más campos, siempre y cuando no tengan anotación referente a Base de Datos.
+En lo que respecta al DTO vinculado con un POJO, al menos nos encontraremos, los mismos campos en ambos objetos (pueden haber menos en caso que queramos filtrar información al usuario, o más en caso que queramos generar más información de la que nos llega desde base de datos – pj. Presupuesto de la compra).
+
+<br/>
+
+#### 3.3.2 Generación de DAOs
+
+Para lograr la interacción con base de datos construiremos una clase Java DAO (Data Access Object) encargada de consumir el DTO relleno desde vista y devolver el POJO obtenido desde Base de Datos. En este punto, se definirán por tanto las consultas necesarias en HQL para la obtención de la información requerida.
+
+Dispondremos de una interfaz con métodos públicos (a la que se accederá en el service) y su consiguiente implementación.
+
+Idílicamente, construiremos un método por servicio a definir, no obstante, es posible generar métodos privados en la implementación para aligerar el código de determinadas funciones y atomizar algunas acciones.
+
+<br/>
+
+#### 3.3.3 Generación de SERVICEs

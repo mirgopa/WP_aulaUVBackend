@@ -11,12 +11,14 @@
 [1.3 Objetivos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#13-objetivos)<br/><br/>
 [2. Presentación de la aplicación](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#2-presentaci%C3%B3n-de-la-aplicaci%C3%B3n)<br/>
 [2.1 Mantenimiento de productos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#21-mantenimiento-de-productos)<br/>
-[2.2 Listado de compras](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#22-listado-de-compras)<br/>
-[3. Tutorial del supuesto]()<br/>
-[3.1 PASO 1: Modelo de datos]()<br/>
-[3.3.1 Definición de Mapping HBT y DTO]()<br/>
-[3.3.2 Generación de DAOs]()<br/>
-[3.3.3 Generación de SERVICEs]()
+[2.2 Listado de compras](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#22-listado-de-compras)<br/><br/>
+[3. Tutorial del supuesto](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#3-tutorial-del-supuesto)<br/>
+[3.1 PASO 1: Modelo de datos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#31-paso-1-modelo-de-datos)<br/>
+[3.2 PASO 2: Configuraciones](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#32-paso-2-configuraciones)<br/>
+[3.3 PASO 3: Construcción del backend](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#33-paso-3-construcci%C3%B3n-del-backend)<br/>
+[3.3.1 Definición de Mapping HBT y DTO](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#331-definici%C3%B3n-de-mapping-hbt-y-dto)<br/>
+[3.3.2 Generación de DAOs](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#332-generaci%C3%B3n-de-daos)<br/>
+[3.3.3 Generación de SERVICEs](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#333-generaci%C3%B3n-de-services)
 
 <br/><br/>
 

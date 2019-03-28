@@ -18,7 +18,14 @@
 [3.3 PASO 3: Construcción del backend](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#33-paso-3-construcci%C3%B3n-del-backend)<br/>
 [3.3.1 Definición de Mapping HBT y DTO](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#331-definici%C3%B3n-de-mapping-hbt-y-dto)<br/>
 [3.3.2 Generación de DAOs](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#332-generaci%C3%B3n-de-daos)<br/>
-[3.3.3 Generación de SERVICEs](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#333-generaci%C3%B3n-de-services)
+[3.3.3 Generación de SERVICEs](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#333-generaci%C3%B3n-de-services)<br/>
+[3.3.4 Generación de Controladores](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#334-generaci%C3%B3n-de-controladores)<br/>
+[3.4 Contratos desde frontend a backend](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#34-contratos-desde-frontend-a-backend)<br/>
+[3.4.1 Búsqueda general de compras](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#341-b%C3%BAsqueda-general-de-compras)<br/>
+[3.4.2 Consulta de una compra concreta](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#342-consulta-de-una-compra-concreta)<br/>
+[3.4.3 Inserción/Actualización de una compra](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#343-inserci%C3%B3nactualizaci%C3%B3n-de-una-compra)<br/>
+[3.4.4 Eliminación de una compra](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#344-eliminaci%C3%B3n-de-una-compra)
+
 
 <br/><br/>
 

@@ -257,3 +257,31 @@ Idílicamente, construiremos un método por servicio a definir, no obstante, es 
 <br/>
 
 #### 3.3.3 Generación de SERVICEs
+
+La capa de interacción entre los diferentes controladores existentes de la aplicación y los DAOs encargados de recuperar la información desde Base de Datos, es la capa SERVICE. El objetivo principal de la misma radica en actuar de manejador entre numerosos DAOs y de este modo, gestionar entidades de Base de Datos compuestas. Esta capa debe recibir desde vista un DTO, desde la capa DAO un POJO y devolver al controller un DTO. Por consiguiente, se debe realizar una conversión de POJO a DTO, bien usando BeanUtils, bien mediante la composición manual del objeto.
+
+Dispondremos de una interfaz con métodos públicos (a la que se accederá en el controller) y su consiguiente implementación.
+
+Idílicamente, construiremos un método por servicio a definir, no obstante, es posible generar métodos privados en la implementación para aligerar el código de determinadas funciones y atomizar algunas acciones.
+
+<br/>
+
+#### 3.3.4 Generación de Controladores
+
+Los controladores serán los encargados de conectar vista con negocio y por consiguiente, son manejados por Spring (IoC), del mismo modo que se hace con los DAOs o SERVICEs.
+
+El controlador se encargará de recuperar los parámetros de la vista para generar el DTO que luego viajará hasta la parte interna del negocio de la aplicación.
+
+<br/>
+
+### 3.4 Contratos desde frontend a backend
+
+#### 3.4.1 Búsqueda general de compras
+
+#### 3.4.2 Consulta de una compra concreta
+
+#### 3.4.3 Inserción/Actualización de una compra
+
+#### 3.4.4 Eliminación de una compra
+
+<br/><br/>

@@ -284,11 +284,117 @@ El controlador se encargará de recuperar los parámetros de la vista para gener
 ### 3.4 Contratos desde frontend a backend
 
 #### 3.4.1 Búsqueda general de compras
+<table>
+	<tr>
+  		<th>URL PÚBLICA AL SERVICIO</th>
+		<td>http://localhost:8083/<b>compra/findCompra</b></td>
+	</tr>
+	<tr>
+  		<th>PARÁMETRO DE ENTRADA</th>
+		<td>
+			<b>nombre: String</b><br/>
+			Ejemplo: <i>?nombre=Listado de Ejemplo</i>
+		</td>
+	</tr>
+	<tr>
+  		<th>PARÁMETRO DE SALIDA</th>
+		<td>
+			<i>[ {<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;"id": 1,<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;"nombre": "Trimestral",<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;"presupuesto": 2.55,<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;"productos": [],<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;"created": "2019-01-16T17:58:06.000+0100"<br/>
+			} ]</i>
+		</td>
+	</tr>
+</table>
+
+<br/>
 
 #### 3.4.2 Consulta de una compra concreta
+<table>
+	<tr>
+  		<th>URL PÚBLICA AL SERVICIO</th>
+		<td>http://localhost:8083/<b>compra/getCompra</b></td>
+	</tr>
+	<tr>
+  		<th>PARÁMETRO DE ENTRADA</th>
+		<td>
+			<b>id: Long</b><br/>
+			Ejemplo: <i>?id=1</i>
+		</td>
+	</tr>
+	<tr>
+  		<th>PARÁMETRO DE SALIDA</th>
+		<td>
+			<i>[ {<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;"id": 1,<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;"nombre": "Trimestral",<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;"presupuesto": null,<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;"productos": [{<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id": 1,<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"nombre": "Doritos",<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"image": "https://www.ocado.com/productImages/397/39714011_1_640x640.jpg",<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"precio": 2.55<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;}],<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;"created": "2019-01-16T17:58:06.000+0100"<br/>
+			} ]</i>
+		</td>
+	</tr>
+</table>
+
+<br/>
 
 #### 3.4.3 Inserción/Actualización de una compra
+<table>
+	<tr>
+  		<th>URL PÚBLICA AL SERVICIO</th>
+		<td>http://localhost:8083/<b>compra/updateCompra</b></td>
+	</tr>
+	<tr>
+  		<th>PARÁMETRO DE ENTRADA</th>
+		<td>
+			<b><i>[ {<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;"nombre": "Trimestral",<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;"productos": [{<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id": 1,<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"nombre": "Doritos",<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"image": "https://www.ocado.com/productImages/397/39714011_1_640x640.jpg",<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"precio": 2.55<br/>
+			    &nbsp;&nbsp;&nbsp;&nbsp;}]<br/>
+			} ]</i></b>
+		</td>
+	</tr>
+	<tr>
+  		<th>PARÁMETRO DE SALIDA</th>
+		<td>
+			<i>true / false</i>
+		</td>
+	</tr>
+</table>
+
+<br/>
 
 #### 3.4.4 Eliminación de una compra
+<table>
+	<tr>
+  		<th>URL PÚBLICA AL SERVICIO</th>
+		<td>http://localhost:8083/<b>compra/deleteCompra</b></td>
+	</tr>
+	<tr>
+  		<th>PARÁMETRO DE ENTRADA</th>
+		<td>
+			<b>id: Long</b><br/>
+			Ejemplo: <i>?id=1</i>
+		</td>
+	</tr>
+	<tr>
+  		<th>PARÁMETRO DE SALIDA</th>
+		<td>
+			<i>true / false</i>
+		</td>
+	</tr>
+</table>
 
 <br/><br/>

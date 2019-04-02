@@ -88,10 +88,13 @@ C:\entornoDevelop> npm install -g @angular/cli
 <br/>
 
 **TIP DOCKER**
-```diff
-+ Comandos para arrancar docker sin dockerfile (la primera opción volcando datos sobre local)
-+ docker run --name=mysql-webapp -p 3306:3306 -v "C:/MySQL/data":/var/lib/mysql -e MYSQL_ROOT_PASSWORD=aulaUV -e MYSQL_ROOT_HOST=% -d mysql/mysql-server:latest --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --lower_case_table_names=1
-+ docker run --name=mysql-webapp -p 3306:3306 -e MYSQL_ROOT_PASSWORD=aulaUV -e MYSQL_ROOT_HOST=% -d mysql/mysql-server:latest --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --lower_case_table_names=1
+<br/>
+Comandos para arrancar docker sin dockerfile (la primera opción volcando datos sobre local)
+```
+docker run --name=mysql-webapp -p 3306:3306 -v "C:/MySQL/data":/var/lib/mysql -e MYSQL_ROOT_PASSWORD=aulaUV -e MYSQL_ROOT_HOST=% -d mysql/mysql-server:latest --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --lower_case_table_names=1
+```
+```
+docker run --name=mysql-webapp -p 3306:3306 -e MYSQL_ROOT_PASSWORD=aulaUV -e MYSQL_ROOT_HOST=% -d mysql/mysql-server:latest --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --lower_case_table_names=1
 ```
 
 **TIP ANGULAR**

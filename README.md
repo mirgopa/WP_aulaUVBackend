@@ -5,26 +5,26 @@
 <br/><br/>
 
 ## Índice
-[1. Introducción al supuesto y objetivos](https://github.com/mirgopa/WP_aulaUVBackend#1-introducci%C3%B3n-al-supuesto-y-objetivos)<br/>
-[1.1 Preparación de los entornos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#11-preparaci%C3%B3n-de-los-entornos)<br/>
-[1.2 Sinopsis de la Aplicación Web](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#12-sinopsis-de-la-aplicaci%C3%B3n-web)<br/>
-[1.3 Objetivos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#13-objetivos)<br/><br/>
-[2. Presentación de la aplicación](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#2-presentaci%C3%B3n-de-la-aplicaci%C3%B3n)<br/>
-[2.1 Mantenimiento de productos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#21-mantenimiento-de-productos)<br/>
-[2.2 Listado de compras](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#22-listado-de-compras)<br/><br/>
-[3. Tutorial del supuesto](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#3-tutorial-del-supuesto)<br/>
-[3.1 PASO 1: Modelo de datos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#31-paso-1-modelo-de-datos)<br/>
-[3.2 PASO 2: Configuraciones](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#32-paso-2-configuraciones)<br/>
-[3.3 PASO 3: Construcción del backend](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#33-paso-3-construcci%C3%B3n-del-backend)<br/>
-[3.3.1 Definición de Mapping HBT y DTO](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#331-definici%C3%B3n-de-mapping-hbt-y-dto)<br/>
-[3.3.2 Generación de DAOs](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#332-generaci%C3%B3n-de-daos)<br/>
-[3.3.3 Generación de SERVICEs](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#333-generaci%C3%B3n-de-services)<br/>
-[3.3.4 Generación de Controladores](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#334-generaci%C3%B3n-de-controladores)<br/>
-[3.4 Contratos desde frontend a backend](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#34-contratos-desde-frontend-a-backend)<br/>
-[3.4.1 Búsqueda general de compras](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#341-b%C3%BAsqueda-general-de-compras)<br/>
-[3.4.2 Consulta de una compra concreta](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#342-consulta-de-una-compra-concreta)<br/>
-[3.4.3 Inserción/Actualización de una compra](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#343-inserci%C3%B3nactualizaci%C3%B3n-de-una-compra)<br/>
-[3.4.4 Eliminación de una compra](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#344-eliminaci%C3%B3n-de-una-compra)
+* [1. Introducción al supuesto y objetivos](https://github.com/mirgopa/WP_aulaUVBackend#1-introducci%C3%B3n-al-supuesto-y-objetivos)<br/>
+  * [1.1 Preparación de los entornos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#11-preparaci%C3%B3n-de-los-entornos)<br/>
+  * [1.2 Sinopsis de la Aplicación Web](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#12-sinopsis-de-la-aplicaci%C3%B3n-web)<br/>
+  * [1.3 Objetivos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#13-objetivos)<br/><br/>
+* [2. Presentación de la aplicación](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#2-presentaci%C3%B3n-de-la-aplicaci%C3%B3n)<br/>
+  * [2.1 Mantenimiento de productos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#21-mantenimiento-de-productos)<br/>
+  * [2.2 Listado de compras](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#22-listado-de-compras)<br/><br/>
+* [3. Tutorial del supuesto](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#3-tutorial-del-supuesto)<br/>
+  * [3.1 PASO 1: Modelo de datos](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#31-paso-1-modelo-de-datos)<br/>
+  * [3.2 PASO 2: Configuraciones](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#32-paso-2-configuraciones)<br/>
+  * [3.3 PASO 3: Construcción del backend](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#33-paso-3-construcci%C3%B3n-del-backend)<br/>
+    * [3.3.1 Definición de Mapping HBT y DTO](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#331-definici%C3%B3n-de-mapping-hbt-y-dto)<br/>
+    * [3.3.2 Generación de DAOs](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#332-generaci%C3%B3n-de-daos)<br/>
+    * [3.3.3 Generación de SERVICEs](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#333-generaci%C3%B3n-de-services)<br/>
+    * [3.3.4 Generación de Controladores](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#334-generaci%C3%B3n-de-controladores)<br/>
+  * [3.4 Contratos desde frontend a backend](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#34-contratos-desde-frontend-a-backend)<br/>
+    * [3.4.1 Búsqueda general de compras](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#341-b%C3%BAsqueda-general-de-compras)<br/>
+    * [3.4.2 Consulta de una compra concreta](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#342-consulta-de-una-compra-concreta)<br/>
+    * [3.4.3 Inserción/Actualización de una compra](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#343-inserci%C3%B3nactualizaci%C3%B3n-de-una-compra)<br/>
+    * [3.4.4 Eliminación de una compra](https://github.com/mirgopa/WP_aulaUVBackend/blob/master/README.md#344-eliminaci%C3%B3n-de-una-compra)
 
 
 <br/><br/>
@@ -85,6 +85,46 @@ C:\entornoDevelop\apps\mysql> docker exec -it mysql-webapp mysql -u root -p
 ```
 C:\entornoDevelop> npm install -g @angular/cli
 ```
+<br/>
+
+**TIP DOCKER**
+```diff
++ Comandos para arrancar docker sin dockerfile (la primera opción volcando datos sobre local)
++ docker run --name=mysql-webapp -p 3306:3306 -v "C:/MySQL/data":/var/lib/mysql -e MYSQL_ROOT_PASSWORD=aulaUV -e MYSQL_ROOT_HOST=% -d mysql/mysql-server:latest --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --lower_case_table_names=1
++ docker run --name=mysql-webapp -p 3306:3306 -e MYSQL_ROOT_PASSWORD=aulaUV -e MYSQL_ROOT_HOST=% -d mysql/mysql-server:latest --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --lower_case_table_names=1
+```
+
+**TIP ANGULAR**
+1. Instalar nodeJS en su versión estable.
+2. Instalar Angular/cli
+	* `npm install -g @angular/cli`
+3. Genero nuevo proyecto Angular con SCSS por defecto:
+	* `ng new ng6Material --style=scss --routing`
+4. Instalo los estilos material:
+	* `npm i --save @angular/material @angular/cdk`
+5. Instalo las animaciones de Angular:
+	* `npm install @angular/animations --save`
+6. Incluyo soporte de gestos:
+	* `npm install hammerjs --save`
+5. Añadir en el main.ts:
+	* `import 'hammerjs';`
+6. Añadir las animaciones en el app.module.ts:
+	* `import { BrowserAnimationsModule } from '@angular/platform-browser/animations';`
+7. Añadir fichero "material.ts" en el directorio "app" con el contenido:
+	* `import { MatButtonModule, MatCheckboxModule } from '@angular/material';`
+	* `import { NgModule } from '@angular/core';`
+	* `@NgModule({`
+	* `  imports: [MatButtonModule, MatCheckboxModule],`
+	* `  exports: [MatButtonModule, MatCheckboxModule],`
+	* `})`
+	* `export class MaterialModule {}`
+8. Añadir import en fichero app.module.ts e incluirlo en el listado de imports:
+	* `import { MaterialModule } from './material';`
+9. Incluimos un theme en el style.scss:
+	* `@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';`
+10. Incluimos los iconos y las tipografías:
+	* `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">`
+	* `<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">`
 
 <br/>
 

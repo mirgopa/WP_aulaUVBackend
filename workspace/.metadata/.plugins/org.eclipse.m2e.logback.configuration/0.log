@@ -4741,3 +4741,41 @@ org.eclipse.core.runtime.CoreException: Launch configuration SpringBootTestAppli
 2019-03-12 16:37:17,463 [Worker-1: Launching webapp - WebappApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-03-12 16:37:17,463 [Worker-1: Launching webapp - WebappApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\entornoDevelop\workspace\webapp\src\test\resources
 2019-03-27 18:10:47,628 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-03 13:12:49,496 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-03 14:18:45,038 [Worker-24: Launching webapp - WebappApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:18:45,048 [Worker-24: Launching webapp - WebappApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-04-03 14:18:45,091 [Worker-24: Launching webapp - WebappApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:18:45,092 [Worker-24: Launching webapp - WebappApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\entornoDevelop\workspace\webapp\src\test\resources
+2019-04-03 14:41:10,655 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-04-03 14:41:12,479 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.capgeminiuv:webapp:1.0.0 @ C:\entornoDevelop\workspace\webapp\pom.xml.
+2019-04-03 14:41:15,301 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /webapp/src/main/java
+2019-04-03 14:41:15,302 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /webapp/src/main/resources
+2019-04-03 14:41:15,303 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /webapp/src/test/java
+2019-04-03 14:41:16,219 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2019-04-03 14:41:19,506 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:41:19,507 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-04-03 14:41:19,538 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:41:19,539 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\entornoDevelop\workspace\webapp\src\test\resources
+2019-04-03 14:42:24,263 [Worker-42: Launching Executing clean in C__entornoDevelop_workspace_webapp] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\entornoDevelop\workspace\webapp
+2019-04-03 14:42:24,264 [Worker-42: Launching Executing clean in C__entornoDevelop_workspace_webapp] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean
+2019-04-03 14:42:28,365 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:42:28,367 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-04-03 14:42:28,374 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:42:28,374 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\entornoDevelop\workspace\webapp\src\test\resources
+2019-04-03 14:43:27,633 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-04-03 14:43:29,155 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.capgeminiuv:webapp:1.0.0 @ C:\entornoDevelop\workspace\webapp\pom.xml.
+2019-04-03 14:43:32,137 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /webapp/src/main/java
+2019-04-03 14:43:32,137 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /webapp/src/main/resources
+2019-04-03 14:43:32,138 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /webapp/src/test/java
+2019-04-03 14:43:33,202 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2019-04-03 14:43:35,321 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:43:35,322 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-04-03 14:43:35,360 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:43:35,360 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\entornoDevelop\workspace\webapp\src\test\resources
+2019-04-03 14:43:47,095 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2019-04-03 14:43:47,204 [Worker-39: Launching webapp] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\entornoDevelop\workspace\webapp
+2019-04-03 14:43:47,204 [Worker-39: Launching webapp] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean package
+2019-04-03 15:41:49,466 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:41:49,473 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:41:49,481 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:41:49,482 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\entornoDevelop\workspace\webapp\src\test\resources

@@ -5,7 +5,323 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-03-27T12:34:55Z</updated>
+  <updated>2019-04-03T13:13:00Z</updated>
+  <entry>
+    <title>Spring Boot 1.5.20 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/03/spring-boot-1-5-20-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Stéphane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2019-04-03:3625</id>
+    <updated>2019-04-03T13:13:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Boot 1.5.20 has been released and is now available from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central.&lt;/p&gt;
+&lt;p&gt;Spring Boot 1.5.20 is a maintenance release that includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v1.5.20.RELEASE"&gt;over 30 dependency updates and selected bug fixes&lt;/a&gt;. These upgrades include Spring Security OAuth 2.0.17 which addresses a &lt;a href="https://spring.io/blog/2019/02/21/cve-2019-3778-spring-security-oauth-2-3-5-2-2-4-2-1-4-2-0-17-released"&gt;recently announced CVE&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you haven’t already upgraded to Spring Boot 2, please consider doing so as support for 1.x will &lt;a href="https://spring.io/blog/2018/07/30/spring-boot-1-x-eol-aug-1st-2019"&gt;end on August 1st 2019&lt;/a&gt;. &lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/1.5.20.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Security 5.1.5, 5.0.12, 4.2.12 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/03/spring-security-5-1-5-5-0-12-4-2-12-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Joe Grandja</name>
+    </author>
+    <id>tag:spring.io,2019-04-03:3624</id>
+    <updated>2019-04-03T13:04:05Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the community I am pleased to announce the release of Spring Security 5.1.5 (&lt;a href="https://github.com/spring-projects/spring-security/milestone/140?closed=1"&gt;changelog&lt;/a&gt;), 5.0.12 (&lt;a href="https://github.com/spring-projects/spring-security/milestone/138?closed=1"&gt;changelog&lt;/a&gt;), and 4.2.12 (&lt;a href="https://github.com/spring-projects/spring-security/milestone/139?closed=1"&gt;changelog&lt;/a&gt;). These releases deliver bug fixes along with some minor improvements. Users are encouraged to update to the latest patch release.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/"&gt;Reference&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Tips: WebMvc.fn - the functional DSL for Spring MVC</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/03/spring-tips-webmvc-fn-the-functional-dsl-for-spring-mvc" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-03-30:3620</id>
+    <updated>2019-04-03T00:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of Spring Tips in which I look at the &lt;em&gt;just-landed-on-master&lt;/em&gt; WebMvc.fn programming model in Spring MVC. WebMvc.fn is the functional DSL for Spring MVC that, I&amp;rsquo;ll bet, you didn&amp;rsquo;t know you wanted! This is &lt;em&gt;awesome&lt;/em&gt;! &lt;/p&gt;
+&lt;p&gt;speaker: &lt;a href="http://twitter.com/Starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/vZV2_9KVHJU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring - April 2nd, 2019</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/02/this-week-in-spring-april-2nd-2019" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-04-02:3622</id>
+    <updated>2019-04-02T06:41:01Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans and welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! This week I&amp;rsquo;m in New York City for the Kafka Summit where I&amp;rsquo;ll be joining the &lt;a href="https://twitter.com/tlberglund"&gt;excellent Tim Berglund&lt;/a&gt;, head of developer experience at Confluent, and &lt;a href="https://twitter.com/WattersJames"&gt;James Watters&lt;/a&gt;, SVP at Pivotal, to talk about why Pivotal and Confluent are better together. Join us! Then, next week it&amp;rsquo;s off to South Africa (for the SpringOne Tour shows in &lt;a href="https://springonetour.io/2019/cape-town"&gt;Capetown&lt;/a&gt; and &lt;a href="https://springonetour.io/2019/johannesburg"&gt;Johannesburg&lt;/a&gt; and then it&amp;rsquo;s off to &lt;a href="https://conference.mscc.mu/speaker/f2617bc2-d35e-4fd7-9cea-02060f3e1608"&gt;to Mauritius for the DevConf&lt;/a&gt;. If you&amp;rsquo;re in any of those places, &lt;a href="https://twitter.com/Starbuxman"&gt;don&amp;rsquo;t hesitate to say hi!&lt;/a&gt;.&lt;/p&gt;
+&lt;div&gt;&#xD;
+&lt;img src="https://pbs.twimg.com/media/D3F0qgiX0AEz1zD.jpg:large" width  = "600" /&gt;&#xD;
+&lt;div&gt;&lt;em&gt; LTR: Confluent co-founder Jay Kreps, Tim Berglund, me and Pivotal SVP James Watters&lt;/em&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;
+&lt;p&gt;And without further ado, let&amp;rsquo;s get to it! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/04/01/spring-framework-5-1-6-5-0-13-and-4-3-23-available-now"&gt;Spring Framework 5.1.6, 5.0.13 and 4.3.23 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/29/spring-tools-4-2-0-released"&gt;Spring Tools 4.2.0 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Last week on &lt;a href="https://twitter.com/bootifulpodcast"&gt;&lt;em&gt;A Bootiful Podcast&lt;/em&gt; (@BootifulPodcast)&lt;/a&gt; I talked to &lt;a href="https://spring.io/blog/2019/03/29/josh-mckenty-better-josh-on-data-sovereignty-microservices-cloud-foundry-python-the-cloud-pivotal-and-more"&gt;Josh Mckenty about data sovereignty, microservices, Cloud Foundry, Python, the cloud, Pivotal, and more&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;If you get one blog to read, read this one on the &lt;a href="https://spring.io/blog/2019/03/28/reactor-debugging-experience"&gt;Reactor Debugging Experience&lt;/a&gt;. It&amp;rsquo;s &lt;em&gt;amazing&lt;/em&gt;!&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/27/spring-tool-suite-3-9-8-released"&gt;Spring Tool Suite 3.9.8 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Want to know what makes &lt;a href="https://twitter.com/springcentral/status/1112804577659817990"&gt;Pivotal Cloud Foundry the best place to run Spring Boot applications?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://phauer.com/2019/focus-integration-tests-mock-based-tests/"&gt;Focus on Integration Tests Instead of Mock-Based Tests&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A gentle reminder that you should &lt;a href="https://twitter.com/springframework/status/1112638165351874562"&gt;be upgrading to Spring Framework 5.1x as soon as possible&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/SaraTorrey/status/1111305944909127680"&gt;Sara Torrey diagrammed her notes introducing &lt;/a&gt; Spring Boot and they&amp;rsquo;re really cool!&lt;/li&gt;
+  &lt;li&gt;Check out Pivotal&amp;rsquo;s Ben Hale on &lt;a href="https://twitter.com/r2dbc/status/1111203411020656641"&gt;the state of Reactive Programming in the enterprise, RSocket and R2DBC on the latest OffHeap podcast episode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Missed this white-hot Spring Tip introducing ways to make Spring Boot lazy &lt;em&gt;and&lt;/em&gt; fast? &lt;a href="https://twitter.com/springcentral/status/1110982329655283713"&gt;Now&amp;rsquo;s the time to watch&lt;/a&gt;! It&amp;rsquo;s not even ten minute&amp;rsquo;s long!&lt;/li&gt;
+  &lt;li&gt;We&amp;rsquo;re conducting a survey that looks at how we can improve the &lt;a href="http://start.Spring.io"&gt;Spring Initializr (start dot Spring dot io)&lt;/a&gt;, a topic near and dear to my heart. &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLScMnjpp_jKMvM5ijru5cCZJYlk6cKDdKaNr54raQV-fI24k5w/viewform?ts=5c8f9ee0"&gt;Please feedback here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <title>Event-driven Java with Spring Cloud Stream and Azure Event Hubs [Guest Post]</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/02/event-driven-java-with-spring-cloud-stream-and-azure-event-hubs-guest-post" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Ben Wilcock</name>
+    </author>
+    <id>tag:spring.io,2019-03-28:3615</id>
+    <updated>2019-04-02T00:00:00Z</updated>
+    <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Asir Selvasingh | Principal PM Architect | Microsoft – Java on Azure&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Spring Cloud Stream Binder for Azure Event Hubs is now generally available. &lt;/p&gt;
+&lt;p&gt;It is simple to build highly scalable event-driven Java apps using Spring Cloud Stream with Event Hubs, a fully managed, real-time data ingestion service on Azure that is resilient and reliable service for any situation; this includes emergencies, thanks to its geo-disaster recovery and geo-replication features.&lt;/p&gt;
+&lt;p&gt;Spring Cloud Stream provides a binder abstraction for popular message broker implementations. It provides a flexible programming model built on already established and familiar Spring idioms and best practices, including support for persistent pub/sub semantics, consumer groups, and stateful partitions. Now, developers can use the same patterns for building Java apps with Event Hubs. &lt;/p&gt;
+&lt;p&gt;&lt;img src="https://static.spring.io/blog/bwilcock/20190328/[001]-Guest-Post_Event-driven-Java-with-Spring-Cloud-Stream-and-Azure-Event-Hubs.png" alt="Diagram showing Spring Apps inputting to Azure Event Hubs and outputting to other Spring apps, using the Azure event hubs binder and channels." title="Spring Apps inputting to Azure Event Hubs and outputting to other Spring apps, using the Azure event hubs binder and channels" /&gt;&lt;/p&gt;&lt;h2&gt;&lt;a href="#getting-started" class="anchor" name="getting-started"&gt;&lt;/a&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;Check out &lt;a href="https://docs.microsoft.com/en-us/java/azure/spring-framework/configure-spring-cloud-stream-binder-java-app-azure-event-hub?view=azure-java-stable"&gt;this tutorial&lt;/a&gt; and build a Java-based Spring Cloud Stream Binder application using the Spring Boot Initializer with Azure Event Hubs. Go to the Azure portal and create a new Event Hubs namespace. Add the following Maven dependency into your Java project.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint xml"&gt;&amp;lt;dependency&amp;gt; &#xD;
+    &amp;lt;groupId&amp;gt;com.microsoft.azure&amp;lt;/groupId&amp;gt; &#xD;
+	&amp;lt;artifactId&amp;gt;spring-cloud-azure-eventhubs-stream-binder&amp;lt;/artifactId&amp;gt; &#xD;
+    &amp;lt;version&amp;gt;1.1.0.RC2&amp;lt;/version&amp;gt; &#xD;
+&amp;lt;/dependency&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;a href="#publish-messages" class="anchor" name="publish-messages"&gt;&lt;/a&gt;Publish messages&lt;/h2&gt;
+&lt;p&gt;Use &lt;code&gt;@EnableBinding(Source.class)&lt;/code&gt; to annotate a source class and publish messages to Event Hubs with Spring Cloud Stream patterns. You can customize the output channel for the Source with configurations. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Destination: specify which Event Hub to connect with the output channel&lt;/li&gt;
+  &lt;li&gt;Sync/Async: specify the mode to produce the messages&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;&lt;a href="#subscribe-to-messages" class="anchor" name="subscribe-to-messages"&gt;&lt;/a&gt;Subscribe to messages&lt;/h2&gt;
+&lt;p&gt;Use &lt;code&gt;@EnableBinding(Sink.class)&lt;/code&gt; to annotate a sink class and consume messages from Event Hubs. You can also customize the input channel with configurations. Please refer to this &lt;a href="https://docs.microsoft.com/en-us/java/azure/spring-framework/configure-spring-cloud-stream-binder-java-app-azure-event-hub"&gt;tutorial&lt;/a&gt; for the full list.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Destination: specify an Event Hub to bind with the input channel&lt;/li&gt;
+  &lt;li&gt;Customer Group: specify a &lt;a href="https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-features#consumer-groups"&gt;Consumer Group&lt;/a&gt; to receive messages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Try building event-driven Java apps using Spring Cloud Stream Binder for Event Hubs &lt;/p&gt;&lt;h2&gt;&lt;a href="#try-out-a-java-app-using-a-href-https-docs-microsoft-com-en-us-java-azure-spring-framework-configure-spring-cloud-stream-binder-java-app-azure-event-hub-view-azure-java-stable-spring-cloud-stream-binder-on-azure-event-hubs-a-and-let-us-know-what-you-think-via-e-mail-or-comments-below" class="anchor" name="try-out-a-java-app-using-a-href-https-docs-microsoft-com-en-us-java-azure-spring-framework-configure-spring-cloud-stream-binder-java-app-azure-event-hub-view-azure-java-stable-spring-cloud-stream-binder-on-azure-event-hubs-a-and-let-us-know-what-you-think-via-e-mail-or-comments-below"&gt;&lt;/a&gt;Try out a Java app using &lt;a href="https://docs.microsoft.com/en-us/java/azure/spring-framework/configure-spring-cloud-stream-binder-java-app-azure-event-hub?view=azure-java-stable"&gt;Spring Cloud Stream Binder on Azure Event Hubs&lt;/a&gt; and let us know what you think via e-mail or comments below.&lt;/h2&gt;&lt;h2&gt;&lt;a href="#additional-resources" class="anchor" name="additional-resources"&gt;&lt;/a&gt;Additional Resources&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Tutorial: &lt;a href="https://docs.microsoft.com/en-us/java/azure/spring-framework/configure-spring-cloud-stream-binder-java-app-azure-event-hub?view=azure-java-stable"&gt;How to create a Spring Cloud Stream Binder application with Azure Event Hubs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Tutorial: &lt;a href="https://docs.microsoft.com/en-us/java/azure/spring-framework"&gt;Spring on Azure Developer Hub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Tutorial: &lt;a href="https://docs.microsoft.com/en-us/java/azure/"&gt;Java on Azure Developer Hub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;GitHub: &lt;a href="https://github.com/Microsoft/spring-cloud-azure"&gt;Spring Cloud for Azure&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Learn more: &lt;a href="https://azure.microsoft.com/en-us/services/event-hubs/"&gt;Azure Event Hubs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;&lt;a href="#about-the-author" class="anchor" name="about-the-author"&gt;&lt;/a&gt;About the Author&lt;/h3&gt;
+&lt;p&gt;Asir started his software engineering career in the early days of Java, in 1995, and built enterprise products, applications and open source projects for many years. Now, he is a Principal PM Architect at Microsoft focusing on a full gamut of services and tools for developers to build and scale Java workloads on Azure. He works closely with the community, delivering sessions at Java conferences and fostering strategic relations that enrich the Java ecosystem.&lt;/p&gt;
+&lt;p&gt;In his free-time, Asir loves to tinker with Java apps on Azure, which serves as a creative outlet from his day job. He’s passionate about cooking and photography and enjoys quality family time traveling the world.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Framework 5.1.6, 5.0.13 and 4.3.23 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/01/spring-framework-5-1-6-5-0-13-and-4-3-23-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Stéphane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2019-04-01:3621</id>
+    <updated>2019-04-01T08:41:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework &lt;code&gt;5.1.6.&lt;/code&gt;, &lt;code&gt;5.0.13&lt;/code&gt; and &lt;code&gt;4.3.23&lt;/code&gt; are available from &lt;a href="https://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; as well as Maven Central now.&lt;/p&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;5.1.6&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.1.6.RELEASE"&gt;49 fixes and improvements&lt;/a&gt;. Spring Framework &lt;code&gt;5.0.13&lt;/code&gt; is the last regular release of the &lt;code&gt;5.0.x&lt;/code&gt; line and includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.0.13.RELEASE"&gt;25 fixes and selected improvements&lt;/a&gt;. At this point, we expect all &lt;code&gt;5.x&lt;/code&gt; users to upgrade to &lt;code&gt;5.1.6&lt;/code&gt;. We&amp;rsquo;ve also released &lt;code&gt;4.3.23&lt;/code&gt; that includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v4.3.23.RELEASE"&gt;20 fixes and selected improvements&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As usual, those maintenance releases will be used for the upcoming Spring Boot &lt;code&gt;1.5.20&lt;/code&gt;, &lt;code&gt;2.0.9&lt;/code&gt;, &lt;code&gt;2.1.4&lt;/code&gt; releases coming up later this week.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://projects.spring.io/spring-framework/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.1.6.RELEASE/spring-framework-reference"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Tools 4.2.0 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/03/29/spring-tools-4-2-0-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Martin Lippert</name>
+    </author>
+    <id>tag:spring.io,2019-03-29:3619</id>
+    <updated>2019-03-29T09:01:36Z</updated>
+    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I am happy to announce the 4.2.0 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Atom.&lt;/p&gt;
+&lt;p&gt;Highlights from this release include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; new: Allow configuration of VM arguments for LSP process &amp;ldquo;PropertiesLauncher&amp;rdquo; (&lt;a href="https://github.com/spring-projects/sts4/issues/211"&gt;#211&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; performance: major performance improvements to symbol indexing infrastructure by caching created symbols across language server starts&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; performance: replaced internal type indexing with communication to JDT (language server) to save time and memory spend for keeping our own type index&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; new: distribution updated to Eclipse 2019-03&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Eclipse)&lt;/em&gt; new: enables Spring JMX support now by default in Spring Boot launch configs&lt;/li&gt;
+  &lt;li&gt;various additional bug fixes and improvements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Atom, please go visit:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring Tools 4: &lt;a href="https://spring.io/tools/"&gt;https://spring.io/tools/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Detailed changes can be found here: &lt;a href="https://github.com/spring-projects/sts4/wiki/Changelog#2019-03-28-420-release"&gt;https://github.com/spring-projects/sts4/wiki/Changelog#2019-03-28-420-release&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Spring Tools 4.2.1 is scheduled to be released in late April 2019.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>A Bootiful Podcast: Josh Mckenty - "Better Josh" - on data sovereignty, microservices, Cloud Foundry, Python, the cloud, Pivotal, and more</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/03/29/a-bootiful-podcast-josh-mckenty-better-josh-on-data-sovereignty-microservices-cloud-foundry-python-the-cloud-pivotal-and-more" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-03-29:3618</id>
+    <updated>2019-03-29T05:31:00Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! In this week&amp;rsquo;s installment of a Bootiful Podcast I, &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long&lt;/a&gt;, welcome &lt;a href="http://twitter.com/JMCkenty"&gt;Josh Mckenty&lt;/a&gt; - or &amp;ldquo;better Josh,&amp;rdquo; as I affectionately call him - to the show to discuss Pivotal, Cloud Foundry, Python, microservices, and data sovereignty, among other things.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://twitter.com/JMCkenty"&gt;Josh McKenty (@jmckenty) on Twitter&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/597710070&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>Reactor Debugging Experience</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/03/28/reactor-debugging-experience" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Sergei Egorov</name>
+    </author>
+    <id>tag:spring.io,2019-03-28:3616</id>
+    <updated>2019-03-28T15:59:00Z</updated>
+    <content type="html">&lt;p&gt;In the &lt;a href="https://projectreactor.io"&gt;Project Reactor&lt;/a&gt; team, we believe that the debugging experience of the libraries you rely upon is as important as, let&amp;rsquo;s say, the feature set or performance.&lt;/p&gt;
+&lt;p&gt;Today, we&amp;rsquo;re excited to announce two new experimental projects in the Reactor family!&lt;/p&gt;&lt;h2&gt;&lt;a href="#blockhound-a-new-kid-on-the-block" class="anchor" name="blockhound-a-new-kid-on-the-block"&gt;&lt;/a&gt;BlockHound - a new kid on the block&lt;/h2&gt;
+&lt;p&gt;One of the most common rookie mistakes is to block Java threads that are supposed to run only non-blocking code (e.g., &lt;code&gt;Schedulers.parallel()&lt;/code&gt;).&lt;br/&gt;It is one of the most harmful issues because you may block unrelated processing or even create a deadlock!&lt;/p&gt;
+&lt;p&gt;Consider the following code:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;Flux.range(0, Runtime.getRuntime().availableProcessors() * 2)&#xD;
+        .subscribeOn(Schedulers.parallel())&#xD;
+        .map(i -&amp;gt; {&#xD;
+            CountDownLatch latch = new CountDownLatch(1);&#xD;
+&#xD;
+            Mono.delay(Duration.ofMillis(i * 100))&#xD;
+                .subscribe(it -&amp;gt; latch.countDown());&#xD;
+&#xD;
+            try {&#xD;
+                latch.await();&#xD;
+            } catch (InterruptedException e) {&#xD;
+                throw new RuntimeException(e);&#xD;
+            }&#xD;
+&#xD;
+            return i;&#xD;
+        })&#xD;
+        .blockLast();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;How long will it take to run this code? 1 second? 10 seconds?&lt;br/&gt;What if I tell you that it will never exit and create a deadlock? Here is why:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;We create &lt;code&gt;N * 2&lt;/code&gt; signals, where &lt;code&gt;N&lt;/code&gt; is the number of CPUs our JVM can use.&lt;/li&gt;
+  &lt;li&gt;We subscribe using &lt;code&gt;Schedulers.parallel&lt;/code&gt; - a bounded pool limited to &lt;code&gt;N&lt;/code&gt; threads.&lt;/li&gt;
+  &lt;li&gt;For every signal, we schedule another task for the parallel scheduler (&lt;code&gt;Mono.delay&lt;/code&gt; implicitly uses &lt;code&gt;Schedulers.parallel&lt;/code&gt;).&lt;/li&gt;
+  &lt;li&gt;Our logic assumes that the delay will be processed shortly and the latch will eventually unblock.&lt;/li&gt;
+  &lt;li&gt;However, all N threads will be waiting for their latches, and the delay task will never get executed!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Even of you don&amp;rsquo;t block all threads and block only some, you&amp;rsquo;re preventing other unrelated tasks from advancing. The most probable result is that the performance will degrade.&lt;/p&gt;
+&lt;p&gt;The problem is especially notable when you&amp;rsquo;re &lt;a href="https://projectreactor.io/docs/core/release/reference/#faq.wrap-blocking"&gt;migrating your old blocking code to the reactive approach&lt;/a&gt;. Even the most experienced code reviewer may not spot a blocking call when your &lt;a href="http://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/"&gt;functions are of the same color&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;This is why we created &lt;a href="https://github.com/reactor/BlockHound"&gt;BlockHound&lt;/a&gt; - a Java agent to detect blocking calls from non-blocking threads.&lt;br/&gt;Unlike other solutions, it instruments the original methods (even native ones!) and leaves no way to call a blocking method, even with reflection!&lt;/p&gt;
+&lt;p&gt;Now, if we add it to our app as &lt;a href="https://github.com/reactor/BlockHound/tree/master/docs/quick_start.md"&gt;described in the docs&lt;/a&gt;, we will get the following exception:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;java.lang.Error: Blocking call! sun.misc.Unsafe#park&#xD;
+  at reactor.BlockHound$Builder.lambda$new$0(BlockHound.java:154)&#xD;
+  at reactor.BlockHound$Builder.lambda$install$8(BlockHound.java:254)&#xD;
+  at reactor.BlockHoundRuntime.checkBlocking(BlockHoundRuntime.java:43)&#xD;
+  at sun.misc.Unsafe.park(Unsafe.java)&#xD;
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)&#xD;
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer.parkAndCheckInterrupt(AbstractQueuedSynchronizer.java:836)&#xD;
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:997)&#xD;
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)&#xD;
+  at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:231)&#xD;
+  at com.example.demo.BlockingCode.lambda$main$1(BlockingCode.java:24)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note that &lt;code&gt;await&lt;/code&gt; calls &lt;code&gt;Unsafe#park&lt;/code&gt; internally for the awaiting logic. We don&amp;rsquo;t want our Thread to be parked or blocked, and BlockHound protects us from that!&lt;/p&gt;
+&lt;p&gt;Read the &lt;a href="https://github.com/reactor/BlockHound/blob/master/docs/how_it_works.md"&gt;how it works&lt;/a&gt; page if you want to know the implementation details.&lt;br/&gt;TL;DR: it wraps original methods and adds only two method calls to them.&lt;/p&gt;
+&lt;p&gt;You can run it in tests or on your QA/staging environments without losing performance. Holy Atom, you can even try running it in production, given the low overhead! :)&lt;/p&gt;
+&lt;p&gt;BlockHound works with Project Reactor and RxJava 2, and you can &lt;a href="https://github.com/reactor/BlockHound/blob/master/docs/custom_integrations.md"&gt;write your own integration&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#reactor-debug-agent-production-ready-assembly-back-tracing" class="anchor" name="reactor-debug-agent-production-ready-assembly-back-tracing"&gt;&lt;/a&gt;Reactor Debug agent - production-ready assembly back-tracing&lt;/h2&gt;
+&lt;p&gt;Debugging Reactive code can sometimes be challenging because of the functional programming aspect of it: Instead of commanding exactly what to perform on the data, you &lt;em&gt;declare&lt;/em&gt; how the data should flow through the system. It means that the declaration and the execution happen at different moments of time.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;You can read more about it in Simon&amp;rsquo;s great article:&lt;br/&gt;&lt;a href="https://spring.io/blog/2019/03/06/flight-of-the-flux-1-assembly-vs-subscription"&gt;https://spring.io/blog/2019/03/06/flight-of-the-flux-1-assembly-vs-subscription&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In Reactor, we call it &amp;ldquo;Assembly time&amp;rdquo; and &amp;ldquo;Execution time&amp;rdquo;. During Assembly time, you &amp;ldquo;design&amp;rdquo; your pipeline by calling &lt;code&gt;myFlux.map(i -&amp;gt; i * 2).filter(5 % i == 1).single()&lt;/code&gt; and other operators. Some time later, this &amp;ldquo;pipeline definition&amp;rdquo; will be used to process the signals published by &lt;code&gt;myFlux&lt;/code&gt;. But what happens when an error occurs?&lt;/p&gt;
+&lt;p&gt;Some of you may already know &lt;code&gt;Hooks.onOperatorDebug()&lt;/code&gt;. That&amp;rsquo;s a very helpful hook in &lt;code&gt;reactor-core&lt;/code&gt;. It transforms stack traces from this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;java.lang.IndexOutOfBoundsException: Source emitted more than one item&#xD;
+  at reactor.core.publisher.MonoSingle$SingleSubscriber.onNext(MonoSingle.java:129)&#xD;
+  at reactor.core.publisher.FluxRange$RangeSubscription.fastPath(FluxRange.java:129)&#xD;
+  at reactor.core.publisher.FluxRange$RangeSubscription.request(FluxRange.java:107)&#xD;
+  at reactor.core.publisher.MonoSingle$SingleSubscriber.request(MonoSingle.java:94)&#xD;
+  at reactor.core.publisher.MonoSubscribeOn$SubscribeOnSubscriber.trySchedule(MonoSubscribeOn.java:186)&#xD;
+  at reactor.core.publisher.MonoSubscribeOn$SubscribeOnSubscriber.onSubscribe(MonoSubscribeOn.java:131)&#xD;
+  at reactor.core.publisher.MonoSingle$SingleSubscriber.onSubscribe(MonoSingle.java:114)&#xD;
+  at reactor.core.publisher.FluxRange.subscribe(FluxRange.java:68)&#xD;
+  at reactor.core.publisher.MonoSingle.subscribe(MonoSingle.java:58)&#xD;
+  at reactor.core.publisher.Mono.subscribe(Mono.java:3711)&#xD;
+  at reactor.core.publisher.MonoSubscribeOn$SubscribeOnSubscriber.run(MonoSubscribeOn.java:123)&#xD;
+  at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)&#xD;
+  at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)&#xD;
+  at java.util.concurrent.FutureTask.run(FutureTask.java:266)&#xD;
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)&#xD;
+  at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)&#xD;
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#xD;
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#xD;
+  at java.lang.Thread.run(Thread.java:748)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;into this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;java.lang.IndexOutOfBoundsException: Source emitted more than one item&#xD;
+  at reactor.core.publisher.MonoSingle$SingleSubscriber.onNext(MonoSingle.java:129)&#xD;
+   ...&#xD;
+  at java.lang.Thread.run(Thread.java:748)&#xD;
+  Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: &#xD;
+Assembly trace from producer [reactor.core.publisher.MonoSingle] :&#xD;
+  reactor.core.publisher.Flux.single(Flux.java:7380)&#xD;
+  com.example.demo.Example.run(Example.java:13)&#xD;
+Error has been observed by the following operator(s):&#xD;
+  |_	Flux.single ? com.example.demo.Example.run(Example.java:13)&#xD;
+  |_	Mono.subscribeOn ? com.example.demo.Example.run(Example.java:14)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For the following code:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;9:  public class Example {&#xD;
+10:&#xD;
+11:     public static void run() {&#xD;
+12:        Flux.range(0, 5)&#xD;
+13:            .single() // &amp;lt;-- Aha!&#xD;
+14:            .subscribeOn(Schedulers.parallel())&#xD;
+15:            .block();&#xD;
+16:     }&#xD;
+17: }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As you can see, with debug mode enabled, we can clearly identify the assembly operation where the error happened. It is like a stack-trace, but (since the execution is separated from the assembly) is a back-trace.&lt;/p&gt;
+&lt;p&gt;You may think: &amp;ldquo;Great, now I want it in production!&amp;rdquo; - and so do we. But when you use &lt;code&gt;Hooks.onOperatorDebug()&lt;/code&gt;, we have to do heavy-weight stack walking at assembly time to capture the call-site every time you call an operator like &lt;code&gt;.map(...)&lt;/code&gt;, even if your code will never throw an error! This is due to a lack of call-site tracing in Java, where the only alternatives are &lt;code&gt;new Exception().getStackTrace()&lt;/code&gt; or &lt;code&gt;StackWalker&lt;/code&gt; (in Java 9+).&lt;/p&gt;
+&lt;p&gt;Clearly, we cannot use this approach in production, so we made a tool for that!&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ReactorDebugAgent&lt;/code&gt; from the &lt;a href="http://github.com/reactor/reactor-tools"&gt;reactor-tools project&lt;/a&gt; is a Java agent that helps you debug exceptions in your application without paying a runtime cost (unlike &lt;code&gt;Hooks.onOperatorDebug()&lt;/code&gt;).&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;?? This project is in incubating phase and may or may not become a standalone project or a module of &lt;a href="https://github.com/reactor/reactor-core"&gt;https://github.com/reactor/reactor-core&lt;/a&gt; in the future.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It transforms (via bytecode transformation) chains like:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;Flux.range(0, 5)&#xD;
+       .single()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;to:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;Flux flux = Flux.range(0, 5);&#xD;
+flux = Hooks.addCallSiteInfo(flux, &amp;quot;Flux.range\n foo.Bar.baz(Bar.java:21)&amp;quot;));&#xD;
+flux = flux.single();&#xD;
+flux = Hooks.addCallSiteInfo(flux, &amp;quot;Flux.single\n foo.Bar.baz(Bar.java:22)&amp;quot;));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To enable it, you need to initialize the agent first:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;ReactorDebugAgent.init();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;?? Since the implementation will instrument your classes when they are loaded, the best place to put it is before everything else in your &lt;code&gt;main(String[])&lt;/code&gt; method:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;public static void main(String[] args) {&#xD;
+    ReactorDebugAgent.init();&#xD;
+    SpringApplication.run(Application.class, args);&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;a href="#conclusion" class="anchor" name="conclusion"&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;We hope that these tools will make your life as a developer easier and make you feel more comfortable with Project Reactor!&lt;/p&gt;&lt;h2&gt;&lt;a href="#links" class="anchor" name="links"&gt;&lt;/a&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/reactor/BlockHound"&gt;https://github.com/reactor/BlockHound&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/reactor/BlockHound/blob/master/docs/how_it_works.md"&gt;https://github.com/reactor/BlockHound/blob/master/docs/how_it_works.md&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/reactor/reactor-tools"&gt;https://github.com/reactor/reactor-tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Spring Tool Suite 3.9.8 released</title>
     <link rel="alternate" href="https://spring.io/blog/2019/03/27/spring-tool-suite-3-9-8-released" />
@@ -392,482 +708,5 @@ dependencies {
     <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of a Bootiful Podcast! This week &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks to &lt;a href="https://twitter.com/joegrandja"&gt;Joe Grandja (@joegrandja)&lt;/a&gt; who, not coincidentally, just celebrated his third anniversary working on the Spring team! Joe has been instrumental in building Spring Security 5.x and its OAuth client and resource-server support.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://spring.io/team/pivotal-joe-grandja"&gt;Joe&amp;rsquo;s team page&lt;/a&gt;&lt;br/&gt;&lt;a href="http://twitter.com/joe_grandja"&gt;Joe on Twitter&lt;/a&gt;&lt;br/&gt;&lt;a href="https://twitter.com/rob_winch/status/1106194606058815490"&gt;Joe just celebrated his third year on the team!&lt;/a&gt;&lt;/p&gt;
 &lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/589977558%3Fsecret_token%3Ds-GoINo&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tips: Be Lazy AND Fast with Spring Boot 2.2.M1!</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/14/spring-tips-be-lazy-and-fast-with-spring-boot-2-2-m1" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-03-14:3604</id>
-    <updated>2019-03-14T15:38:38Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to a super quick, intra-season interregnum installment of Spring Tips in which we look at a few features that let you be both lazy AND fast in Spring Boot 2.2! &lt;/p&gt;
-&lt;p&gt;speaker: Josh Long&lt;br/&gt;&lt;a href="http://twitter.com/starbuxman"&gt;@starbuxman&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/_m4xpHUf55E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>Lazy Initialization in Spring Boot 2.2</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/14/lazy-initialization-in-spring-boot-2-2" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Andy Wilkinson</name>
-    </author>
-    <id>tag:spring.io,2019-03-08:3601</id>
-    <updated>2019-03-14T11:59:00Z</updated>
-    <content type="html">&lt;p&gt;The &lt;a href="https://spring.io/blog/2019/03/08/spring-boot-2-2-m1"&gt;recently announced&lt;/a&gt; first milestone of Spring Boot 2.2 introduces support for lazy initialization. This post describes the new functionality and explains how and when to enable it.&lt;/p&gt;&lt;h2&gt;&lt;a href="#what-does-it-mean-to-be-lazy" class="anchor" name="what-does-it-mean-to-be-lazy"&gt;&lt;/a&gt;What Does it Mean to be Lazy?&lt;/h2&gt;
-&lt;p&gt;Spring Framework has had support for lazy bean initialization since before its source code moved to Git 11 years ago. By default, when an application context is being refreshed, every bean in the context is created and its dependencies are injected. By contrast, when a bean definition is configured to be initialized lazily it will not be created and its dependencies will not be injected until it&amp;rsquo;s needed.&lt;/p&gt;&lt;h2&gt;&lt;a href="#enabling-lazy-initialization" class="anchor" name="enabling-lazy-initialization"&gt;&lt;/a&gt;Enabling Lazy Initialization&lt;/h2&gt;
-&lt;p&gt;It&amp;rsquo;s possible to enable lazy initialization in any version of Spring Boot if you&amp;rsquo;re happy to get your hands dirty and write a &lt;code&gt;BeanFactoryPostProcessor&lt;/code&gt;. Spring Boot 2.2 just makes it easier via the introduction of a new property, &lt;code&gt;spring.main.lazy-initialization&lt;/code&gt; (there are also equivalent methods on both &lt;code&gt;SpringApplication&lt;/code&gt; and &lt;code&gt;SpringApplicationBuilder&lt;/code&gt;). When set to &lt;code&gt;true&lt;/code&gt;, bean definitions in the application will be configured to use lazy initialization.&lt;/p&gt;&lt;h2&gt;&lt;a href="#benefits-of-lazy-initialization" class="anchor" name="benefits-of-lazy-initialization"&gt;&lt;/a&gt;Benefits of Lazy Initialization&lt;/h2&gt;
-&lt;p&gt;Lazy initialization can result in significantly reduced startup times as fewer classes are loaded and fewer beans are created during application startup. For example, a small web application that&amp;rsquo;s using Actuator and Spring Security that normally starts in 2500ms will start in 2000ms with lazy initialization enabled. The exact improvement will vary from application to application depending on the structure of their beans&amp;rsquo; dependency graphs.&lt;/p&gt;&lt;h3&gt;&lt;a href="#what-about-devtools" class="anchor" name="what-about-devtools"&gt;&lt;/a&gt;What About DevTools?&lt;/h3&gt;
-&lt;p&gt;Spring Boot&amp;rsquo;s DevTools already provide a significant boost to developer productivity. Rather than having to restart the JVM and the application each time you want to try out a change, DevTools enables hot restart of your application in the same JVM. A significant benefit of hot restart is that it gives the JIT more of a chance to optimise the code involved in starting your application. After a few restarts, the original time of 2500ms is reduced by almost 80% to nearer 500ms. With lazy initialization, we can do even better. Setting &lt;code&gt;spring.main.lazy-initialization&lt;/code&gt; sees our application restart in 400ms directly in the IDE.&lt;/p&gt;&lt;h2&gt;&lt;a href="#downsides-of-lazy-initialization" class="anchor" name="downsides-of-lazy-initialization"&gt;&lt;/a&gt;Downsides of Lazy Initialization&lt;/h2&gt;
-&lt;p&gt;As we&amp;rsquo;ve seen above, enabling lazy initialization can reduce startup times quite dramatically. You may be tempted to enable it all the time or be wondering why we didn&amp;rsquo;t decide to enable it by default. There are a few downsides to lazy initialization that mean we believe it&amp;rsquo;s better to opt-in once you have decided it makes sense to do so.&lt;/p&gt;
-&lt;p&gt;Due to classes no longer being loaded and beans no longer being created until they&amp;rsquo;re needed, it&amp;rsquo;s possible for lazy initialization to mask a problem that previously would have been identified at startup. Such problems can include no class def found errors, out of memory errors, and failures due to misconfiguration.&lt;/p&gt;
-&lt;p&gt;In a web application lazy initialization can lead to increased latency for HTTP requests that trigger bean initialization. This will typically just be the first request but it may have an adverse effect on load-balancing and auto-scaling.&lt;/p&gt;&lt;h2&gt;&lt;a href="#is-this-thing-switched-on" class="anchor" name="is-this-thing-switched-on"&gt;&lt;/a&gt;Is This Thing Switched On?&lt;/h2&gt;
-&lt;p&gt;If you&amp;rsquo;re not sure what effect lazy initialization is having on your application, or you&amp;rsquo;d like to verify that another framework&amp;rsquo;s behaviour meets your needs and matches their claims, it can be informative to use the debugger. By placing a breakpoint in the constructor of one of your beans you can see when it is being initialized. For example, in a Spring Boot web application with lazy initialization enabled you&amp;rsquo;ll see that &lt;code&gt;@Controller&lt;/code&gt; beans are not created until the first request is made to Spring MVC&amp;rsquo;s &lt;code&gt;DispatcherServlet&lt;/code&gt; or Spring WebFlux&amp;rsquo;s &lt;code&gt;DispatcherHandler&lt;/code&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#when-to-enable-lazy-initialization" class="anchor" name="when-to-enable-lazy-initialization"&gt;&lt;/a&gt;When to Enable Lazy Initialization&lt;/h2&gt;
-&lt;p&gt;As we&amp;rsquo;ve seen above, lazy initialization can offer significant improvements in start up time but there are some notable downsides too and it&amp;rsquo;s important to enable it with care.&lt;/p&gt;
-&lt;p&gt;One area where lazy initialization can be highly beneficial with few, if any, downsides is during development. As you&amp;rsquo;re iterating on an application, the reduced startup times offered by lazy initialization and DevTools&amp;rsquo; hot restarts can dramatically improve your productivity.&lt;/p&gt;
-&lt;p&gt;Another area that can benefit from lazy initialization is your application&amp;rsquo;s integration tests. You may already be using Spring Boot&amp;rsquo;s test slices to reduce test execution time by limiting the number of beans that are initialized in certain types of tests. Lazy initialization provides an alternative mechanism to achieve a similar end result. If you&amp;rsquo;re not in a position to structure your application such that it&amp;rsquo;s amenable to test slicing, or if there isn&amp;rsquo;t a slice available for a particular type of test, enabling lazy initialization will limit the beans that are initialized to those that are needed by the test. This will reduce test execution time, particularly when running a test in isolation during development.&lt;/p&gt;
-&lt;p&gt;Lastly, you may want to consider enabling lazy initialization in production. If you do so, it should be done with care. For web applications, container orchestration may benefit from a &lt;code&gt;/health&lt;/code&gt; endpoint that is able to respond more quickly, but you also need to be aware of the potential for increased latency when the first request is made to one of the application&amp;rsquo;s own endpoints. You should also take care to size your application&amp;rsquo;s JVM with lazy initialization disabled to avoid any unwanted out of memory errors once all of its components have been used.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - March 12th, 2019</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/13/this-week-in-spring-march-12th-2019" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-03-13:3602</id>
-    <updated>2019-03-13T06:13:00Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! What a week! I&amp;rsquo;m in Seattle, Washington where I&amp;rsquo;ve been spending time with Pivotal partner Microsoft talking about all things Spring, Cloud Foundry and Azure, and then tonight I spoke at the Seattle Java User Group on Reactive Spring. &lt;/p&gt;
-&lt;p&gt;Tomorrow morning I&amp;rsquo;m off to jolie Montreal, Canada for the epic ConFoo conference. Are &lt;a href="http://twitter.com/Starbuxman"&gt;you going to be around? Say hi!&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;Anyway, without further ado let&amp;rsquo;s get to this week&amp;rsquo;s roundup! &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/11/memory-footprint-of-the-jvm"&gt;Memory footprint of the JVM&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/08/spring-boot-2-2-m1"&gt;Spring Boot 2.2 M1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/08/a-bootiful-podcast-matt-raible-and-james-ward-at-devnexus-2019"&gt;A Bootiful Podcast: Matt Raible and James Ward at Devnexus 2019&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/07/spring-cloud-greenwich-sr1-is-now-available"&gt;Spring Cloud Greenwich.SR1 is now available&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/07/spring-data-moore-m2-released"&gt;Spring Data Moore M2 released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/07/has-there-ever-been-a-better-time-to-become-a-java-developer"&gt;Has there ever been a better time to become a Java developer?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/06/spring-cloud-data-flow-and-skipper-2-0-ga-released"&gt;Spring Cloud Data Flow and Skipper 2.0 GA Released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I love this post on the nuances of assembly versus subscription in Reactor: &lt;a href="https://spring.io/blog/2019/03/06/flight-of-the-flux-1-assembly-vs-subscription"&gt;Flight of the Flux (part 1)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Good news everybody! Today marks the 30th anniversary of the &lt;a href="https://www.nbcnews.com/tech/tech-news/world-wide-web-30-its-inventor-has-warning-us-n982156"&gt;World Wide Web&lt;/a&gt;! Tim Berners Lee, who created the HTTP web, has a stark warning for us worth our attention.&lt;/li&gt;
-  &lt;li&gt;This is an interesting third-party project that generates HTTP request snippets &lt;a href="https://github.com/atkawa7/httpsnippet"&gt;for SpringFox which integrates Swagger with Spring&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;The Codecentric blog has an interesting approach to &lt;a href="https://blog.codecentric.de/en/2019/03/spot-mismatches-between-your-spec-and-your-rest-api/"&gt;spotting mismatches between your specification and your REST API with hikakug&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Have you seen this? A gorgeous Kotlin DSL that lets you build piplines in Kotlin code for the Spinnaker, &lt;a href="https://github.com/canal-pipelines/canal"&gt;the continuous delivery pipeline&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Spring HATEOAS now &lt;a href="https://twitter.com/sebastien_pel/status/1102977786262757377"&gt;supports reactive and Spring WebFlux&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Memory footprint of the JVM</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/11/memory-footprint-of-the-jvm" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Andy Wilkinson</name>
-    </author>
-    <id>tag:spring.io,2019-03-07:3598</id>
-    <updated>2019-03-11T10:40:00Z</updated>
-    <content type="html">&lt;p&gt;The JVM can be a complex beast. Thankfully, much of that complexity is under the hood, and we as application developers and deployers often don&amp;rsquo;t have to worry about it too much. With the rise of container-based deployment strategies, one area of complexity that needs some attention is the JVM&amp;rsquo;s memory footprint.&lt;/p&gt;&lt;h2&gt;&lt;a href="#two-kinds-of-memory" class="anchor" name="two-kinds-of-memory"&gt;&lt;/a&gt;Two kinds of memory&lt;/h2&gt;
-&lt;p&gt;The JVM divides its memory into two main categories: heap memory and non-heap memory. Heap memory is the part with which people are typically the most familiar. It&amp;rsquo;s where objects that are created by the application are stored. They remain there until they are no longer referenced and are garbage collected. Typically, the amount of heap that an application is using will fluctuate as a function of the current load.&lt;/p&gt;
-&lt;p&gt;The JVM&amp;rsquo;s non-heap memory is divided into several different areas. We can use the HotSpot VM&amp;rsquo;s &lt;a href="https://docs.oracle.com/javase/8/docs/technotes/guides/vm/nmt-8.html"&gt;native memory tracking (NMT)&lt;/a&gt; to examine its memory usage across these areas. Note that, while NMT does not track all native memory usage (it &lt;a href="https://docs.oracle.com/javase/8/docs/technotes/guides/vm/nmt-8.html"&gt;does not track third party native code memory allocations&lt;/a&gt;, for example), it is sufficient for a large class of typical Spring applications. NMT can be used by starting the application with &lt;code&gt;-XX:NativeMemoryTracking=summary&lt;/code&gt; and then using &lt;code&gt;jcmd &amp;lt;pid&amp;gt; VM.native_memory summary&lt;/code&gt; to display the memory usage summary.&lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s illustrate the use of NMT by looking at an application, in this case our old friend, Petclinic. The following pie chart shows the JVM&amp;rsquo;s memory usage as reported by NMT (minus its own overhead) when starting Petclinic with a 48MB max heap (&lt;code&gt;-Xmx48M&lt;/code&gt;):&lt;/p&gt;
-&lt;center&gt;&#xD;
-&lt;img width=50% height=50% src="https://static.spring.io/blog/wilkinsona/20190311/memory-usage.png"&gt;&lt;/img&gt;&#xD;
-&lt;/center&gt;
-&lt;p&gt;As you can see non-heap memory accounts for the vast majority of the JVM&amp;rsquo;s memory usage with the heap memory accounting for only one sixth of the total. In this case it was roughly 44MB (with 33MB of that being used immediately after garbage collection). The non-heap memory usage was 223MB in total.&lt;/p&gt;&lt;h3&gt;&lt;a href="#native-memory-areas" class="anchor" name="native-memory-areas"&gt;&lt;/a&gt;Native Memory areas&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Compressed class space&lt;/strong&gt;: used to store information about the classes that have been loaded. Constrained by &lt;code&gt;MaxMetaspaceSize&lt;/code&gt;. A function of the number of classes that have been loaded.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Thread&lt;/strong&gt;: memory used by threads in the JVM. A function of the number of threads that are running.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Code cache&lt;/strong&gt;: memory used by the JIT to store its output. A function of the number of classes that have been loaded. Constrained by &lt;code&gt;ReservedCodeCacheSize&lt;/code&gt;. Can be reduced by tuning the JIT to, for example, disable tiered compilation.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;GC&lt;/strong&gt;: stores data used by the GC. Varies depending on which garbage collector is being used.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Symbol&lt;/strong&gt;: stores symbols such as field names, method signatures, and interned strings. Excessive symbol memory usage can be an indicator that Strings have been interned too aggressively.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Internal&lt;/strong&gt;: stores other internal data that does not fit into any of the other areas.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#differences" class="anchor" name="differences"&gt;&lt;/a&gt;Differences&lt;/h3&gt;
-&lt;p&gt;Compared to heap memory, non-heap memory is less likely to vary under load. Once an application has loaded all of the classes that it will use and the JIT is fully warmed up, things will settle into a steady state. To see a reduction in compressed class space usage, the class loader that loaded the classes needs to be garbage collected. This was more common in the past when applications were deployed to servlet containers or app servers – the application&amp;rsquo;s class loader would be garbage collected when the application was undeployed – but rarely happens with modern approaches to application deployment.&lt;/p&gt;&lt;h2&gt;&lt;a href="#sizing-the-jvm" class="anchor" name="sizing-the-jvm"&gt;&lt;/a&gt;Sizing the JVM&lt;/h2&gt;
-&lt;p&gt;Configuring the JVM to make efficient use of a given amount of available RAM isn&amp;rsquo;t easy. If you launch the JVM with &lt;code&gt;-Xmx16M&lt;/code&gt; and expect it to use, at most, 16MB of RAM you are in for a nasty surprise.&lt;/p&gt;
-&lt;p&gt;An interesting area when sizing the JVM is the JIT&amp;rsquo;s code cache. By default, the HotSpot JVM will use up to 240MB. If the code cache is too small the JIT will run out of space to store its output and performance will suffer as a result. If the cache is too large, memory may be wasted. When sizing the code cache, it&amp;rsquo;s important to look at the effect on both your application&amp;rsquo;s memory usage and its performance.&lt;/p&gt;
-&lt;p&gt;When running in a Docker container, recent versions of Java are &lt;a href="https://bugs.openjdk.java.net/browse/JDK-8146115"&gt;now aware&lt;/a&gt; of the container&amp;rsquo;s memory limits and attempt to size the JVM accordingly. Unfortunately, this sizing often over-allocates non-heap memory and under-allocates the heap. Say you have an application running in a container with 2 CPUs and 512MB of memory available. You want it to be able to handle more load so you double the CPUs to 4 and the memory to 1GB. As we discussed above, heap usage typically varies depending on the load, and non-heap usage much less so. Therefore, we&amp;rsquo;d like the vast majority of the extra 512MB of memory to be given to the heap to cope with the increased load. Unfortunately, the JVM does not do so by default and will allocate the additional memory more equally between its heap and non-heap areas.&lt;/p&gt;
-&lt;p&gt;Thankfully, the CloudFoundry team have a wealth of knowledge about the JVM&amp;rsquo;s memory footprint. If you&amp;rsquo;re pushing apps to CloudFoundry, the build pack will automatically apply this knowledge for you. If you&amp;rsquo;re not using CloudFoudry, or you&amp;rsquo;d like to understand more about how to size your JVM, the &lt;a href="https://docs.google.com/document/d/1vlXBiwRIjwiVcbvUGYMrxx2Aw1RVAtxq3iuZ3UK2vXA/edit?usp=sharing"&gt;design document&lt;/a&gt; for version three of the &lt;a href="https://github.com/cloudfoundry/java-buildpack-memory-calculator"&gt;Java buildpack&amp;rsquo;s memory calculator&lt;/a&gt; provides some highly recommended further reading.&lt;/p&gt;&lt;h2&gt;&lt;a href="#what-does-this-mean-for-spring" class="anchor" name="what-does-this-mean-for-spring"&gt;&lt;/a&gt;What does this mean for Spring?&lt;/h2&gt;
-&lt;p&gt;We spend a lot of time on the Spring team thinking about performance and memory utilisation, considering both heap and non-heap memory usage. One way to limit non-heap memory usage is to make parts of the Framework as general-purpose as possible. An example of this is the use of reflection to create and inject dependencies into your application&amp;rsquo;s beans. Thanks to the use of reflection, the amount of Framework code that&amp;rsquo;s used remains constant, irrespective of how many beans your application contains. We use a heap-based cache to optimise startup time, clearing this cache once startup has completed. The heap memory can then be easily reclaimed by the garbage collector, making as much memory as possible available to your application as it handles its workload.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Boot 2.2 M1</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/08/spring-boot-2-2-m1" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Andy Wilkinson</name>
-    </author>
-    <id>tag:spring.io,2019-03-08:3600</id>
-    <updated>2019-03-08T17:00:00Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the team and everyone that contributed, I am pleased to announce that the first milestone of Spring Boot 2.2 has been released and is available from &lt;a href="http://repo.spring.io/milestone/"&gt;our milestone repository&lt;/a&gt;. This release closes over &lt;a href="https://github.com/spring-projects/spring-boot/milestone/130?closed=1"&gt;140 issues and pull requests&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Highlights of this first milestone include:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/07/spring-data-moore-m2-released"&gt;Spring Data Moore M2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Significantly faster binding of large numbers of configuration properties&lt;/li&gt;
-  &lt;li&gt;Opt-in support for lazy bean initialization (there will be more on this in a subsequent blog post)&lt;/li&gt;
-  &lt;li&gt;JMX is now disabled by default&lt;/li&gt;
-  &lt;li&gt;Numerous &lt;a href="https://github.com/spring-projects/spring-boot/issues?utf8=?&amp;q=label%3A%22type%3A+dependency-upgrade%22+milestone%3A2.2.0.M1"&gt;dependency upgrades&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Faster startup and lower memory footprint when using the Actuator&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For a complete list of changes and upgrade instructions, please see the &lt;a href="https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.2-Release-Notes"&gt;Spring Boot 2.2 Release Notes&lt;/a&gt; on the wiki and the &lt;a href="http://docs.spring.io/spring-boot/docs/2.2.0.M1/reference/html/"&gt;updated reference documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you want to get started with 2.2 and try out the new features, you can bootstrap a new project on &lt;a href="https://start.spring.io"&gt;https://start.spring.io&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/2.2.0.M1/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: Matt Raible and James Ward at Devnexus 2019</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/08/a-bootiful-podcast-matt-raible-and-james-ward-at-devnexus-2019" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-03-08:3599</id>
-    <updated>2019-03-08T05:48:43Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! In this extra-long installment I talk with longtime friends and fellow developer advocates, Okta&amp;rsquo;s Matt Raible and Google&amp;rsquo;s James Ward. We talked about Java, Kotlin, Spring, cloud computing technologies, security, Go, paradigm changes, web frameworks past and present, Macromedia, Adobe, Scala, and a &lt;em&gt;million&lt;/em&gt; more things! This was a ton of fun for me so I&amp;rsquo;m hoping you&amp;rsquo;ll enjoy it too.&lt;/p&gt;
-&lt;p&gt;Google Developer Advocate &lt;a href="http://twitter.com/_jamesward"&gt;James Ward on Twitter (@_jamesward)&lt;/a&gt;&lt;br/&gt;Okta Developer Advocate &lt;a href="http://twitter.com/mraible"&gt;Matt Raible on Twitter (@mraible)&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/586589739&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Cloud Greenwich.SR1 is now available</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/07/spring-cloud-greenwich-sr1-is-now-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Ryan Baxter</name>
-    </author>
-    <id>tag:spring.io,2019-03-06:3595</id>
-    <updated>2019-03-07T14:45:44Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the community, I am pleased to announce that the Service Release 1 (SR1) of the &lt;a href="https://cloud.spring.io"&gt;Spring Cloud Greenwich&lt;/a&gt; Release Train is available today. The release can be found in &lt;a href="http://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dependencies/Greenwich.SR1/"&gt;Maven Central&lt;/a&gt;. You can check out the Greenwich &lt;a href="https://github.com/spring-projects/spring-cloud/wiki/Spring-Cloud-Greenwich-Release-Notes"&gt;release notes for more information&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#notable-changes-in-the-greenwich-release-train" class="anchor" name="notable-changes-in-the-greenwich-release-train"&gt;&lt;/a&gt;Notable Changes in the Greenwich Release Train&lt;/h2&gt;&lt;h3&gt;&lt;a href="#spring-cloud-netflix" class="anchor" name="spring-cloud-netflix"&gt;&lt;/a&gt;Spring Cloud Netflix&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-netflix/milestone/75?closed=1"&gt;Issues&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-stream" class="anchor" name="spring-cloud-stream"&gt;&lt;/a&gt;Spring Cloud Stream&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Bug fixes&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-cloudfoundry" class="anchor" name="spring-cloud-cloudfoundry"&gt;&lt;/a&gt;Spring Cloud Cloudfoundry&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-cloudfoundry/milestone/12?closed=1"&gt;Issues&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-commons" class="anchor" name="spring-cloud-commons"&gt;&lt;/a&gt;Spring Cloud Commons&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-commons/milestone/58?closed=1"&gt;Issues&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-openfeign" class="anchor" name="spring-cloud-openfeign"&gt;&lt;/a&gt;Spring Cloud OpenFeign&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Added Spring Data pagable support&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-openfeign/milestone/11?closed=1"&gt;Issues&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-task" class="anchor" name="spring-cloud-task"&gt;&lt;/a&gt;Spring Cloud Task&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Bug fixes&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-sleuth" class="anchor" name="spring-cloud-sleuth"&gt;&lt;/a&gt;Spring Cloud Sleuth&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/milestone/59?closed=1"&gt;Issues&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-aws" class="anchor" name="spring-cloud-aws"&gt;&lt;/a&gt;Spring Cloud Aws&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Logging and formatting changes&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-zookeeper" class="anchor" name="spring-cloud-zookeeper"&gt;&lt;/a&gt;Spring Cloud Zookeeper&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Formatting changes&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-bus" class="anchor" name="spring-cloud-bus"&gt;&lt;/a&gt;Spring Cloud Bus&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Formatting changes&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-vault" class="anchor" name="spring-cloud-vault"&gt;&lt;/a&gt;Spring Cloud Vault&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-vault/milestone/30?closed=1"&gt;Issues&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-kubernetes" class="anchor" name="spring-cloud-kubernetes"&gt;&lt;/a&gt;Spring Cloud Kubernetes&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Added leader election info contributor&lt;/li&gt;
-  &lt;li&gt;Documentation enhancements&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-kubernetes/milestone/10?closed=1"&gt;Issues&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-contract" class="anchor" name="spring-cloud-contract"&gt;&lt;/a&gt;Spring Cloud Contract&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-contract/milestone/49?closed=1"&gt;Issues&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-consul" class="anchor" name="spring-cloud-consul"&gt;&lt;/a&gt;Spring Cloud Consul&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-consul/milestone/38?closed=1"&gt;Issues&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-gateway" class="anchor" name="spring-cloud-gateway"&gt;&lt;/a&gt;Spring Cloud Gateway&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-gateway/milestone/22?closed=1"&gt;Issues&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-function" class="anchor" name="spring-cloud-function"&gt;&lt;/a&gt;Spring Cloud Function&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-function/milestone/17?closed=1"&gt;Issues&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-config" class="anchor" name="spring-cloud-config"&gt;&lt;/a&gt;Spring Cloud Config&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-config/milestone/61?closed=1"&gt;Issues&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-security" class="anchor" name="spring-cloud-security"&gt;&lt;/a&gt;Spring Cloud Security&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-security/issues?q=is%3Aclosed+milestone%3A2.1.1.RELEASE"&gt;Spring Cloud Security 2.1.1.RELEASE&lt;/a&gt; was released in-between Greenwich.RELEASE and Greenwich.SR1 due to the inclusion of a milestone dependency&lt;/li&gt;
-  &lt;li&gt;Spring Cloud Security 2.1.2.RELEASE just included some formatting changes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The following modules were updated as part of Greenwich.SR1:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Module &lt;/th&gt;
-      &lt;th&gt;Version &lt;/th&gt;
-      &lt;th&gt;Issues&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Netflix &lt;/td&gt;
-      &lt;td&gt;2.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-netflix/milestone/75?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Stream &lt;/td&gt;
-      &lt;td&gt;Fishtown.SR2 &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Gcp &lt;/td&gt;
-      &lt;td&gt;1.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Cloudfoundry &lt;/td&gt;
-      &lt;td&gt;2.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-cloudfoundry/milestone/12?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Build &lt;/td&gt;
-      &lt;td&gt;2.1.3.RELEASE &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-build/milestone/24?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Commons &lt;/td&gt;
-      &lt;td&gt;2.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-commons/milestone/58?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud &lt;/td&gt;
-      &lt;td&gt;Greenwich.SR1 &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud OpenFeign &lt;/td&gt;
-      &lt;td&gt;2.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-openfeign/milestone/11?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Task &lt;/td&gt;
-      &lt;td&gt;2.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Sleuth &lt;/td&gt;
-      &lt;td&gt;2.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/milestone/59?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Aws &lt;/td&gt;
-      &lt;td&gt;2.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Release &lt;/td&gt;
-      &lt;td&gt;Greenwich.SR1 &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Zookeeper &lt;/td&gt;
-      &lt;td&gt;2.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Bus &lt;/td&gt;
-      &lt;td&gt;2.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-bus/milestone/36?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Vault &lt;/td&gt;
-      &lt;td&gt;2.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-vault/milestone/30?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Kubernetes &lt;/td&gt;
-      &lt;td&gt;1.0.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-kubernetes/milestone/10?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Dependencies &lt;/td&gt;
-      &lt;td&gt;Greenwich.SR1 &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Contract &lt;/td&gt;
-      &lt;td&gt;2.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-contract/milestone/49?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Consul &lt;/td&gt;
-      &lt;td&gt;2.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-consul/milestone/38?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Gateway &lt;/td&gt;
-      &lt;td&gt;2.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-gateway/milestone/22?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Function &lt;/td&gt;
-      &lt;td&gt;2.0.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-function/milestone/17?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Starter &lt;/td&gt;
-      &lt;td&gt;Greenwich.SR1 &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Config &lt;/td&gt;
-      &lt;td&gt;2.1.1.RELEASE &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-config/milestone/61?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Security &lt;/td&gt;
-      &lt;td&gt;2.1.2.RELEASE &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;As always, we welcome feedback on &lt;a href="https://github.com/spring-cloud/"&gt;GitHub&lt;/a&gt;, on &lt;a href="https://gitter.im/spring-cloud/spring-cloud"&gt;Gitter&lt;/a&gt;, on &lt;a href="http://stackoverflow.com/questions/tagged/spring-cloud"&gt;Stack Overflow&lt;/a&gt;, or on &lt;a href="https://twitter.com/SpringCloud"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To get started with Maven with a BOM (dependency management only):&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;&lt;br/&gt;&amp;lt;dependencyManagement&amp;gt;&#xD;
-    &amp;lt;dependencies&amp;gt;&#xD;
-        &amp;lt;dependency&amp;gt;&#xD;
-            &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
-            &amp;lt;artifactId&amp;gt;spring-cloud-dependencies&amp;lt;/artifactId&amp;gt;&#xD;
-            &amp;lt;version&amp;gt;Greenwich.SR1&amp;lt;/version&amp;gt;&#xD;
-            &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt;&#xD;
-            &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt;&#xD;
-        &amp;lt;/dependency&amp;gt;&#xD;
-    &amp;lt;/dependencies&amp;gt;&#xD;
-&amp;lt;/dependencyManagement&amp;gt;&#xD;
-&amp;lt;dependencies&amp;gt;&#xD;
-    &amp;lt;dependency&amp;gt;&#xD;
-        &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
-        &amp;lt;artifactId&amp;gt;spring-cloud-starter-config&amp;lt;/artifactId&amp;gt;&#xD;
-    &amp;lt;/dependency&amp;gt;&#xD;
-    &amp;lt;dependency&amp;gt;&#xD;
-        &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
-        &amp;lt;artifactId&amp;gt;spring-cloud-starter-netflix-eureka-client&amp;lt;/artifactId&amp;gt;&#xD;
-    &amp;lt;/dependency&amp;gt;&#xD;
-    ...&#xD;
-&amp;lt;/dependencies&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;or with Gradle:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;buildscript {&#xD;
-    dependencies {&#xD;
-        classpath &amp;quot;io.spring.gradle:dependency-management-plugin:1.0.2.RELEASE&amp;quot;&#xD;
-    }&#xD;
-}&#xD;
-&#xD;
-&#xD;
-&#xD;
-apply plugin: &amp;quot;io.spring.dependency-management&amp;quot;&#xD;
-&#xD;
-dependencyManagement {&#xD;
-    imports {&#xD;
-        mavenBom &amp;#39;org.springframework.cloud:spring-cloud-dependencies:Greenwich.SR1&amp;#39;&#xD;
-    }&#xD;
-}&#xD;
-&#xD;
-dependencies {&#xD;
-    compile &amp;#39;org.springframework.cloud:spring-cloud-starter-config&amp;#39;&#xD;
-    compile &amp;#39;org.springframework.cloud:spring-cloud-starter-netflix-eureka-client&amp;#39;&#xD;
-    ...&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Data Moore M2 released</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/07/spring-data-moore-m2-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Christoph Strobl</name>
-    </author>
-    <id>tag:spring.io,2019-03-07:3597</id>
-    <updated>2019-03-07T13:59:00Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the Spring Data team, I&amp;rsquo;m pleased to announce the availability of the second milestone of the &lt;a href="https://github.com/spring-projects/spring-data-commons/wiki/Release-Train-Moore"&gt;Moore&lt;/a&gt; release train.&lt;/p&gt;
-&lt;p&gt;Notable changes include:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Support for Kotlin &lt;a href="https://kotlinlang.org/docs/reference/coroutines-overview.html"&gt;Coroutines&lt;/a&gt; in Spring Data MongoDB, Cassandra and Redis.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://docs.spring.io/spring-data/mongodb/docs/2.2.0.M2/reference/html/#mongodb.reactive.repositories.queries.type-safe"&gt;Querydsl&lt;/a&gt; support for reactive repositories.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;Range&lt;/code&gt; type support for derived repository query methods using &lt;code&gt;between&lt;/code&gt; for Spring Data MongoDB &amp;amp; Cassandra.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;exists&lt;/code&gt; projection in Neo4j repositories.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://docs.spring.io/spring-data/elasticsearch/docs/3.2.0.M2/reference/html/#elasticsearch.reactive.repositories"&gt;Reactive repositories&lt;/a&gt; for Spring Data Elasticsearch.&lt;/li&gt;
-  &lt;li&gt;Pivotal Gemfire and Apache Geode upgrades.&lt;/li&gt;
-  &lt;li&gt;Upgrade to &lt;a href="https://spring.io/blog/2019/03/05/spring-hateoas-1-0-m1-released"&gt;Spring HATEOAS 1.0 M1&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&amp;hellip;and numerous features for the &lt;a href="https://github.com/spring-projects/spring-data-commons/wiki/Release-Train-Moore#spring-data-jdbc---11"&gt;JDBC module&lt;/a&gt; like direct &lt;code&gt;insert&lt;/code&gt; &amp;amp; &lt;code&gt;update&lt;/code&gt; methods skipping the &lt;em&gt;is new check&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Please find a high-level overview of what has been added in our &lt;a href="https://github.com/spring-projects/spring-data-commons/wiki/Release-Train-Moore"&gt;release wiki&lt;/a&gt; or a detailed list of changes in our &lt;a href="https://jira.spring.io/issues/?filter=16365"&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you’re using Spring Boot and want to give the milestone a try, please make sure to switch to the most recent version of Spring Boot 2.2.&lt;br/&gt;And don&amp;rsquo;t forget to add the milestone repository to your Maven configuration:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint xml"&gt;&amp;lt;repository&amp;gt;&#xD;
-    &amp;lt;id&amp;gt;spring-libs-milestone&amp;lt;/id&amp;gt;&#xD;
-    &amp;lt;url&amp;gt;https://repo.spring.io/libs-milestone&amp;lt;/url&amp;gt;&#xD;
-&amp;lt;/repository&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;As always, we’re looking forward to your feedback! Don’t hesitate and get in touch &lt;a href="https://twitter.com/SpringData"&gt;@SpringData&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Last but not least the laundry list:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Spring Data Commons 2.2 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-commons/2.2.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/2.2.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/2.2.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/2.2.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data JDBC 1.1 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-jdbc/1.1.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jdbc/docs/1.1.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jdbc/docs/1.1.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jdbc/docs/1.1.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data JPA 2.2 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-jpa/2.2.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/2.2.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/2.2.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/2.2.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data for Apache Solr 4.1 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-solr/4.1.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/4.1.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/4.1.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/4.1.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data for Apache Cassandra 2.2 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-cassandra/2.2.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/cassandra/docs/2.2.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/cassandra/docs/2.2.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/cassandra/docs/2.2.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data Gemfire 2.2 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-gemfire/2.2.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/gemfire/docs/2.2.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/gemfire/docs/2.2.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/gemfire/docs/2.2.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data KeyValue 2.2 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-keyvalue/2.2.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/keyvalue/docs/2.2.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/keyvalue/docs/2.2.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/keyvalue/docs/2.2.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data Neo4j 5.2 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-neo4j/5.2.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/5.2.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/5.2.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/5.2.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data MongoDB 2.2 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-mongodb/2.2.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/2.2.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/2.2.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/2.2.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data for Apache Geode 2.2 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-geode/2.2.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/geode/docs/2.2.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/geode/docs/2.2.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/geode/docs/2.2.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data LDAP 2.2 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-ldap/2.2.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/ldap/docs/2.2.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/ldap/docs/2.2.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/ldap/docs/2.2.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data Envers 2.2 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-envers/2.2.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/envers/docs/2.2.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/envers/docs/2.2.0.M2/reference/html"&gt;Documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data REST 3.2 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-rest-webmvc/3.2.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/3.2.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/3.2.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/3.2.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data Redis 2.2 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-redis/2.2.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/2.2.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/2.2.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/2.2.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data Elasticsearch 3.2 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-elasticsearch/3.2.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/3.2.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/3.2.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/3.2.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Data Couchbase 3.2 M2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-couchbase/3.2.0.M2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/3.2.0.M2/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/3.2.0.M2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/3.2.0.M2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Has there ever been a better time to become a Java developer?</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/07/has-there-ever-been-a-better-time-to-become-a-java-developer" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Ben Wilcock</name>
-    </author>
-    <id>tag:spring.io,2019-02-28:3589</id>
-    <updated>2019-03-07T13:00:00Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Surely there’s never been a better time to become a Java developer?&lt;/strong&gt; &lt;/p&gt;
-&lt;p&gt;There are productivity tools available these days that would have been mind-blowing just five years ago. &lt;/p&gt;
-&lt;p&gt;Take &lt;strong&gt;&lt;a href="https://spring.io/projects/spring-boot"&gt;Spring Boot&lt;/a&gt;&lt;/strong&gt; for example. Many people reading this on the Spring website may be familiar with Spring Boot. But let’s take a moment to acknowledge its awesomeness. &lt;/p&gt;
-&lt;p&gt;Years ago, if you were going to use the Spring Framework in your application, you had to be OK with a certain amount of configuration toil creeping into your day. But it wasn’t nice friendly configuration like, (ah, actually, sorry, I can’t think of an example of ‘friendly configuration’), it was nasty XML configuration with a side order of XSD, eww! &lt;/p&gt;
-&lt;p&gt;Later, Spring did come along with more developer friendly configuration options (like Java-based configuration), but what Spring Boot did so successfully when it arrived on the scene in 2013, was relieve Spring Framework developers of much of this responsibility. This was thanks largely to its innovative ‘auto-configuration’ features. &lt;/p&gt;
-&lt;p&gt;With Spring Boot’s ‘starters&amp;rsquo; your Spring application could simply configure itself. You no longer had to have an encyclopedic knowledge of the nuts and bolts of the platform to get started. You could still take control if you wanted to, but it wasn&amp;rsquo;t a requirement anymore. This flattened the Spring learning curve significantly and was terrifically liberating for Spring developers. All those hours spent reading docs, configuring stuff, troubleshooting errors, could be put to better use. Utterly brilliant!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;And then there’s Spring Boot’s superior application packaging.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Java’s “write once run anywhere” promise was a cruel joke for enterprise Java developers. You’d spend hours bundling up your application’s WAR file, messing about trying to get your deployment descriptor to work, only to discover later that it “only runs on your machine.” Grrrrr! &lt;/p&gt;
-&lt;p&gt;Spring Boot’s executable JAR packaging fixed all that nonsense. By bundling the web container in with the binary, your application can run anywhere where there’s a compatible JVM. Total genius. No wonder Spring Boot’s become &lt;a href="https://snyk.io/blog/jvm-ecosystem-report-2018-platform-application/"&gt;the world’s most popular Java web framework&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;But to get even this far you needed buildable Java project.&lt;/strong&gt; &lt;/p&gt;
-&lt;p&gt;And frankly, starting any new Java project was a chore. Maven and Gradle are both excellent build tools. We couldn’t live without them. But, IDE support for them was patchy, and who wants to spend their time editing POM’s and figuring out what’s the latest goings-on with the Gradle DSL? Not me. I’m too impatient. Life’s too short. &lt;/p&gt;
-&lt;p&gt;So thank goodness for the &lt;strong&gt;&lt;a href="https://start.spring.io/"&gt;Spring Initializr&lt;/a&gt;&lt;/strong&gt;. With Spring Initializr, you can instantly download a ready-made Spring Boot project using the language and build tool of your choice. You don’t even need a browser! You can use the Spring Initializr straight from the command line with either &lt;code&gt;curl&lt;/code&gt; or the &lt;a href="https://docs.spring.io/spring-boot/docs/current/reference/html/cli-using-the-cli.html#cli-init"&gt;Spring CLI&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Seriously, if you’ve never tried it before, give it a try it now. It’s really rather straightforward:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;All you need is a command line with &lt;code&gt;curl&lt;/code&gt; and Java. With this first simple command, you can ask the Spring Initializr for a Zip archive, which you can then unzip, and away you go. Just load the unzipped project into your favorite IDE, and you can start coding with it immediately.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint bash"&gt;curl https://start.spring.io/starter.zip -d dependencies=web,actuator -d baseDir=demo -o demo.zip&#xD;
-unzip demo.zip
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;I’ve used assumed Linux here, but you can get &lt;code&gt;curl&lt;/code&gt; for Windows and Mac too.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Now that it&amp;rsquo;s downloaded and unpacked, let&amp;rsquo;s run our app and try out Spring Boot’s brilliant JAR packaging at the same time. Simply type the following to start it up using your Java VM…&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint bash"&gt;cd demo&#xD;
-./mvnw package # Use mvnw.cmd on Windows&#xD;
-java -jar target/demo-0.0.1-SNAPSHOT.jar
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;If you don&amp;rsquo;t have Java, head over to &lt;a href="https://adoptopenjdk.net/releases.html"&gt;https://adoptopenjdk.net/&lt;/a&gt; for an installer or installation instructions.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;That’s it. Spring Boot will start the application for you. Now open your favorite browser and go to &lt;code&gt;http://localhost:8080/actuator/health&lt;/code&gt;, and you will see a JSON message confirming that the application is alive and well and ready to go. &lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint json"&gt;{&amp;quot;status&amp;quot;:&amp;quot;UP&amp;quot;}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;This is all excruciatingly simple compared to how things used to be.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In fact, it’s so simple, I bet a child could do it. If you&amp;rsquo;ve got one of those handy, why not ask them to sit down and give it a try right now? What better way is there to start someone&amp;rsquo;s coding journey than with Spring Boot and Spring Initializr? Why not let us know how you get on in the comments below or tweet your screenshots or photos to &lt;a href="https://twitter.com/springcentral"&gt;@springcentral&lt;/a&gt; with the hashtag &lt;code&gt;#SpringFTW&lt;/code&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#next-time" class="anchor" name="next-time"&gt;&lt;/a&gt;Next time&lt;/h3&gt;
-&lt;p&gt;In my next installment, I’ll take this simple application and run it in a “production-like” environment, imitating what you might do on day one of your new startup gig :D &lt;/p&gt;&lt;h3&gt;&lt;a href="#would-you-like-a-bit-more" class="anchor" name="would-you-like-a-bit-more"&gt;&lt;/a&gt;Would you like a bit more?&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;If that task was too easy, or you have a bit more time, why not add the “thymeleaf” and “devtools” dependencies to your Spring Initializr &lt;code&gt;curl&lt;/code&gt; request from earlier and follow this tutorial to build your own simple web application: &lt;a href="https://spring.io/guides/gs/serving-web-content/"&gt;https://spring.io/guides/gs/serving-web-content/&lt;/a&gt; &lt;/p&gt;
-&lt;/blockquote&gt;</content>
   </entry>
 </feed>

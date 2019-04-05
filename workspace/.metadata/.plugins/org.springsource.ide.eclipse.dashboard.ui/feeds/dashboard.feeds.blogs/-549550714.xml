@@ -5,7 +5,114 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-04-03T13:13:00Z</updated>
+  <updated>2019-04-05T00:02:00Z</updated>
+  <entry>
+    <title>A Bootiful Podcast: Microsoft's Kylie Liang and Theresa Nguyen on MIcrosoft's Java and Spring Support</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/05/a-bootiful-podcast-microsoft-s-kylie-liang-and-theresa-nguyen-on-microsoft-s-java-and-spring-support" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-04-04:3628</id>
+    <updated>2019-04-05T00:02:00Z</updated>
+    <content type="html">&lt;img src="https://pbs.twimg.com/media/D3TS20XX4AAxLRv.jpg:large" &#xD;
+    width ="300"&#xD;
+    style = "float: left; margin-right : 10px; padding-right : 10px " /&gt;
+&lt;p&gt;Hi Spring fans! In this week&amp;rsquo;s episode Josh talks to Microsoft&amp;rsquo;s Kylie Liang and Theresa Nguyen about the Microsoft Java and Spring integrations, the Java ecosystem, open-source, and more.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://twitter.com/liangkylie"&gt;Kylie (right) on Twitter (@liangkylie)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="twitter.com/RockClimberT"&gt;Theresa (left) on Twitter (@RockClimberT)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="twitter.com/starbuxman"&gt;Josh on Twitter (@starbuxman)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.youtube.com/watch?v=jRgZe7kWDnU"&gt;The &amp;ldquo;Spring Tips&amp;rdquo; screencast introducing the Spring and Microsoft Azure integration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/600772455%3Fsecret_token%3Ds-dwdd4&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring IO Platform Cairo-SR8</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/04/spring-io-platform-cairo-sr8" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2019-04-04:3631</id>
+    <updated>2019-04-04T15:56:54Z</updated>
+    <content type="html">&lt;p&gt;I am pleased to announce that &lt;a href="https://spring.io/projects/platform"&gt;Spring IO Platform&lt;/a&gt; Cairo-SR8 is now available from both &lt;a href="https://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central. With the IO Platform reaching &lt;a href="https://spring.io/blog/2018/04/09/spring-io-platform-end-of-life-announcement"&gt;end of life on 9 April 2019&lt;/a&gt;, this is expected to be the final IO Platform release.&lt;/p&gt;
+&lt;p&gt;This maintenance release upgrades the versions of a number of the projects in the Platform:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring AMQP 2.0.12&lt;/li&gt;
+  &lt;li&gt;Spring Batch 4.0.3&lt;/li&gt;
+  &lt;li&gt;Spring Cloud Connectors 2.0.5&lt;/li&gt;
+  &lt;li&gt;Spring Data Kay-SR14&lt;/li&gt;
+  &lt;li&gt;Spring Framework 5.0.13&lt;/li&gt;
+  &lt;li&gt;Spring HATEOAS 0.25.1&lt;/li&gt;
+  &lt;li&gt;Spring Integration 5.0.13&lt;/li&gt;
+  &lt;li&gt;Spring Retry 1.2.4&lt;/li&gt;
+  &lt;li&gt;Spring Security JWT 1.0.10&lt;/li&gt;
+  &lt;li&gt;Spring Security OAuth 2.2.4&lt;/li&gt;
+  &lt;li&gt;Spring Security 5.0.12&lt;/li&gt;
+  &lt;li&gt;Spring Session Apple-SR9&lt;/li&gt;
+  &lt;li&gt;Spring Web Services 3.0.7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The versions of a number of third-party dependencies have also been updated.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/platform"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/platform/docs/Cairo-SR8/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring IO Platform Brussels-SR17</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/04/spring-io-platform-brussels-sr17" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2019-04-04:3630</id>
+    <updated>2019-04-04T15:08:00Z</updated>
+    <content type="html">&lt;p&gt;I am pleased to announce that &lt;a href="https://spring.io/projects/platform"&gt;Spring IO Platform&lt;/a&gt; Brussels-SR17 is now available from both &lt;a href="https://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central. &lt;/p&gt;
+&lt;p&gt;This maintenance release upgrades the versions of a number of the projects in the Platform:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring AMQP 1.7.13&lt;/li&gt;
+  &lt;li&gt;Spring Boot 1.5.20&lt;/li&gt;
+  &lt;li&gt;Spring Cloud Connectors 1.2.8&lt;/li&gt;
+  &lt;li&gt;Spring Data Ingalls SR20&lt;/li&gt;
+  &lt;li&gt;Spring Framework 4.3.23&lt;/li&gt;
+  &lt;li&gt;Spring Integration 4.3.20&lt;/li&gt;
+  &lt;li&gt;Spring Retry 1.2.4&lt;/li&gt;
+  &lt;li&gt;Spring Security 4.2.12&lt;/li&gt;
+  &lt;li&gt;Spring Security JWT 1.0.10&lt;/li&gt;
+  &lt;li&gt;Spring Security OAuth 2.0.17&lt;/li&gt;
+  &lt;li&gt;Spring Web Services 2.4.5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The versions of a number of third-party dependencies have also been updated.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/platform"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/platform/docs/Brussels-SR17/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot 2.1.4 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/04/spring-boot-2-1-4-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Phil Webb</name>
+    </author>
+    <id>tag:spring.io,2019-04-04:3627</id>
+    <updated>2019-04-04T05:10:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Boot 2.1.4 has been released and is now available from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central.&lt;/p&gt;
+&lt;p&gt;This is a maintenance release that includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.1.4.RELEASE"&gt;a number of important dependency updates and bug fixes&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Since 1.5 will be &lt;a href="https://spring.io/blog/2018/07/30/spring-boot-1-x-eol-aug-1st-2019"&gt;end of life in august&lt;/a&gt;, all users should users should now be considering an upgrading to Spring Boot 2.1.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/2.1.4.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot 2.0.9 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/03/spring-boot-2-0-9-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Madhura Bhave</name>
+    </author>
+    <id>tag:spring.io,2019-04-03:3626</id>
+    <updated>2019-04-03T18:21:31Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Boot 2.0.9 has been released and is now available from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central.&lt;/p&gt;
+&lt;p&gt;This is a maintenance release that includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.0.9.RELEASE"&gt;almost 40 dependency updates and selected bug fixes&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;This is the last release in 2.0 line. Please consider upgrading to Spring Boot 2.1 if you haven&amp;rsquo;t already done so.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/2.0.9.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring Boot 1.5.20 available now</title>
     <link rel="alternate" href="https://spring.io/blog/2019/04/03/spring-boot-1-5-20-available-now" />
@@ -578,135 +685,5 @@ dependencies {
   &lt;li&gt;&lt;a href="http://axoniq.io/"&gt;AxonIQ&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/593419098&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tips: Reactive MySQL Support with Jasync SQL and R2DBC</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/20/spring-tips-reactive-mysql-support-with-jasync-sql-and-r2dbc" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-03-21:3609</id>
-    <updated>2019-03-20T23:59:00Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to yet another super-quick mid-season interregnum installment of Spring Tips where we look at &lt;em&gt;super early/preliminary&lt;/em&gt; new R2DBC support for reactive MySQL in the Jasync SQL project. &lt;/p&gt;
-&lt;p&gt;&lt;a href="http://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DvO4zLVDkMs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>Announcing General Availability of Spring Cloud Function - 2.1.0.M1</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/20/announcing-general-availability-of-spring-cloud-function-2-1-0-m1" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Oleg Zhurakousky</name>
-    </author>
-    <id>tag:spring.io,2019-03-20:3608</id>
-    <updated>2019-03-20T16:07:13Z</updated>
-    <content type="html">&lt;p&gt;We are pleased to announce first milestone of the Spring Cloud Function - 2.1.0.M1.&lt;/p&gt;
-&lt;p&gt;Individual modules of Spring Cloud Function 2.1.0.M1 are available for use in the &lt;a href="https://repo.spring.io/libs-snapshot/org/springframework/cloud/"&gt;Spring Milestone&lt;/a&gt; repository.&lt;br/&gt;This release encompasses the following:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Some of the features that has always been available in &lt;em&gt;bean factory based&lt;/em&gt; function catalog are now part of the &lt;strong&gt;&lt;em&gt;functional form&lt;/em&gt;&lt;/strong&gt; (see &lt;a href="https://spring.io/blog/2018/10/22/functional-bean-registrations-in-spring-cloud-function"&gt;Dave Syer&amp;rsquo;s blog&lt;/a&gt; for more details on &lt;em&gt;functional form&lt;/em&gt;) :
-    &lt;ul&gt;
-      &lt;li&gt;&lt;em&gt;Multiple endpoint support&lt;/em&gt; - ability to map multiple HTTP endpoints the same way one would expect in conventional context configuration.&lt;/li&gt;
-      &lt;li&gt;&lt;em&gt;Function composition&lt;/em&gt; - ability to compose function (e.g., &lt;code&gt;foo|bar&lt;/code&gt; or &lt;code&gt;foo,bar&lt;/code&gt;).&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Ability to communicate and retain meta-information via Message headers for cases where Message function is composed with non-Message (e.g., &lt;code&gt;Function&amp;lt;Message&amp;lt;?&amp;gt;&amp;gt;, Message&amp;lt;?&amp;gt;&amp;gt;&lt;/code&gt; is composed with &lt;code&gt;Function&amp;lt;?, ?&amp;gt;&lt;/code&gt;).&lt;/li&gt;
-  &lt;li&gt;Support for implicit function composition where &lt;code&gt;catalog.lookup(&amp;quot;&amp;quot;)&lt;/code&gt;, &lt;code&gt;catalog.lookup(&amp;quot;|&amp;quot;)&lt;/code&gt;, &lt;code&gt;catalog.lookup(&amp;quot;foo|&amp;quot;)&lt;/code&gt; or &lt;code&gt;catalog.lookup(&amp;quot;|bar&amp;quot;)&lt;/code&gt; are all valid lookups providing container with enough information to determine your intentions. For example, &lt;em&gt;empty string&lt;/em&gt; simply implies there is only one Function in catalog and no explicit name should be provided.&lt;/li&gt;
-  &lt;li&gt;Creating Supplier from remote HTTP endpoint where one can define the &lt;em&gt;sink url&lt;/em&gt; (destination) and the &lt;em&gt;source url&lt;/em&gt; (source) and use the app as a pipeline for events from/to HTTP.&lt;/li&gt;
-  &lt;li&gt;AWS &lt;a href="https://cloud.spring.io/spring-cloud-static/spring-cloud-function/2.1.0.M1/aws.html#_custom_runtime"&gt;Custom Runtime&lt;/a&gt; feature.&lt;/li&gt;
-  &lt;li&gt;Other minor &lt;a href="https://github.com/spring-cloud/spring-cloud-function/milestone/16?closed=1"&gt;enhancements and bug-fixes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Also, there was a major update to both the &lt;a href="https://spring.io/projects/spring-cloud-function"&gt;project&amp;rsquo;s home page&lt;/a&gt; as well as &lt;a href="https://cloud.spring.io/spring-cloud-static/spring-cloud-function/2.1.0.M1/home.html"&gt;documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Spring Cloud Function 2.1.x is dependent on spring-boot 2.1.x.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
-&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-cloud/spring-cloud-function/labels/ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-cloud-function"&gt;&lt;code&gt;spring-cloud-function&lt;/code&gt; tag&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cloud.spring.io/spring-cloud-function/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-cloud/spring-cloud-function"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-cloud/spring-cloud-function/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://cloud.spring.io/spring-cloud-static/spring-cloud-function/2.0.0.RELEASE/"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - March 19th, 2019</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/19/this-week-in-spring-march-19th-2019" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-03-19:3607</id>
-    <updated>2019-03-19T11:57:01Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! What a wild and wonderful week of Spring it&amp;rsquo;s been! This week I&amp;rsquo;m in London, UK for the epic SpringOne Tour event and customer visits, then I&amp;rsquo;m off to Vienna, Austria and then I&amp;rsquo;m off to Amsterdam, NL for the SpringOne Tour event there. If you&amp;rsquo;re in any of these &lt;a href="http://twitter.com/Starbuxman"&gt;places please say hi!&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/18/spring-cloud-data-flow-2-0-1-ga-released"&gt;Spring Cloud Data Flow 2.0.1 GA Released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/15/a-bootiful-podcast-spring-security-engineer-and-oauth-slayer-joe-grandja"&gt;A Bootiful Podcast: Spring Security engineer and OAuth slayer Joe Grandja&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Hi Spring fans! I did a special season mid-interregnum video on Spring Tips: &lt;a href="https://spring.io/blog/2019/03/14/spring-tips-be-lazy-and-fast-with-spring-boot-2-2-m1"&gt;&lt;em&gt;Be Lazy AND Fast with Spring Boot 2.2.M1!&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/14/lazy-initialization-in-spring-boot-2-2"&gt;Lazy Initialization in Spring Boot 2.2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Integrating Spring Cloud with Kubernetes is really simple! In this video, Paul Czarkowski is &lt;a href="https://www.youtube.com/watch?v=jR35JKq5rmc"&gt;showing how your Spring Boot app can leverage Kubernetes features (such as ConfigMap) without having to change your source code!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/spring_io/status/1107666963592110081"&gt;Have you secured your tickets for the Spring I/O conference in bootiful Barcelona, Spain?&lt;/a&gt; I&amp;rsquo;ll be there, co-presenting four different talks with my friends in the ecosystem. Join us!&lt;/li&gt;
-  &lt;li&gt;the Java Code Geeks have a nice post on using the &lt;a href="https://examples.javacodegeeks.com/enterprise-java/spring/boot/spring-boot-crossorigin-annotation-example/"&gt;Spring Boot &lt;code&gt;@CrossOrigin&lt;/code&gt; annotation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/springcloud/status/1106776301090807808"&gt;Have you signed up for SpringOne Platform 2019&lt;/a&gt;? Get your tickets now!&lt;/li&gt;
-  &lt;li&gt;Great tweet from Spring Data lead Oliver Drotbohm &lt;a href="https://twitter.com/odrotbohm/status/1106645111402913794?s=20"&gt;on Twitter: &amp;quot;&amp;hellip;when comparing the different frameworks&amp;hellip;, more of those participants who implemented some security achieved a high score for security through Spring’s default implementation.“&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Nice! &lt;a href="https://twitter.com/sdeleuze/status/1106610144744562688?s=12"&gt;Kotlin coroutine support in Spring WebFlux&lt;/a&gt; is coming!&lt;/li&gt;
-  &lt;li&gt;Good news everybody! In February &lt;a href="https://twitter.com/SpringData/status/1106550030410883072"&gt;Spring Data crossed 2.5 million downloads for the first time!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Check out the slides from Olga Maciaszek-Sharma and Marcin Grzejszczak on using &lt;a href="https://twitter.com/springcloud/status/1106522322113101825"&gt;Spring in a post Spring Cloud Netflix world&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Congrats Spring Security team member Joe Grandja &lt;a href="https://twitter.com/springcentral/status/1106210126627856390"&gt;on just passing your 3 year work-anniversary on the Spring team!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I love this post from Spring Cloud Stream teammember &lt;a href="https://www.confluent.io/blog/spring-for-apache-kafka-deep-dive-part-2-apache-kafka-spring-cloud-stream"&gt;Soby Chacko on using Spring Cloud Stream and Kafka&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Cloud Data Flow 2.0.1 GA Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/18/spring-cloud-data-flow-2-0-1-ga-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Ilayaperumal Gopinathan</name>
-    </author>
-    <id>tag:spring.io,2019-03-18:3605</id>
-    <updated>2019-03-18T16:12:02Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;The &lt;a href="https://cloud.spring.io/spring-cloud-dataflow/"&gt;Spring Cloud Data Flow&lt;/a&gt; team is pleased to announce the release of 2.0.1 GA of Data Flow. Follow the Getting Started guides for running on &lt;a href="http://docs.spring.io/spring-cloud-dataflow/docs/2.0.1.RELEASE/reference/htmlsingle/#getting-started-local"&gt;Local&lt;/a&gt;, &lt;a href="http://docs.spring.io/spring-cloud-dataflow/docs/2.0.1.RELEASE/reference/htmlsingle/#getting-started-cloudfoundry"&gt;Cloud Foundry&lt;/a&gt;, and &lt;a href="http://docs.spring.io/spring-cloud-dataflow/docs/2.0.1.RELEASE/reference/htmlsingle/#getting-started-kubernetes"&gt;Kubernetes&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This is a minor release with mostly bug fixes and documentation enhancements.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Here are the highlights of this release:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Kubernetes deployment configuration for Skipper server is now backed by MySQL as the default database.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Remove extraneous Spring Data Redis dependency to fix Spring Cloud Data Flow server health check.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Improved Getting Started documentation.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Bug fixes on Spring Cloud Data Flow and Spring Cloud Data Flow UI.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;All the out-of-the-box stream apps from the Documentation examples now use Einstein SR2.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="sect1"&gt;
-&lt;h2 id="stay-in-touch"&gt;&lt;a class="anchor" href="#stay-in-touch"&gt;&lt;/a&gt;Stay in touch&amp;#8230;&amp;#8203;&lt;/h2&gt;
-&lt;div class="sectionbody"&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;As always, we welcome feedback and contributions, so please reach out to us on &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud-dataflow"&gt;Stackoverflow&lt;/a&gt; or &lt;a href="https://github.com/spring-cloud/spring-cloud-dataflow/issues"&gt;GitHub&lt;/a&gt; or via &lt;a href="https://gitter.im/spring-cloud/spring-cloud-dataflow"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: Spring Security engineer and OAuth slayer Joe Grandja</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/15/a-bootiful-podcast-spring-security-engineer-and-oauth-slayer-joe-grandja" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-03-14:3603</id>
-    <updated>2019-03-15T00:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of a Bootiful Podcast! This week &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks to &lt;a href="https://twitter.com/joegrandja"&gt;Joe Grandja (@joegrandja)&lt;/a&gt; who, not coincidentally, just celebrated his third anniversary working on the Spring team! Joe has been instrumental in building Spring Security 5.x and its OAuth client and resource-server support.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://spring.io/team/pivotal-joe-grandja"&gt;Joe&amp;rsquo;s team page&lt;/a&gt;&lt;br/&gt;&lt;a href="http://twitter.com/joe_grandja"&gt;Joe on Twitter&lt;/a&gt;&lt;br/&gt;&lt;a href="https://twitter.com/rob_winch/status/1106194606058815490"&gt;Joe just celebrated his third year on the team!&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/589977558%3Fsecret_token%3Ds-GoINo&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;</content>
   </entry>
 </feed>

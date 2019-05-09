@@ -1,0 +1,8 @@
+package es.capgeminiuv.model;
+
+import java.io.Serializable;
+
+
+public class Compra implements Serializable {
+
+}

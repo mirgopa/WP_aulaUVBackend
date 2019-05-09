@@ -1,0 +1,12 @@
+package es.capgeminiuv.dao;
+
+import java.util.List;
+
+import es.capgeminiuv.common.jpa.JpaDao;
+import es.capgeminiuv.dto.CompraDto;
+import es.capgeminiuv.model.Compra;
+
+
+public interface CompraDao extends JpaDao<Compra, Long> {
+    List<CompraDto> find (CompraDto dto);
+}

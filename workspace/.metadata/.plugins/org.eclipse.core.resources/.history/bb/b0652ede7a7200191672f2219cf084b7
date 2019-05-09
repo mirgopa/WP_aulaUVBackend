@@ -1,0 +1,30 @@
+package es.capgeminiuv.dao;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.stereotype.Repository;
+
+import es.capgeminiuv.common.jpa.AbstractJpaDao;
+import es.capgeminiuv.dto.CompraDto;
+import es.capgeminiuv.model.Compra;
+
+@Repository("compraDao")
+public class CompraDaoImpl extends AbstractJpaDao<Compra, Long> implements CompraDao {
+
+    @Override
+    public List<CompraDto> find(CompraDto dto) {
+        StringBuilder hql = new SpringBuilder();
+        StringBuilder where = new SpringBuilder();
+        StringBuilder group = new SpringBuilder();
+        Map<String, Object> params = new HashMap<String, Object>();
+
+        hql.append(" select c.id, c.nombre, sum(cp.precio), c.created ");
+        hql.append(" from Compra c left join c.productos cp ");
+        
+        group.append(" group by c.id, c.nombre, c.created " );
+        
+        return null;
+    }
+}

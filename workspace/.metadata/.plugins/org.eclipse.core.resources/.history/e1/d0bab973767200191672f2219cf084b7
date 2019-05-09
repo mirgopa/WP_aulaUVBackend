@@ -1,0 +1,42 @@
+package es.capgeminiuv.model;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+
+public class Compra implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+    @Id
+    @Column(name="ID")
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "CompraGenerador")
+    @SequenceGenerator(name = "CompraGenerador", sequenceName = "S_Compra")
+    private Long id;
+   
+    @Column(name ="NOMBRE")
+    private String nombre;
+
+    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE}, fetch=FetchType.LAZY)
+    @JoinTable(name="COMPRA_PRODCUTO", joinColumns = {@JoinColumn(name = "COMPRA_ID")}, inverseJoinColumns = {@JoinColumn(name="PRODUCTO_ID")})
+    private List<Producto> productos = new ArrayList<Producto>();
+ 
+    @Temporal(TemporalType.TIMESTAMP)
+    @Column(name = "CREATED")
+    private Date created;
+}

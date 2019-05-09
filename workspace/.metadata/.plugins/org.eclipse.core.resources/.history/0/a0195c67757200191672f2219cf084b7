@@ -1,0 +1,25 @@
+package es.capgeminiuv.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+
+
+public class Compra implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+    @Id
+    @Column(name="ID")
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "CompraGenerador")
+    @SequenceGenerator(name = "CompraGenerador", sequenceName = "S_Compra")
+    private Long id;
+   
+    @Column(name ="NOMBRE")
+    private String nombre
+    ;
+}

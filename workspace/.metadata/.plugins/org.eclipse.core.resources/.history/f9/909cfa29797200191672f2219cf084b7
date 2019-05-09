@@ -1,0 +1,8 @@
+package es.capgeminiuv.dao;
+
+import es.capgeminiuv.common.jpa.JpaDao;
+
+
+public class CompraDao implements JpaDao<DomainObject, T> {
+
+}

@@ -1,0 +1,53 @@
+package es.capgeminiuv.dao;
+
+import java.util.List;
+
+import es.capgeminiuv.dto.CompraDto;
+import es.capgeminiuv.model.Compra;
+
+
+public class CompraDaoImpl implements CompraDao {
+
+    @Override
+    public Compra get(Long id) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public List<Compra> findAll() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public void save(Compra entity) {
+        // TODO Auto-generated method stub
+
+    }
+
+    @Override
+    public Compra update(Compra entity) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public void delete(Compra entity) {
+        // TODO Auto-generated method stub
+
+    }
+
+    @Override
+    public void deleteById(Long id) {
+        // TODO Auto-generated method stub
+
+    }
+
+    @Override
+    public List<CompraDto> find(CompraDto dto) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+}

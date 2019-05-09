@@ -1,0 +1,16 @@
+package es.capgeminiuv.service;
+
+import java.util.List;
+
+import es.capgeminiuv.dto.CompraDto;
+
+public interface CompraService {
+
+    public abstract List<CompraDto> find(CompraDto dto);
+
+    public abstract CompraDto get (Long id);
+
+    public abstract Boolean update(CompraDto dto);
+
+    public abstract Boolean delete(Long id);
+}

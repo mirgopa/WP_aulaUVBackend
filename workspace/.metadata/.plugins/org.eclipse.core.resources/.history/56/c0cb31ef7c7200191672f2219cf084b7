@@ -1,0 +1,6 @@
+package es.capgeminiuv.service;
+
+
+public interface CompraService {
+
+}

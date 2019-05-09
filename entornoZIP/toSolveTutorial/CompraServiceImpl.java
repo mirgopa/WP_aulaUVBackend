@@ -101,7 +101,7 @@ public class CompraServiceImpl implements CompraService {
     @Override
     @Transactional(readOnly = false)
     public Boolean deleteById(Long id) {
-        if (this.get(id) != null) {
+        if (id != null) {
             getCompraDao().deleteById(id);
             return true;
         }

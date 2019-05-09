@@ -1,0 +1,38 @@
+package es.capgeminiuv.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import es.capgeminiuv.dto.CompraDto;
+
+@Service("compraService")
+@Transactional(readOnly = true)
+public class CompraServiceImpl implements CompraService {
+
+    @Override
+    public List<CompraDto> find(CompraDto dto) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public CompraDto get(Long id) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public Boolean update(CompraDto dto) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public Boolean delete(Long id) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+}

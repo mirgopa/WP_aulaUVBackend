@@ -1,0 +1,13 @@
+package es.capgeminiuv.dao;
+
+import org.springframework.stereotype.Repository;
+
+import es.capgeminiuv.common.jpa.AbstractJpaDao;
+import es.capgeminiuv.model.Compra;
+
+@Repository("compraDao")
+public class CompraDaoImpl extends AbstractJpaDao<Compra, Long> implements CompraDao {
+
+    
+    
+}

@@ -1,0 +1,8 @@
+package es.capgeminiuv.dto;
+
+import java.io.Serializable;
+
+
+public class CompraDto implements Serializable {
+
+}

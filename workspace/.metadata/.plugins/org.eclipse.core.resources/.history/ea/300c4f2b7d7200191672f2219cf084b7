@@ -1,0 +1,7 @@
+package es.capgeminiuv.service;
+
+
+public interface CompraService {
+
+        public abstract List<CompraDto> find(CompraDto dto);
+}
